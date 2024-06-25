@@ -6,7 +6,7 @@ install:
 
 run-single-medium-pages:
 	scrapy runspider medium_single_article.py -o medium_single_articles.jsonl
-	cat medium_single_articles.jsonl | lolcat
+# cat medium_single_articles.jsonl | lolcat
 
 run-old:
 # hard to implement
