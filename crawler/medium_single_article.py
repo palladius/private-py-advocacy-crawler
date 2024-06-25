@@ -14,8 +14,8 @@ class GcpContentSpider(scrapy.Spider):
         "https://medium.com/google-cloud/a-tale-of-two-functions-function-calling-in-gemini-9b7fd8ae031b",
         "https://medium.com/@palladiusbonton/hey-bard-write-a-responsive-javascript-search-engine-app-for-me-b2585e55385e",
         "https://medium.com/google-cloud/gemma-is-born-c5ea9ba576ec",
-        "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df",
-        "https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16",
+        #"https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df",
+        #"https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16",
     ]
 
     def parse(self, response):
@@ -44,22 +44,24 @@ class GcpContentSpider(scrapy.Spider):
         twitter_username = response.xpath("//meta[@name='twitter:creator']/@content").get()
         twitter_image = response.xpath("//meta[@name='twitter:image:src']/@content").get()
 
+        keywords = response.xpath("//div[@class='pr ps ab ib']//a/div/text()").getall()
+
+        keyword2 = response.xpath('//a[@class="pu ax am ao"]/div/text()').getall()
+
+        keyword3 = response.xpath("//div[contains(@class, 'ch bg eu ev ew ex')]//a/div/text()").getall()
+
+        keyword_hrefs = response.xpath("//div[contains(@class, 'ch bg eu ev ew ex')]//a/@href").getall()
+
 
         yield {
-            #"author_name": author_name,
-            #"published_time": published_time,
-            # "claps2": claps2,
-            # "claps3": claps3,
-            # "claps4": claps4,
-            # "claps5": claps5,
-            # "claps6": claps6,
-            # "claps7": claps7,
-            # "claps8": claps8,
-            #"claps9": claps9,
+            "author_name": author_name,
+            "published_time": published_time,
             "title": title,
             "twitter_creator": twitter_username,
             "twitter_image": twitter_image,
             "content": content,
-            #"content": response.css("article p::text").getall(),
-
+            # "keywords": keywords,
+            # "keyword2": keyword2,
+            # "keyword3": keyword3,
+            # "keyword_hrefs": keyword_hrefs,
         }
