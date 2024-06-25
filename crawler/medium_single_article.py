@@ -20,18 +20,20 @@ class GcpContentSpider(scrapy.Spider):
         # Extract data here (e.g., article title, text, author)
         author_name = response.xpath("//a[@data-testid='authorName']/text()").get()
         # UGLY author_profile_link = response.xpath("//a[@data-testid='authorName']/@href").get()
+        published_time = response.xpath("//meta[@property='article:published_time']/@content").get()
 
+    # <meta data-rh="true" property="article:published_time" content="2024-05-28T05:15:52.024Z">
+        meta = 42
         yield {
             # af ag ah ai aj ak al am an ao ap aq ar hq
 #            <a class="af ag ah ai aj ak al am an ao ap aq ar hq" data-testid="authorName" rel="noopener follow" href="/@iromin?source=post_page-----9b7fd8ae031b--------------------------------">Romin Irani</a>
-            #"author": response.xpath('//a[@class="hq"]/text()'), # .get(),
-            #"a2": response.xpath("//a[@data-testid='authorName']"),
             "author_name": author_name,
+            "published_time": published_time,
             # UGLY "author_profile_link": author_profile_link,
 
             "title":  response.css("h1::text").get(),
-            #"content": response.css("article p::text").getall(),
-            # ...
+            "content": response.css("article p::text").getall(),
+
         }
     # def parse(self, response):
     #     print(f"🐤🐤🐤🐤🐤🐤 response 🐤🐤🐤🐤🐤🐤🐤🐤")
