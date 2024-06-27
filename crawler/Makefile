@@ -10,8 +10,9 @@ run-single-medium-pages:
 
 run-old:
 # hard to implement
-	scrapy runspider gcp_spider.py -o gcp_articles.jsonl
-	cat gcp_articles.jsonl | lolcat
+	#scrapy runspider gcp_spider.py -o gcp_articles.jsonl
+	scrapy runspider medium_multiple_articles_from_user_pages_spider.py -o medium_multiple_articles_from_user_pages.jsonl
+	#cat gcp_articles.jsonl | lolcat
 
 test-quotes:
 	scrapy runspider quotes_spider.py -o quotes.jsonl

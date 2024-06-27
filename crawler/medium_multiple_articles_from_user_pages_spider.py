@@ -13,6 +13,8 @@ class GcpContentSpider(scrapy.Spider):
     start_urls = [
         # Medium Start
         "https://medium.com/@palladiusbonton",
+        # "https://medium.com/@kweinmeister",
+        # "https://medium.com/@rsamborski",
        # "https://iromin.medium.com/",
         # https://medium.com/google-cloud/a-tale-of-two-functions-function-calling-in-gemini-9b7fd8ae031b?source=user_profile---------2----------------------------
         # ...
@@ -28,19 +30,29 @@ class GcpContentSpider(scrapy.Spider):
     def parse(self, response):
         print(f"🐤🐤🐤🐤🐤🐤 response 🐤🐤🐤🐤🐤🐤🐤🐤")
         # Extract data here (e.g., article title, text, author)
-        MediumArticles = response.xpath("//h2/a") # .getall()
-        #MediumArticles = response.xpath('//h2/a/@href').getall()
+        MediumArticles = response.xpath("//h2/a").getall()
+        MediumArticlesLinks = response.xpath('//h2/a/@href').getall()
         print(f"🐤🐤 MediumArticles 🐤🐤: {MediumArticles}")
-        for oggettone in MediumArticles:
+        print(f"🐤🐤 MediumArticlesLinks 🐤🐤: {MediumArticlesLinks}")
+        for big_chunk in MediumArticles:
+            #"title_onlyone": 'sobenme',
+            #"big_chunk": big_chunk,
+            puts("big_chunk: {}")
+            name =  big_chunk.xpath(".//text()")
+            print(f"🐤🐤 name 🐤🐤: {name}")
 
-                 #"title_onlyone": 'sobenme',
-                 #"oggettone": oggettone,
-            name =  oggettone.xpath(".//text()")
-        print(f"🐤🐤 name 🐤🐤: {name}")
+            yield {
+                "txt": big_chunk.xpath(".//text()").get(),
+                "big_chunk.name": name,
+            }
+        for linky in MediumArticlesLinks:
+            #yield scrapy.Request(linky, callback=self.parse_only_one)
+            yield {
+                "linky": linky,
+            }
+        # yield {
 
-        yield {
-            "name": name,
-        }
+        # }
 
         # for url in MediumArticles:
         #     yield scrapy.Request(url, callback=self.parse_only_one)
