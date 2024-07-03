@@ -1,0 +1,7 @@
+Please provide the list of articles in a format that I can easily process. You can provide them in the following formats:
+
+* **Directly in the prompt:** Include the full text of the articles in the prompt itself. 
+* **URLs:** Provide a list of URLs to the articles.
+* **HTML/XML:** If you have the articles in HTML or XML format, you can paste them directly.
+
+Once I have the articles, I will be able to analyze them and provide the JSON output as requested. 

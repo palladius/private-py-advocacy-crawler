@@ -1,0 +1,65 @@
+```json
+{
+    "prompt_version": "1.13",
+    "llm_temperature": "0.9",
+    "author_name": "Kaz Sato",
+    "author_nationality": "Japanese",
+    "author_style": "Informal, conversational, enthusiastic",
+    "author_favorite_languages": "Python, JavaScript",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "precipIntencity",
+            "correct": "precipIntensity",
+            "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF-dcc54c6b41d0?source=rss-4b21e207ea2c------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "AutoML Vision と RasPi でリビングのいろいろな音を認識する",
+            "summary": "This article details building a sound recognition gadget using Raspberry Pi (RasPi) and Google Cloud AutoML Vision. It starts with collecting sound samples from various sources in the living room (e.g., doorbell, microwave, voices) and processing them into spectrograms.  These spectrograms are then uploaded to AutoML Vision for training, which automatically builds a model to recognize different sounds. The article describes the process of setting up RasPi for audio recording, using sox for audio manipulation and data augmentation, generating spectrograms, and finally, using AutoML Vision to train the model. It goes into detail about the accuracy of the model, latency, and cost of using AutoML Vision for real-time sound recognition. The author highlights the ease of use and high accuracy offered by AutoML Vision, making it accessible even for those without extensive machine learning expertise.",
+            "url": "https://medium.com/@kazunori279/automl-vision-%E3%81%A8-raspi-%E3%81%A7%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%81%AE%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%81%AA%E9%9F%B3%E3%82%92%E8%AA%8D%E8%AD%98%E3%81%99%E3%82%8B-a9d5d6a1a1b9?source=rss-4b21e207ea2c------2",
+            "accuracy": 8,
+            "publication_date": "2019-01-08",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "obniz でつくる指紋認証ドアロック",
+            "summary": "This article details building a fingerprint-based door lock using an obniz board, a fingerprint scanner, and IFTTT. The author uses the obniz board's UART API to control the fingerprint scanner, enabling it to register fingerprints and perform authentication. When a match is found, a webhook call is sent to IFTTT, which triggers a Switchbot to press the Qrio Lock's physical key, unlocking the door.  The article outlines the process of connecting the fingerprint scanner to obniz, creating a web interface for managing fingerprints, and integrating IFTTT to control the Qrio Lock. It discusses the pros and cons of this approach, emphasizing the convenience of hands-free unlocking while acknowledging the potential for delays and limitations in the technology.",
+            "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E6%8C%87%E7%B4%8B%E8%AA%8D%E8%A8%BC%E3%83%89%E3%82%A2%E3%83%AD%E3%83%83%E3%82%AF-d5f14ab2297d?source=rss-4b21e207ea2c------2",
+            "accuracy": 7,
+            "publication_date": "2019-01-03",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "obniz でつくるウェザークロック",
+            "summary": "This article describes building two different weather clocks using obniz boards. The first clock displays current weather information obtained from the Dark Sky API via a jQuery ajax call. It parses the JSON response and displays weather data and icons on an OLED display. The second clock uses an Adafruit LED ring to represent weather conditions with different colors. Red indicates the hour hand, and other colors, such as blue for high precipitation probability and green for low cloud cover, represent the weather. The author details the process of connecting the LED ring to obniz, using LED drivers, and creating smooth transitions for the hands of the clock.  He concludes by describing how a brightness sensor and a photo frame enhance the final product.",
+            "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF-dcc54c6b41d0?source=rss-4b21e207ea2c------2",
+            "accuracy": 8,
+            "publication_date": "2018-12-27",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "寝かしつけについて",
+            "summary": "This article explores the challenges of putting a baby to sleep and attempts to recreate the process using an obniz board and TensorFlow.js.  The author uses an accelerometer attached to the obniz to record motion data during various simulated baby soothing techniques, like rocking, being held, and being tossed. This data is then fed into a TensorFlow.js model to train it to recognize different motion patterns associated with calming a baby. The article discusses the use of a 1-dimensional Convolutional Neural Network (CNN) for pattern recognition in the accelerometer data and emphasizes the ease of use and efficiency of TensorFlow.js for machine learning tasks. It ends with a humorous demonstration of the model's ability to identify and simulate different soothing methods.",
+            "url": "https://medium.com/@kazunori279/%E5%AF%9D%E3%81%8B%E3%81%97%E3%81%A4%E3%81%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-252852c6e0a3?source=rss-4b21e207ea2c------2",
+            "accuracy": 7,
+            "publication_date": "2018-12-20",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "Build the world’s largest IoT with RasPi and Google BigQuery",
+            "summary": "This article showcases building a weather station using a Raspberry Pi (RasPi) and Google BigQuery for data storage and analysis. The author emphasizes the potential of this setup to create a massive IoT platform by leveraging BigQuery's ability to handle large-scale data processing and analysis.  The article explains how the RasPi collects weather metrics like temperature, humidity, and atmospheric pressure and sends them to BigQuery. It discusses the advantages of using BigQuery, including its scalability, low cost, and fully managed nature, which eliminates the need for extensive infrastructure management.  The article concludes with a call to action, encouraging readers to build their own weather stations and contribute to a larger IoT network.",
+            "url": "https://medium.com/google-cloud/build-the-world-s-largest-iot-with-raspi-and-google-bigquery-169b332d02b1?source=rss-4b21e207ea2c------2",
+            "accuracy": 9,
+            "publication_date": "2015-07-17",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

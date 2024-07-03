@@ -1,0 +1,66 @@
+```json
+{
+    "prompt_version": "1.13",
+    "llm_temperature": "0.9",
+    "author_name": "Aja Hammerly",
+    "author_nationality": "American",
+    "author_style": "Conversational, explaining technical topics in simple terms",
+    "author_favorite_languages": "Ruby, Python, JavaScript",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "in the standard way using Bundler and the Gemfile",
+            "correct": "in the standard way using Bundler and a Gemfile",
+            "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2"
+        },
+        {
+            "current": "The double includes the methods I call in my function, initialize, create_task, and queue_path.",
+            "correct": "The double includes the methods I call in my function, `initialize`, `create_task`, and `queue_path`.",
+            "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2"
+        },
+        {
+            "current": "It doesn’t make sense to pay for frequent read access to my backups.",
+            "correct": "It doesn’t make sense to pay for frequent read access to my media backups.",
+            "url": "https://medium.com/@thagomizer/cleaning-up-time-machine-local-snapshots-a82719ebd397?source=rss-ef484db59f33------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Contact Tracing and Exposure Notification",
+            "summary": "The article explains how Google and Apple's joint effort on contact tracing API works. It dispels misconceptions, clarifies that location data is not used, and highlights the importance of consent for data sharing. The article emphasizes the use of Bluetooth for proximity detection and outlines the process of anonymized data sharing when a user is diagnosed with COVID-19. The main downside is the need for widespread adoption for effectiveness. The author expresses personal support for the technology and encourages readers to make informed decisions based on the information provided.",
+            "url": "https://medium.com/@thagomizer/contact-tracing-and-exposure-notification-1f70517cef6b?source=rss-ef484db59f33------2",
+            "accuracy": 9,
+            "publication_date": "2020-05-26",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "CatOps: Functions Framework, Cloud Tasks, and my cat",
+            "summary": "The article details a creative solution to prevent a cat from escaping by utilizing Google Cloud services. The author describes how they use a combination of Google Cloud Run, Ruby Functions Framework, and Cloud Tasks to automatically lock a door after a specified delay. The article provides a detailed explanation of the architecture, code implementation, and testing of the solution, while highlighting the challenges faced and the chosen approach. Despite the humorous and seemingly trivial use case, the author emphasizes the generalizability of the solution for various applications, including webhooks, email sending, and reminders.",
+            "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2",
+            "accuracy": 9,
+            "publication_date": "2020-04-22",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Cleaning Up Time Machine Local Snapshots",
+            "summary": "The author shares their experience dealing with Time Machine local snapshots filling up their disk space. They describe the challenges they encountered, including the limitations of tmutil command in High Sierra. The article provides a step-by-step guide to cleaning up local snapshots using commands like `tmutil listlocalsnapshotdates` and `tmutil thinlocalsnapshots`. Additionally, the author suggests disabling automatic backups and updating Time Machine exclusions to prevent similar situations in the future. They also describe their offsite backup strategy using Google Cloud Storage, emphasizing the importance of cost-effective storage solutions for media backups.",
+            "url": "https://medium.com/@thagomizer/cleaning-up-time-machine-local-snapshots-a82719ebd397?source=rss-ef484db59f33------2",
+            "accuracy": 8,
+            "publication_date": "2018-03-27",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "A Rubyist Learns List Comprehensions",
+            "summary": "This article focuses on the differences between Ruby and Python in terms of list comprehensions. The author, a Rubyist learning Python, explains how list comprehensions provide a concise and expressive way to generate lists in Python, unlike the more verbose chain of methods used in Ruby. The article provides a simple example of calculating squares of multiples of three, highlighting the difference between Ruby's Enumerable methods and Python's list comprehension syntax. Additionally, the author touches upon the usefulness of list comprehensions for generating pairwise combinations of lists, which can be challenging to achieve in Ruby with a single line of code.",
+            "url": "https://medium.com/@thagomizer/a-rubyist-learns-list-comprehensions-b911f765f0e4?source=rss-ef484db59f33------2",
+            "accuracy": 8,
+            "publication_date": "2018-03-21",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

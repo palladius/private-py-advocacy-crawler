@@ -1,0 +1,57 @@
+```json
+{
+    "prompt_version": "1.13",
+    "llm_temperature": "0.9",
+    "author_name": "Christoph Stanger",
+    "author_nationality": "German",
+    "author_style": "Technical and informative, with a focus on explaining complex concepts",
+    "author_favorite_languages": "Go, Java, Node.js, PHP, Python, Ruby, Swift, .Net",
+    "author_favorite_cloud": "IBM Cloud",
+    "typos": [
+        {
+            "current": "platformˋs",
+            "correct": "platform's",
+            "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2"
+        },
+        {
+            "current": "implmentet",
+            "correct": "implemented",
+            "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2"
+        },
+        {
+            "current": "naively",
+            "correct": "naïvely",
+            "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "An exploratory flight through your Serverless Architecture",
+            "summary": "This article explores the OpenWhisk-Visualizer (OWVIS), a tool for visualizing Serverless Architectures deployed on OpenWhisk. OWVIS uses a 3D map metaphor to represent functions, with height, base area, and color indicating different metrics. It aims to improve architecture discussions and decisions by providing real-time insights into deployed serverless architectures. The article discusses various use cases of OWVIS, such as visualizing an overall architecture, implementing RED monitoring scenarios, and identifying oversized functions. It also explores the concept of read-heavy reporting engines and how OWVIS can help identify potential for caching optimization. The article concludes by highlighting the importance of OWVIS in facilitating architecture improvements and cost savings.",
+            "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2",
+            "accuracy": 9,
+            "publication_date": "2020-08-30",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "An system introduction into Apache OpenWhisk",
+            "summary": "This article provides a system introduction into Apache OpenWhisk, an open-source serverless FaaS platform. It explains the platform's event-driven programming model, which includes triggers, rules, actions, namespaces, and packages. The author describes how OpenWhisk enables developers to focus on business logic and not infrastructure management. The article also details the technical architecture of OpenWhisk, outlining components like NginX, Controller, CouchDB, and Invoker. It discusses how these components interact and leverage cloud-native technologies like Docker, CouchDB, Kafka, and NginX to provide a scalable and flexible serverless environment.",
+            "url": "https://medium.com/@ch.stanger/an-system-introduction-into-apache-openwhisk-74a7e07bf3ee?source=rss-213298b72369------2",
+            "accuracy": 10,
+            "publication_date": "2020-08-05",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "Serverless Architectures",
+            "summary": "This article explores the concept of serverless architectures and its impact on application design and technical architectures. It defines software architecture as the fundamental organization of a system, emphasizing its importance for future performance, quality, and maintainability. The article then dives into cloud-native software and its focus on open-source software stacks and microservice-based architectures. It discusses the benefits of microservices, including independent development and deployment, technology freedom, and autonomous scaling. The article also touches on the evolution towards nanoservices, highlighting the importance of breaking down services into smaller, more specialized units. This article provides an insightful introduction to serverless architectures and their key properties, serving as a valuable starting point for anyone interested in this emerging cloud computing paradigm.",
+            "url": "https://medium.com/@ch.stanger/serverless-architectures-ca5df80691c?source=rss-213298b72369------2",
+            "accuracy": 9,
+            "publication_date": "2020-08-04",
+            "is_gcp": false,
+            "is_technical": true
+        }
+    ]
+}
+```

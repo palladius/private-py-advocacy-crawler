@@ -1,0 +1,52 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Guillaume Laforge",
+    "author_nationality": "French",
+    "author_style": "Technical, informative, and enthusiastic.",
+    "author_favorite_languages": "Java, Groovy",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "Gemma",
+            "correct": "Gemini",
+            "url": "https://medium.com/google-cloud/grounding-gemini-with-web-search-results-in-langchain4j-2f949bd69492?source=rss-431147437aeb------2"
+        },
+        {
+            "current": "Gemma",
+            "correct": "Gemini",
+            "url": "https://medium.com/google-cloud/calling-gemma-with-ollama-testcontainers-and-langchain4j-fbfe220ca715?source=rss-431147437aeb------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Let’s make Gemini Groovy!",
+            "summary": "This article explores integrating Groovy scripting into Google's Gemini AI model using the LangChain4j framework. The author showcases how to create a Groovy interpreter tool and craft a system instruction that allows Gemini to execute Groovy scripts for mathematical calculations and logic tasks. While promising, the solution is considered experimental due to occasional internal errors and repetitive script execution.",
+            "url": "https://medium.com/google-cloud/lets-make-gemini-groovy-7481ac6add04?source=rss-431147437aeb------2",
+            "accuracy": 8,
+            "publication_date": "2024-06-03",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Grounding Gemini with Web Search results in LangChain4j",
+            "summary": "This article explores how to enhance Gemini's responses by grounding them with results from web searches using LangChain4j. The author demonstrates using a Google Custom Search Engine to retrieve relevant information from a personal website, and then integrates this information into Gemini's answers. While promising, the solution is still under development and faces challenges in ensuring the accuracy and completeness of the responses.",
+            "url": "https://medium.com/google-cloud/grounding-gemini-with-web-search-results-in-langchain4j-2f949bd69492?source=rss-431147437aeb------2",
+            "accuracy": 7,
+            "publication_date": "2024-05-28",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Calling Gemma with Ollama, TestContainers, and LangChain4j",
+            "summary": "This article explores how to run the Gemma open language model with LangChain4j using Ollama and TestContainers. The author provides a step-by-step guide for containerizing Ollama and integrating it with LangChain4j to interact with the Gemma model. The article showcases the benefits of using containerized environments for easier deployment and management of language models.",
+            "url": "https://medium.com/google-cloud/calling-gemma-with-ollama-testcontainers-and-langchain4j-fbfe220ca715?source=rss-431147437aeb------2",
+            "accuracy": 9,
+            "publication_date": "2024-04-03",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

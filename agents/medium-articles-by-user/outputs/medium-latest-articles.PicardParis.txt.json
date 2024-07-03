@@ -1,0 +1,75 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Laurent Picard",
+    "author_nationality": "French",
+    "author_style": "Technical, focused on Google Cloud",
+    "author_favorite_languages": "Python",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "Here are the Gemma Terms of Use.",
+            "correct": "Here are the Gemma Terms of Use.",
+            "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2"
+        },
+        {
+            "current": "These models are text-to-text English LLMs:",
+            "correct": "These models are text-to-text English LLMs:",
+            "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2"
+        },
+        {
+            "current": "Gemma joins 130+ models in Vertex AI Model Garden",
+            "correct": "Gemma joins 130+ models in Vertex AI Model Garden",
+            "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Making AI more Open and Accessible to Cloud Developers with Gemma on Vertex AI",
+            "summary": "This article introduces Gemma, a family of open-source, lightweight LLMs developed by Google DeepMind, built with the same technology as Gemini. It covers Gemma's availability on Google Cloud, Kaggle, Hugging Face, and Google AI for Developers, highlighting its two sizes (Gemma 2B and 7B) and text-to-text English capabilities. The article discusses use cases for both pretrained and instruction-tuned versions, emphasizing Gemma's suitability for learning, research, and prototyping. It provides code examples for fine-tuning Gemma using KerasNLP, deploying it on Vertex AI, and using the Responsible Generative AI Toolkit for safety. The article also mentions popular LLM-optimized serving frameworks.",
+            "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2",
+            "accuracy": 9,
+            "publication_date": "2024-02-21",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Moderating text with the Natural Language API",
+            "summary": "This article discusses Google Cloud's Natural Language API and its text moderation capabilities, powered by a PaLM 2-based model. It explains the API's ability to detect sensitive or harmful content across 16 categories, including toxicity, insult, profanity, violence, and more. The article provides a Python code example demonstrating how to use the moderate_text method to analyze text and retrieve confidence scores for each moderation category. It emphasizes the API's low latency, allowing for real-time analysis. The article also suggests setting confidence score thresholds to determine when to flag text as potentially problematic.",
+            "url": "https://medium.com/google-cloud/moderating-text-with-the-natural-language-api-5d379727da2c?source=rss-6be63961431c------2",
+            "accuracy": 8,
+            "publication_date": "2023-06-16",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "A Better Way to Use Google Cloud from Colab",
+            "summary": "This article addresses the issue of authenticating Google Cloud services from Colab notebooks. It explains that the previous method using service accounts could be complex and potentially compromise security. The article introduces a simplified approach that allows direct authentication using your Google Cloud project within Colab, eliminating the need for service accounts. It provides code examples of the 'before' and 'after' methods, showcasing the improved simplicity and security of the new approach.",
+            "url": "https://medium.com/google-colab/a-better-way-to-use-google-cloud-from-colab-bb93f88b5021?source=rss-6be63961431c------2",
+            "accuracy": 9,
+            "publication_date": "2023-06-13",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Using Google Cloud from Colab",
+            "summary": "This article guides users on leveraging Google Cloud services within Colab notebooks. It covers steps like installing dependencies, authenticating with Google Cloud, enabling required APIs, and using Google Cloud services via the Python client library. The article emphasizes the benefits of Colab's Jupyter notebook environment, highlighting its features for data processing and visualization. It provides links to example Colab notebooks that demonstrate using the Natural Language API with Python. The article encourages readers to explore Colab further and follow the author for more cloud-related content.",
+            "url": "https://medium.com/google-cloud/using-google-cloud-from-colab-75691f4a731?source=rss-6be63961431c------2",
+            "accuracy": 8,
+            "publication_date": "2023-06-13",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "From pixels to information with Document AI",
+            "summary": "This article delves into Google Cloud's Document AI service, which extracts information from various types of documents. It highlights Document AI's capabilities in text understanding, structure detection, semantic entity extraction, normalized value extraction, enrichment, and qualitative signal analysis. The article describes the different types of document processors offered by Document AI, including general, specialized, and custom processors. It explains the concept of processor locations, emphasizing the availability of multi-region and single-region options for different use cases. The article concludes by discussing the benefits of Document AI for automating document processing tasks and extracting valuable insights from document data.",
+            "url": "https://medium.com/google-cloud/from-pixels-to-information-with-document-ai-3476431c3010?source=rss-6be63961431c------2",
+            "accuracy": 8,
+            "publication_date": "2023-03-15",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

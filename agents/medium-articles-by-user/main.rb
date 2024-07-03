@@ -14,12 +14,14 @@ require_relative 'lib/prompt'
 # Safe value: 16000
 # Ricc got errors with this: 32000
 # With 30k it works, but then the output is VERY small. Better to save some for output as total size is 32k (I believe).
-MaxByteInputSize = 25000
+MaxByteInputSize = 50000
 
 DENY_LISTED_TITLES = [
     "Insights on Medium articles with GenAI and Ruby!",
 ]
 
+#             #model_id: 'text-bison',
+ModelName = "gemini-1.5-flash"
 
 def init()
     Dir.mkdir('inputs/') rescue nil
@@ -90,17 +92,6 @@ def fetch_from_medium(medium_user, _opts={})
             file.writeln article_content    # SANITIZED version
         end
 
-        #exit(42)
-
-        ## Version 1: Just output the article body
-        # docSM.xpath("//content:encoded").each_with_index do |node,ix| # ArticleBody
-        #     # puts "* Article #{ix+1}:"
-        #     # puts ActionView::Base.full_sanitizer.sanitize(node.inner_text)
-        #     # puts ''
-        #     file.write("* Article #{ix+1}:\n")
-        #     file.write(ActionView::Base.full_sanitizer.sanitize(node.inner_text))
-        #     file.write("\n---\n")
-        # end
     end
     #exit 42
     return true
@@ -121,7 +112,8 @@ def call_api_for_all_texts(_opts={})
         end
         puts "Working on: #{my_text_file}..."
         output_file = "outputs/" + my_text_file.split('/')[1] + '.json'
-        genai_input = PromptInJson + "\n" + File.read(my_text_file) + "\n\nJSON:\n"
+        #genai_input = PromptInJson + "\n" + File.read(my_text_file) + "\n\nJSON:\n"
+        genai_input = build_prompt_from_file(my_text_file) # PromptInJson + "\n" + File.read(my_text_file) + "\n\nJSON:\n"
 
         if opts_overwrite_if_exists and File.exist?(output_file)
             puts "File exists, skipping: #{output_file}"
@@ -132,8 +124,7 @@ def call_api_for_all_texts(_opts={})
 
         output = genai_text_predict_curl(
             content: genai_input,
-            #model_id: 'text-bison',
-            model_id: "gemini-1.5-flash",
+            model_id: ModelName, # "gemini-1.5-flash",
             opts: {
                 max_content_size: MaxByteInputSize,
                 verbose: false,
@@ -153,13 +144,36 @@ def call_api_for_all_texts(_opts={})
     end
 end
 
+def add_metadata_per_user(medium_user, user_email)
+    puts("Medium User:       #{medium_user}")
+    puts("user_email: #{user_email}")
+    metadata_output_file = "outputs/medium-latest-articles.#{medium_user}.metadata.json"
+    metadata = {
+        user_email: user_email,
+        medium_user: medium_user,
+        timestamp: Time.now,
+        genai_model: ModelName,
+        max_byte_input_size: MaxByteInputSize,
+        PromptVersion: PromptVersion,
+        ArticleMaxBytes: ArticleMaxBytes,
+        temperature: Temperature, # doesnt work yetc
+        comments: "Temperature isnt functional yet, I just ported from Palm to Gemini this morning",
+    }
+    File.open(metadata_output_file, 'w') do |f|
+        f.write metadata.to_json
+    end
+end
 
 def main()
     init()
     medium_user = ENV.fetch 'MEDIUM_USER_ID', 'palladiusbonton'
+    user_email = (ENV.fetch 'LDAP', 'nobody') + '@google.com'
     puts "Fetching from the internet Medium User: '#{medium_user}'"
-    fetch_from_medium(medium_user)
-    call_api_for_single_user(medium_user)
+    add_metadata_per_user(medium_user, user_email)
+
+    #fetch_from_medium(medium_user)
+    #call_api_for_single_user(medium_user)
+
 end
 
 main()

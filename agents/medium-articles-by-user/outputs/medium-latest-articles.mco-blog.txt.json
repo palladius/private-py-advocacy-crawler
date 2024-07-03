@@ -1,0 +1,115 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Marc Cohen",
+    "author_nationality": "American",
+    "author_style": "Informative, enthusiastic, encouraging",
+    "author_favorite_languages": "Python",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "the the",
+            "correct": "the",
+            "url": "https://medium.com/google-colab/colab-data-visualizations-made-easy-5e1918e5234e?source=rss-14a828f24ca2------2"
+        },
+        {
+            "current": "Colabreading",
+            "correct": "Loading",
+            "url": "https://medium.com/google-colab/colab-bigquery-perfect-together-827152026eb?source=rss-14a828f24ca2------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Colab Data Visualizations Made Easy",
+            "summary": "Google Colab introduces automated plot generation from Pandas DataFrames, enabling users to create visualizations with a single click. It suggests a palette of plots and allows users to insert the code into their notebook, enabling customization. This feature simplifies data visualization in Colab, making it more accessible to users.",
+            "url": "https://medium.com/google-colab/colab-data-visualizations-made-easy-5e1918e5234e?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2023-07-18",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Two New Ways to Manage Cell Execution",
+            "summary": "Google Colab introduces two new features to simplify code cell management. The first allows users to run a collection of cells from the notebook table of contents using the \"Run cells in section\" option. The second feature allows users to designate cells as pre-requisites, automatically executing them when opening the notebook. These enhancements provide greater control and efficiency in code execution within Colab.",
+            "url": "https://medium.com/google-colab/two-new-ways-to-manage-cell-execution-fbad61b40882?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2023-07-06",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Noteworthy Notebooks #3 — Analyzing a Bank Failure with Colab",
+            "summary": "This article highlights a Colab notebook by Stanford University Professor Ashwin Rao, which analyzes the Silicon Valley Bank (SVB) failure. The notebook explains the economic and pricing dynamics that led to the bank's downfall, focusing on the impact of rising interest rates on bond investments. It provides insights into how bonds work and the inherent risk associated with investments.",
+            "url": "https://medium.com/google-colab/noteworthy-notebooks-3-analyzing-a-bank-failure-with-colab-d23b372de313?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2023-05-08",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "10 Minutes to Pandas — now in Colab!",
+            "summary": "This article promotes an interactive Colab version of the popular \"10 Minutes to Pandas\" tutorial. Pandas is a widely-used Python library for data science and analysis. The Colab notebook allows users to learn and practice data manipulation skills interactively, making the learning process more engaging.",
+            "url": "https://medium.com/google-colab/10-minutes-to-pandas-now-in-colab-a7a629a630dc?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2023-05-02",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Colab + BigQuery — Perfect Together",
+            "summary": "The article showcases the integration between Google Colab and BigQuery, a cloud-native data warehouse. It highlights the benefits of BigQuery, including its fast query processing and scalability, and demonstrates how Colab users can leverage this service for data analysis tasks. The article provides a notebook by Google Developer Advocate Alok Pattani that guides users through basic data science tasks using BigQuery within Colab.",
+            "url": "https://medium.com/google-colab/colab-bigquery-perfect-together-827152026eb?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2023-01-12",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Make your dataframes come alive!",
+            "summary": "This article highlights the interactive dataframe feature in Colab, allowing users to dynamically sort, search, and filter data within Pandas DataFrames without writing additional code. This feature enhances the user experience, making data exploration more efficient and engaging. The article also provides a code snippet to enable the interactive table functionality by default.",
+            "url": "https://medium.com/google-colab/make-your-dataframes-come-alive-924c12e2e1d6?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2022-12-08",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Noteworthy Notebooks #2 — Winning Wordle",
+            "summary": "This article features a Colab notebook by Peter Norvig, exploring various strategies for winning the popular word game Wordle. The notebook uses Python to analyze the game and identify optimal strategies for minimizing guesses and maximizing winning chances. The author encourages readers to experiment with the notebook even without prior Python knowledge, demonstrating the power of software problem-solving.",
+            "url": "https://medium.com/google-colab/noteworthy-notebooks-2-winning-wordle-40793f94a054?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2022-12-02",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "Using BERT Models in TensorFlow",
+            "summary": "This article explores using BERT models in TensorFlow, specifically leveraging TensorFlow Hub's pre-trained encoders and preprocessing models. It explains how these models simplify BERT implementation in TensorFlow, allowing users to work with text inputs and generate representations with just a few lines of code. The article provides examples and tutorials for beginners and advanced users, highlighting the benefits of using TensorFlow Hub for BERT-based NLP tasks.",
+            "url": "https://medium.com/google-colab/using-bert-models-in-tensorflow-213c25eaacc4?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2022-11-22",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Welcome to the official Google Colab blog!",
+            "summary": "This article announces the launch of the official Google Colab blog on Medium. It invites readers to follow the blog for updates on product announcements, best practices, and featured Colab notebooks. The author also encourages the community to share their stories and notebooks.",
+            "url": "https://medium.com/google-colab/welcome-to-the-official-google-colab-blog-3a6d10f50d36?source=rss-14a828f24ca2------2",
+            "accuracy": 8,
+            "publication_date": "2022-11-11",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "Featured Notebook #1 — Digit Classifier Using Keras and TensorFlow",
+            "summary": "This article highlights a Colab notebook that demonstrates a handwritten digit classification model using MNIST dataset. The notebook utilizes Keras and TensorFlow for model training and evaluation, leveraging a GPU for faster training. It also features an interactive component, allowing users to test the model by drawing their own digits within the notebook. Additionally, the notebook covers exporting the model for JavaScript use and running an interactive web app.",
+            "url": "https://medium.com/google-colab/featured-notebook-1-digit-classifier-using-keras-and-tensorflow-e088e05c6ad2?source=rss-14a828f24ca2------2",
+            "accuracy": 9,
+            "publication_date": "2022-11-09",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

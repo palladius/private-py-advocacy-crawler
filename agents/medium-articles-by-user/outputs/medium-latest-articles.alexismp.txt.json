@@ -1,0 +1,75 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Alexis MP",
+    "author_nationality": "NULL",
+    "author_style": "Informative, concise, Google Cloud focused",
+    "author_favorite_languages": "Python",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "TWiGCP",
+            "correct": "TWiGCP",
+            "url": "https://medium.com/google-cloud/twigcp-gke-autopilot-databricks-mongodb-partnerships-and-quite-a-bit-more-5cb02d2b9b86?source=rss-dbfb8e06b9f2------2"
+        },
+        {
+            "current": "TWiGCP",
+            "correct": "TWiGCP",
+            "url": "https://medium.com/google-cloud/twigcp-bare-metal-sap-9tb-ssd-sigfox-and-python-commitment-bbd551b4f113?source=rss-dbfb8e06b9f2------2"
+        },
+        {
+            "current": "TWiGCP",
+            "correct": "TWiGCP",
+            "url": "https://medium.com/google-cloud/twigcp-introducing-apigee-x-hpc-vms-datafusion-replication-and-assured-workloads-b25fe809f893?source=rss-dbfb8e06b9f2------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "TWiGCP — “GKE Autopilot, Databricks & MongoDB partnerships, and quite a bit more”",
+            "summary": "This article summarizes the top Google Cloud Platform (GCP) stories for the week of March 1, 2021. It includes updates on GKE Autopilot, Databricks and MongoDB partnerships, BigQuery, Compute Engine, Service Directory, Cloud Domains, GKE multi-cluster services, BigQuery BI Engine, Terraform, Google Data Catalog, Cloud Network edge points, Private Service Connect, budgets, Workflows, Cloud Run, Dataproc, machine learning models, Cloud Monitoring, and more.",
+            "url": "https://medium.com/google-cloud/twigcp-gke-autopilot-databricks-mongodb-partnerships-and-quite-a-bit-more-5cb02d2b9b86?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-03-01",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "TWiGCP — “Bare metal SAP, 9TB SSD, Sigfox, and Python commitment”",
+            "summary": "This article highlights top Google Cloud Platform (GCP) stories for the week of February 15, 2021, including the announcement of a new bare metal solution for running SAP workloads, N2 VMs with 9TB SSDs, a collaboration between Sigfox and Google Cloud, and Google's recommitment to the Python Software Foundation. The article also includes sections on Cloud Spanner, Cloud Run, Anthos, Workflows, Security Keys, data lineage, VM Manager, budgets, AIOT, geospatial data processing, Cloud Bigtable, and customer case studies.",
+            "url": "https://medium.com/google-cloud/twigcp-bare-metal-sap-9tb-ssd-sigfox-and-python-commitment-bbd551b4f113?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-02-15",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "TWiGCP — “Introducing Apigee X, HPC VMs, DataFusion replication, and Assured Workloads”",
+            "summary": "This article covers top Google Cloud Platform (GCP) stories for the week of February 8, 2021, including the introduction of Apigee X, new HPC VM images, real-time data integration for BigQuery with Cloud Data Fusion, and Assured Workloads support. The article also features sections on VPCs, DNS, IPs, cost control, machine learning, multicloud, Cloud Workflows, GPUs, and customer news.",
+            "url": "https://medium.com/google-cloud/twigcp-introducing-apigee-x-hpc-vms-datafusion-replication-and-assured-workloads-b25fe809f893?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-02-08",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "TWiGCP “Eventarc, Cloud SQL Insights, BeyondCorp Enterprise, Dialogflow CX, Cloud DNS policies…",
+            "summary": "This article highlights the top Google Cloud Platform (GCP) stories for the week of February 1, 2021, including the general availability of Eventarc, the introduction of Cloud SQL Insights, BeyondCorp Enterprise, Dialogflow CX, Cloud DNS response policies, and VM Manager. It also features sections on Cloud SQL, serverless computing, data processing, Cloud Build, Pub/Sub Lite, Cloud Storage, logging, networking, customer case studies, and multimedia resources.",
+            "url": "https://medium.com/google-cloud/twigcp-eventarc-cloud-sql-insights-beyondcorp-enterprise-dialogflow-cx-cloud-dns-policies-and-cd73dfe2920b?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-02-01",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "TWiGCP — “BigQuery UI updates, Cloud Run WebSockets, and hands-on Anthos bare-metal”",
+            "summary": "This article covers the top Google Cloud Platform (GCP) stories for the week of January 25, 2021, including updates to the BigQuery UI, WebSockets support for Cloud Run, a hands-on guide to Anthos on bare metal, and a discussion on designing a data security program in a cloud-native way. It also includes sections on serverless eventing, Anthos Service Mesh, disaster recovery, networking, mobile app development, and secure enclave hardware.",
+            "url": "https://medium.com/google-cloud/twigcp-bigquery-ui-updates-cloud-run-websockets-and-hands-on-anthos-bare-metal-ce92a366aee1?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-01-25",
+            "is_gcp": true,
+            "is_technical": false
+        }
+    ]
+}
+```

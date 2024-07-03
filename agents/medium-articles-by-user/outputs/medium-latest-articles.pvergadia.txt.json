@@ -1,0 +1,84 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Priyanka Vergadia",
+    "author_nationality": "Indian",
+    "author_style": "Informative, concise, tech-focused",
+    "author_favorite_languages": "Python",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "article circle",
+            "correct": "Arctic circle",
+            "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
+        },
+        {
+            "current": "a lot",
+            "correct": "a lot",
+            "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
+        },
+        {
+            "current": "Faibanks",
+            "correct": "Fairbanks",
+            "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Winter travel guide to Alaska",
+            "summary": "This article details a winter trip to Alaska, focusing on a 9-day itinerary including travel to Fairbanks by train and back. The author shares experiences with the Northern Lights, Arctic Circle tour, Coldfoot Camp activities (mountain safari, snowshoeing), and Chena Hot Springs. The piece emphasizes the beauty of the Alaskan winter landscape, the importance of planning in advance, and the unique experiences available to those willing to embrace the cold.",
+            "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2",
+            "accuracy": 8,
+            "publication_date": "2021-12-12",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "Zero Trust with Reverse Proxy",
+            "summary": "This article explains the concept of Zero Trust security and its implementation using reverse proxy in Google Cloud. It uses the metaphor of an airplane to illustrate how a reverse proxy checks requests from various sources and determines access based on user identity, device health, and location. The article highlights the importance of device security in a Zero Trust environment and provides resources for further learning.",
+            "url": "https://medium.com/google-cloud/zero-trust-with-reverse-proxy-c744d8956f21?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2021-06-28",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Top 13 Google Cloud reference Architectures",
+            "summary": "This article summarizes a series of 13 common Google Cloud reference architectures, highlighting key areas of cloud development. Each architecture addresses a specific use case, including streaming video analytics, ML vision analytics, hybrid cloud connectivity, database migration, infrastructure as code, MLOps, serverless computing, data migration, continuous delivery, VM migration, data replication, and Vertex AI. The author encourages engagement and participation from the Google Cloud community.",
+            "url": "https://medium.com/google-cloud/top-13-google-cloud-reference-architectures-c8a697546505?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2021-06-28",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Devices and Zero Trust security",
+            "summary": "This article focuses on device security in a Zero Trust environment. It explains how device metadata, such as software running and last OS update, is used to assess trust and grant access. The article highlights various data types collected from different sources to make informed decisions about device access. It also recommends resources for further exploration of device security.",
+            "url": "https://medium.com/google-cloud/devices-and-zero-trust-security-21864ceb0a96?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2021-06-28",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Security keys and zero trust",
+            "summary": "This article discusses the importance of security keys in Zero Trust security. It highlights the limitations of traditional 2-step verification methods and emphasizes how security keys provide stronger login protection against phishing attacks. The article explains how security keys work through cryptographic handshake, open standards (FIDO), and firmware integrity. It also mentions the benefits of using security keys, including faster logins and fewer support tickets.",
+            "url": "https://medium.com/google-cloud/security-keys-and-zero-trust-1c3efcfb302?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2021-03-21",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Data Analysis to Power Wind Kites",
+            "summary": "This article delves into the Makani project, which aimed to develop wind energy kites using data analysis and Google Cloud. It explains how the kite system worked, its advantages over traditional turbines, and the data collection and analysis involved. The article highlights Google Cloud's role in powering sustainable energy innovation.",
+            "url": "https://medium.com/google-cloud/data-analysis-to-power-wind-kites-8b4e97e90b58?source=rss-9b9e67983b04------2",
+            "accuracy": 8,
+            "publication_date": "2021-01-06",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```

@@ -1,0 +1,115 @@
+```json
+{
+    "prompt_version": "1.13",
+    "llm_temperature": "0.9",
+    "author_name": "Yoshifumi Yamaguchi",
+    "author_nationality": "Japanese",
+    "author_style": "Casual, conversational, opinionated",
+    "author_favorite_languages": null,
+    "author_favorite_cloud": null,
+    "typos": [
+        {
+            "current": "c.f.",
+            "correct": "Cf.",
+            "url": "https://medium.com/@ymotongpoo/%E6%83%85%E5%A0%B1%E4%BA%A4%E6%8F%9B%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B-f22bf99a2bae?source=rss-a465081c917b------2"
+        },
+        {
+            "current": "MSEdgeWe",
+            "correct": "MSEdge, We",
+            "url": "https://medium.com/@ymotongpoo/microsoft-edge%E3%81%AEchromium%E5%8C%96%E3%81%AE%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8-e232a1834404?source=rss-a465081c917b------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "家の配電盤がぶっ壊れた話",
+            "summary": "The author describes a real-life incident where the electrical distribution board in their 35-year-old house malfunctioned, leading to a power outage. After troubleshooting, they discovered the culprit was the aging distribution board. They contacted the management company and got a new one installed, highlighting the importance of considering the age of electrical components in older buildings.",
+            "url": "https://medium.com/@ymotongpoo/%E5%AE%B6%E3%81%AE%E9%85%8D%E9%9B%BB%E7%9B%A4%E3%81%8C%E3%81%B6%E3%81%A3%E5%A3%8A%E3%82%8C%E3%81%9F%E8%A9%B1-8d2691d150e1?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2019-03-21",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "いまだに聞き慣れない言葉",
+            "summary": "A brief and humorous article expressing the author's dislike for certain words or phrases, comparing their feeling to the unpleasant sensation after taking bitter medicine. The article ends with a short, lighthearted statement.",
+            "url": "https://medium.com/@ymotongpoo/%E3%81%84%E3%81%BE%E3%81%A0%E3%81%AB%E8%81%9E%E3%81%8D%E6%85%A3%E3%82%8C%E3%81%AA%E3%81%84%E8%A8%80%E8%91%89-a9aa1021034c?source=rss-a465081c917b------2",
+            "accuracy": 8,
+            "publication_date": "2019-01-13",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "「情報交換しませんか」",
+            "summary": "The author discusses the ambiguity and often disingenuous nature of invitations for "information exchange" and "brainstorming/discussion" in professional settings. They argue that these phrases often mask thinly veiled requests for free advice or consultation, lacking mutual benefit. The article highlights the importance of clear communication and genuine collaboration in professional relationships.",
+            "url": "https://medium.com/@ymotongpoo/%E6%83%85%E5%A0%B1%E4%BA%A4%E6%8F%9B%E3%81%97%E3%81%BE%E3%81%9B%E3%82%93%E3%81%8B-f22bf99a2bae?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2018-12-17",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "Microsoft EdgeのChromium化のアナウンスについて思うこと",
+            "summary": "This article explores the author's thoughts on Microsoft's decision to adopt Chromium as the web platform for Microsoft Edge. They express concern about the potential impact on web standards and diversity, arguing that reliance on a single browser engine could stifle innovation and experimentation. The author also examines the history of Microsoft's involvement in web standards and its potential influence on the future of the web.",
+            "url": "https://medium.com/@ymotongpoo/microsoft-edge%E3%81%AEchromium%E5%8C%96%E3%81%AE%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E6%80%9D%E3%81%86%E3%81%93%E3%81%A8-e232a1834404?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2018-12-11",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "海外でエンジニア職に就くことの雑感",
+            "summary": "The author shares their thoughts on working as an engineer abroad, particularly in Silicon Valley, drawing upon personal experiences and observations. They discuss the advantages and challenges of pursuing a career in the US, acknowledging the high cost of living and the cultural differences. The author also emphasizes the importance of diversity and encourages Japanese engineers to consider exploring career opportunities outside of Japan.",
+            "url": "https://medium.com/ymotongpoo-thoughts/%E6%B5%B7%E5%A4%96%E3%81%A7%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2%E8%81%B7%E3%81%AB%E5%B0%B1%E3%81%8F%E3%81%93%E3%81%A8%E3%81%AE%E9%9B%91%E6%84%9F-9b75e7d9b654?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2016-12-26",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "ニンテンドークラシックミニ",
+            "summary": "The author reminisces about their childhood experiences with the original Nintendo Famicom, sharing their joy at receiving the Nintendo Classic Mini, a retro console featuring popular Famicom titles. They recount how playing the games brought back vivid memories and highlighted the power of nostalgia in evoking strong emotions. The article concludes by reflecting on the importance of creating experiences and their impact on individuals.",
+            "url": "https://medium.com/ymotongpoo-thoughts/%E3%83%8B%E3%83%B3%E3%83%86%E3%83%B3%E3%83%89%E3%83%BC%E3%82%AF%E3%83%A9%E3%82%B7%E3%83%83%E3%82%AF%E3%83%9F%E3%83%8B-1cca43ad8241?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2016-11-15",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "業務時間外に「勉強」しなければならない職業について",
+            "summary": "The author discusses the necessity of continuous learning in certain professions, particularly in IT, where rapid technological advancements demand constant skill development. They acknowledge that working hours may not always accommodate adequate learning time, prompting a discussion about the balance between professional development and personal life. The article emphasizes the importance of choosing a career path that fosters both professional growth and personal well-being.",
+            "url": "https://medium.com/ymotongpoo-thoughts/%E6%A5%AD%E5%8B%99%E6%99%82%E9%96%93%E5%A4%96%E3%81%AB-%E5%8B%89%E5%BC%B7-%E3%81%97%E3%81%AA%E3%81%91%E3%82%8C%E3%81%B0%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84%E8%81%B7%E6%A5%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-e7c1fcf7e4b6?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2016-04-04",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "母親にSNSをやらせよう",
+            "summary": "The author discusses the pros and cons of encouraging their mother to use social media platforms like mixi and Twitter. They recount their own experience with their mother's online activity, acknowledging the potential benefits of social connection and engagement for older generations while also highlighting the risks associated with online behavior. The article encourages a nuanced approach to navigating social media with older family members.",
+            "url": "https://medium.com/ymotongpoo-thoughts/%E6%AF%8D%E8%A6%AA%E3%81%ABsns%E3%82%92%E3%82%84%E3%82%89%E3%81%9B%E3%82%88%E3%81%86-91b17682304f?source=rss-a465081c917b------2",
+            "accuracy": 9,
+            "publication_date": "2016-02-01",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "全豪オープン 2016 1週目",
+            "summary": "The author writes about their excitement for the Australian Open 2016, focusing on the performance of Japanese tennis player Kei Nishikori. They highlight Nishikori's strong showing in the early rounds, leading up to his quarter-final matchup against Novak Djokovic. The article reflects on the author's personal connection to tennis and their anticipation for the upcoming match.",
+            "url": "https://medium.com/@ymotongpoo/%E5%85%A8%E8%B1%AA%E3%82%AE%E3%83%BC%E3%83%97%E3%83%B3-2016-1%E9%80%B1%E7%9B%AE-1467dccd172e?source=rss-a465081c917b------2",
+            "accuracy": 8,
+            "publication_date": "2016-01-26",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "日本における奨学金問題についての所感",
+            "summary": "The author reflects on the issue of student loans in Japan, sharing their personal experience with the Japanese Student Services Organization (JASSO) loan system. They discuss the complex issue of student debt and the challenges faced by borrowers, particularly the burden of repayment. While acknowledging the benefits of the JASSO loan system, the author emphasizes the need for greater transparency and guidance for young borrowers to make informed decisions about their finances.",
+            "url": "https://medium.com/@ymotongpoo/%E6%97%A5%E6%9C%AC%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E5%A5%A8%E5%AD%A6%E9%87%91%E5%95%8F%E9%A1%8C%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%81%AE%E6%89%80%E6%84%9F-5df10828afe5?source=rss-a465081c917b------2",
+            "accuracy": 8,
+            "publication_date": "2016-01-17",
+            "is_gcp": false,
+            "is_technical": false
+        }
+    ]
+}
+```

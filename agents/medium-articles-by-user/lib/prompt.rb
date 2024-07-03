@@ -1,9 +1,12 @@
-PromptVersion = '1.11'
+PromptVersion = '1.13a'
 #ArticleMaxBytes = 2200 # manually nitted to get right amount of tokens :)
-ArticleMaxBytes = 8800 # manually nitted to get right amount of tokens :)
+#ArticleMaxBytes = 8800 # from v1.11
+ArticleMaxBytes = 16000 # from v1.13a
 
 
 
+# 1.13 3jul24 Explicited in the Prompt instructions to drop the ```json...``` part
+# 1.12 3jul24 removed ```json. added Typo URL
 # 1.11 3jul24 added ```json. Increased bytes to 4x=8k. Using Gemini 1.5 flash now.
 #     <copied from github to this other project>
 # 1.10 13dec23 Removed song. totally useless and repetitive :)
@@ -64,6 +67,7 @@ Please provide the output in a `JSON` file as an array of answer per article, li
     "typos": [{ // array of mistakes or typos, maximum THREE.
             "current": "", // (STRING) typo or mistake
             "correct": ""  // (STRING) fixed typo
+            "url": "http://...." // (STRING) the URL of the article which contains the mistake
         }],
     "articles_feedback": [
 
@@ -84,10 +88,17 @@ Please provide the output in a `JSON` file as an array of answer per article, li
 }
 
 Make **ABSOLUTELY SURE** the result is valid JSON (and NOT markdown) or I'll have to drop the result.
+Do NOT  wrap the JSON result with "```json" and "```".
 
 Here are the articles:
 
 --
-```json
 
 END_OF_PROMPT
+
+
+
+def build_prompt_from_file(my_text_file)
+    #PromptInJson + "\n" + File.read(my_text_file) + "\n\nJSON:\n```json"
+    PromptInJson + "\n" + File.read(my_text_file) + "\n\nJSON:\n"
+end

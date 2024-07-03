@@ -1,0 +1,111 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Riccardo Carlesso",
+    "author_nationality": "Italian",
+    "author_style": "Informal and humorous, often using personal anecdotes and analogies.",
+    "author_favorite_languages": "Ruby, JavaScript, Golang",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "tje",
+            "correct": "the",
+            "url": "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df?source=rss-b5293b96912f------2"
+        },
+        {
+            "current": "thas",
+            "correct": "the",
+            "url": "https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2"
+        },
+        {
+            "current": "ragÃ¹",
+            "correct": "ragù",
+            "url": "https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "RAG one-liners: curling a website with Gemma",
+            "summary": "This article explains how to use Retrieval-Augmented Generation (RAG) to fetch information from a website without an API.  The author demonstrates this with a real-life example: retrieving the water temperature of Lake Zurich.  The article covers concepts such as LLMs, hallucination, and outdated data, and explains how RAG can help address these issues by injecting vetted and recent data into the prompt.",
+            "url": "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df?source=rss-b5293b96912f------2",
+            "accuracy": 9,
+            "publication_date": "2024-06-07",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "Gemma is born!",
+            "summary": "This article introduces Gemma, an open-source family of machine learning models available on Kaggle. The author, a Ruby developer, shows how to use Gemma in a CLI environment by interacting with it through cURL. He explains how to install Gemma in Google Cloud and provides a simple JSON example for interacting with the model.  The article is written in a casual tone and focuses on the practical use of Gemma.",
+            "url": "https://medium.com/google-cloud/gemma-is-born-c5ea9ba576ec?source=rss-b5293b96912f------2",
+            "accuracy": 8,
+            "publication_date": "2024-02-26",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Hey Gemini, explain me these pictures — in bash ‍",
+            "summary": "This article explores the multimodal capabilities of Gemini, Google's latest AI model. The author demonstrates how to use Gemini to analyze images and generate text descriptions using a bash script. He showcases the process of describing a picture of a Genesis album cover and provides code snippets and images from his GitHub repository. The article is written in a casual and conversational style.",
+            "url": "https://blog.devops.dev/hey-gemini-explain-me-these-pictures-in-bash-06c03d0d0512?source=rss-b5293b96912f------2",
+            "accuracy": 9,
+            "publication_date": "2023-12-14",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "Hey Bard, write a responsive Javascript Search Engine app for me..",
+            "summary": "This article details how the author used Bard, Google's AI chatbot, to generate a JavaScript search engine application.  The author explains the coding concept, how to formulate effective prompts, and provides insights into the process of creating a responsive search bar using static JSON data. The article highlights the potential of LLMs in aiding developers with coding tasks.",
+            "url": "https://medium.com/@palladiusbonton/hey-bard-write-a-responsive-javascript-search-engine-app-for-me-b2585e55385e?source=rss-b5293b96912f------2",
+            "accuracy": 8,
+            "publication_date": "2023-11-20",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "What is toilet paper’s right side?",
+            "summary": "This humorous article explores the age-old debate about the correct placement of toilet paper, using the terms 'cis-centralis/pendens' and 'trans-centralis/murālis.' The author, a Ruby on Rails developer, examines the solution proposed by the inventor of toilet paper and explores different perspectives, including the impact of cats, children, and other environmental factors. The article emphasizes the importance of considering context and individual preferences in determining the ideal solution.",
+            "url": "https://medium.com/@palladiusbonton/what-is-toilet-papers-right-side-8da0504d6d0b?source=rss-b5293b96912f------2",
+            "accuracy": 7,
+            "publication_date": "2023-08-08",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "Spaghetti Bolognese don’t exist!!1!",
+            "summary": "This article playfully debunks the myth of Spaghetti Bolognese, explaining that this dish is not traditionally prepared in Italy. The author explores the origins of spaghetti and Bolognese sauce and the cultural reasons behind their separate existence. He explains why spaghetti's texture makes it unsuitable for a thick Bolognese sauce and highlights the preferred pasta shapes for this type of ragù. The article provides a humorous and informative perspective on a common culinary misconception.",
+            "url": "https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2",
+            "accuracy": 8,
+            "publication_date": "2023-04-21",
+            "is_gcp": false,
+            "is_technical": false
+        },
+        {
+            "title": "Migrate ☁️ GCP projects across organizations, with gcloud",
+            "summary": "This article guides users through the process of migrating Google Cloud Platform (GCP) projects across different organizations using the 'gcloud' command-line tool. The author explains the importance of documenting IAM configurations and provides a detailed step-by-step guide, including troubleshooting tips and script examples. The article is aimed at developers and system administrators working with GCP.",
+            "url": "https://medium.com/google-cloud/how-to-migrate-projects-across-organizations-c7e254ab90af?source=rss-b5293b96912f------2",
+            "accuracy": 9,
+            "publication_date": "2023-04-18",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "My favourite Toolchain",
+            "summary": "This article presents the author's preferred development toolchain, outlining their choices for coding IDE, programming language, application development framework, CI/CD tools, serverless platforms, IaaS/PaaS/SaaS, infrastructure as code, and containerization. The author expresses their preference for Ruby on Rails, Google Cloud Platform, and various open-source tools, sharing their personal experiences and opinions on different technologies.",
+            "url": "https://medium.com/@palladiusbonton/my-favourite-toolchain-831b56ba6fc5?source=rss-b5293b96912f------2",
+            "accuracy": 8,
+            "publication_date": "2023-04-12",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Ruby on Rails-like ORM and scaffolding in Golang anyone?",
+            "summary": "This article explores the author's attempt to find a Ruby on Rails-like experience in Golang, specifically seeking an ORM and scaffolding system similar to Rails' generator functionality.  He shares his experiences with various Golang frameworks (Beego, Revel, Buffalo) and provides insights into their features and strengths, offering a personal perspective on the search for a similar developer experience in the Golang ecosystem.",
+            "url": "https://medium.com/@palladiusbonton/ruby-on-rails-like-orm-in-golang-anyone-gopher-random-4558047da41?source=rss-b5293b96912f------2",
+            "accuracy": 8,
+            "publication_date": "2022-12-22",
+            "is_gcp": false,
+            "is_technical": true
+        }
+    ]
+}
+```

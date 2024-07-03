@@ -1,0 +1,65 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Val Deleplace",
+    "author_nationality": "French",
+    "author_style": "Informative and practical, focusing on efficiency and optimization",
+    "author_favorite_languages": "Go",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "caught my attention me",
+            "correct": "caught my attention",
+            "url": "https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d?source=rss-5c7fb9360a28------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Go slices, deleting items, and memory usage",
+            "summary": "This article discusses the memory implications of deleting elements from Go slices using the `slices.Delete` function. The author highlights that while the function modifies the slice in-place, it doesn't shrink the underlying array, potentially leaving pointers to large objects alive in an inaccessible part of the array. This can lead to memory leaks and performance issues. The author proposes a solution where the deleted elements are zeroed, allowing for proper garbage collection. The article also delves into backward compatibility considerations and the updated documentation for `slices.Delete`.",
+            "url": "https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d?source=rss-5c7fb9360a28------2",
+            "accuracy": 9,
+            "publication_date": "2024-03-04",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Pixel guessing : using Gemini Pro Vision with Go",
+            "summary": "The author explores the capabilities of Gemini Pro Vision, a multimodal AI model, in recognizing images at low resolution. The article demonstrates how to call the Google Cloud Vertex AI API from Go code using the new Go SDK. The author showcases a simple demo application where users can upload an image, which is then pixelated and sent to the Gemini Pro Vision model for content recognition. The article covers the necessary setup steps, including project creation, API enablement, and installing the Google Cloud SDK. It also discusses the frontend and backend architecture, showcasing code snippets for image resizing and API interaction.",
+            "url": "https://medium.com/google-cloud/pixel-guessing-using-gemini-pro-vision-with-go-26f1beac3cf2?source=rss-5c7fb9360a28------2",
+            "accuracy": 9,
+            "publication_date": "2024-01-25",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Cutting cost: stopping the Cloud SQL instance is not enough!",
+            "summary": "This article discusses the cost implications of stopping a Cloud SQL instance, specifically in cases where the instance has a public IP address. The author points out that even after stopping the instance, the IP address remains reserved, incurring a monthly cost. This unexpected cost can be a significant factor in cloud billing, especially when the instance is used infrequently. The article recommends deleting the instance altogether to avoid any recurring charges.",
+            "url": "https://medium.com/google-cloud/cutting-cost-stopping-the-cloud-sql-instance-is-not-enough-c7e0bfe63e4d?source=rss-5c7fb9360a28------2",
+            "accuracy": 8,
+            "publication_date": "2023-03-08",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "Cost of a bool slice in Go",
+            "summary": "The author explores the memory usage of boolean slices in Go. While Go uses bytes as the smallest addressable unit, a boolean slice takes up 1 byte per boolean, resulting in an 8x overhead. The article explains that this overhead is due to the way Go manages memory and the requirement for individual bytes to be addressable. The author recommends using bitsets for situations where memory efficiency is crucial.",
+            "url": "https://medium.com/@val_deleplace/cost-of-a-bool-slice-in-go-b7d7ba1d6dda?source=rss-5c7fb9360a28------2",
+            "accuracy": 9,
+            "publication_date": "2020-08-17",
+            "is_gcp": false,
+            "is_technical": true
+        },
+        {
+            "title": "7 ways to implement a Bit set in Go",
+            "summary": "This article provides a comprehensive guide to implementing bitsets in Go, highlighting various methods and their trade-offs in terms of memory efficiency and performance. The author introduces the Bitset interface, defining essential methods like `GetBit`, `SetBit`, and `Len`. The article then explores 7 concrete implementations, including slice of booleans, map of booleans, big integers, slice of bytes, and slice of 64-bit integers. Each implementation is explained with code snippets and analyzed for its memory compactness and performance characteristics. The article also includes benchmark results to compare the different approaches, providing insights into the best choices for different scenarios.",
+            "url": "https://medium.com/@val_deleplace/7-ways-to-implement-a-bit-set-in-go-91650229b386?source=rss-5c7fb9360a28------2",
+            "accuracy": 9,
+            "publication_date": "2020-08-17",
+            "is_gcp": false,
+            "is_technical": true
+        }
+    ]
+}
+```

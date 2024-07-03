@@ -1,0 +1,52 @@
+```json
+{
+    "prompt_version": "1.12",
+    "llm_temperature": "0.9",
+    "author_name": "Romin Irani",
+    "author_nationality": "Indian",
+    "author_style": "Informative, engaging, and conversational.",
+    "author_favorite_languages": "NULL",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "becnhmarking",
+            "correct": "benchmarking",
+            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2"
+        },
+        {
+            "current": "vis-a-vis",
+            "correct": "vis-à-vis",
+            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "How I write the Google Cloud Platform Technology Nuggets newsletter",
+            "summary": "This article details the manual process Romin Irani uses to curate his Google Cloud Platform Technology Nuggets newsletter.  He emphasizes the importance of manually reading and summarizing each blog post, avoiding automation tools.  He explains the steps involved in collecting, filtering, writing, and publishing the newsletter, highlighting the challenges and benefits of his approach.  The author also addresses concerns regarding the use of Generative AI, stating that he prefers a human-centric approach to ensure authenticity and quality.",
+            "url": "https://iromin.medium.com/how-i-write-google-cloud-platform-technology-nuggets-newsletter-4c144ca47151?source=rss-802a4d428d95------2",
+            "accuracy": 9,
+            "publication_date": "2024-07-02",
+            "is_gcp": true,
+            "is_technical": false
+        },
+        {
+            "title": "Google Cloud Platform Technology Nuggets — June 16–30, 2024 Edition",
+            "summary": "This is a newsletter edition covering updates and announcements in Google Cloud Platform from June 16th to 30th, 2024. It features a range of topics including Containers and Kubernetes, Identity and Security, API Management, Machine Learning, Data Residency, Databases, Networking, and Data Analytics.  The newsletter summarizes key announcements, new features, and best practices in each area. It highlights improvements in Cluster Autoscaler, Cloud KMS Autokey, Apigee, Vertex AI, Gemini 1.5, Claude 3.5 Sonnet, BigQuery, and more.",
+            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2",
+            "accuracy": 9,
+            "publication_date": "2024-07-01",
+            "is_gcp": true,
+            "is_technical": true
+        },
+        {
+            "title": "Google Cloud Platform Technology Nuggets — June 1–15, 2024 Edition",
+            "summary": "This is another edition of the Google Cloud Platform Technology Nuggets newsletter, covering news from June 1st to 15th, 2024.  It highlights updates in Infrastructure, Partners, Identity and Security, Containers and Kubernetes, Databases, Networking, Data Analytics, and Cost Management.  The newsletter summarizes announcements regarding Compute Engine cost savings, new machine series, Gitlab integration, BigQuery encryption, Security Talks 2024, GKE Compliance, Cloud SQL for MySQL, Cloud Logging, and more. It also includes information about the Google Cloud Innovators program and its learning credits.",
+            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-1-15-2024-edition-36c5d2628984?source=rss-802a4d428d95------2",
+            "accuracy": 9,
+            "publication_date": "2024-06-17",
+            "is_gcp": true,
+            "is_technical": true
+        }
+    ]
+}
+```
