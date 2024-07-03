@@ -213,14 +213,12 @@ def call_api_for_all_texts(_opts={})
             next
         end
 
-        #puts "== INPUT BEGIN: =="
-        #puts genai_input
-        #puts "== INPUT END =="
-        #puts "== OUTPUT BEGIN: =="
         include LibGenai
+
         output = genai_text_predict_curl(
             content: genai_input,
-            model_id: 'text-bison',
+            #model_id: 'text-bison',
+            model_id: "gemini-1.5-flash",
             opts: {
                 max_content_size: MaxByteInputSize,
                 verbose: false,
@@ -229,7 +227,6 @@ def call_api_for_all_texts(_opts={})
         File.open(output_file, 'w') do |f|
             f.write output
         end
-        #puts "== OUTPUT END (written on: #{output_file}) =="
         puts "💾 File written on: #{output_file}) "
         # https://stackoverflow.com/questions/42385036/validate-json-file-syntax-in-shell-script-without-installing-any-package
         valid_json_script = `cat '#{output_file}' | json_pp`

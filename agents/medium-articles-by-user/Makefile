@@ -1,4 +1,8 @@
 
+run-for-ricc:
+	MEDIUM_USER_ID=palladiusbonton ruby main.rb
+
+
 deploy:
 	gcloud functions deploy my_function \
 		--runtime ruby32 \
