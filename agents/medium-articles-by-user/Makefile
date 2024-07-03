@@ -1,6 +1,6 @@
 
 run-for-ricc:
-	MEDIUM_USER_ID=palladiusbonton ruby main.rb
+	MEDIUM_USER_ID=palladiusbonton time ruby main.rb
 
 
 deploy:

@@ -41,11 +41,6 @@ module LibGenai
               }
             ]
           },
-
-
-#          [
-          #     { "content": truncated_content },
-          # ],
           # "parameters": {
           #     "candidateCount": 1, # TODO(ricc): investigate having more candidates!
           #     "temperature": opts_temperature,
@@ -73,12 +68,10 @@ module LibGenai
         puts response.body if opts_verbose
 
         json_body = JSON.parse(response.body)
-        puts("json_body Class: ", json_body.class)
-        puts("json_body arra length: ", json_body.length)
+        #puts("json_body Class: ", json_body.class)
+        #puts("json_body arra length: ", json_body.length)
         # DEBUG
-        #File.open('.tmp.gemini-response.json', 'w') { |file| file.write("//DEBUG:\n#{json_body}") }
-        File.open('.tmp.gemini-response.json', 'w') { |file| file.write(json_body) }
-        #puts(json_body.keys)
+        #File.open('.tmp.gemini-response.json', 'w') { |file| file.write(json_body) }
 
 
         # this was Palm
@@ -93,9 +86,11 @@ module LibGenai
           #
           #puts("JB1.A: #{jb1}")
           cleaned_up_nth_response = jb1['candidates'][0]['content']['parts'][0]['text']
-          puts("JB1.B: cleaned_up_nth_response: #{cleaned_up_nth_response}")
-          puts("JB1.C: candidates size (should be 1, if not we need JB2): #{ jb1['candidates'].length }")
-          puts("JB1.d: Keys: #{jb1.keys}")
+          #puts("JB1.B: cleaned_up_nth_response: #{cleaned_up_nth_response}")
+          #puts("JB1.C: candidates size (should be 1, if not we need JB2): #{ jb1['candidates'].length }")
+          raise "More than 1 candidates! #{jb1['candidates'].length }" if jb1['candidates'].length  != 1
+          raise "More than 1 parts! #{jb1['candidates'][0]['content']['parts'].length }" if jb1['candidates'][0]['content']['parts'].length  != 1
+          #puts("JB1.d: Keys: #{jb1.keys}")
           the_answer << cleaned_up_nth_response  # + "\n?"
         end
         #puts("Candidate length: #{json_body[0]['candidates'].length}")
