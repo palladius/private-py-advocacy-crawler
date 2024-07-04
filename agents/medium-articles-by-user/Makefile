@@ -27,6 +27,7 @@ generate-useful-data:
 	LDAP=alexismp  MEDIUM_USER_ID=alexismp ruby main.rb
 	LDAP=venema  MEDIUM_USER_ID=wietsevenema ruby main.rb
 	LDAP=marccohen  MEDIUM_USER_ID=mco-blog ruby main.rb
+	LDAP=rsamborski  MEDIUM_USER_ID=rsamborski ruby main.rb
 	# Extended advocacy team
 	# Aja
 	LDAP=ajahammerly  MEDIUM_USER_ID=thagomizer ruby main.rb
