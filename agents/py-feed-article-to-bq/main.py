@@ -4,26 +4,34 @@ import json
 
 from google.cloud import bigquery
 import datetime
+import zoneinfo # fot TZ
 import hashlib  # For generating the hash
+
+timezone_utc = zoneinfo.ZoneInfo('UTC')
 
 
 #DEBUG = False
 DEBUG = True
-ProjectId = 'ose-volta-dev' # ()
+#ProjectId = 'ose-volta-dev' # ()
+#Dataset = 'ose_volta_insights'
 #ProjectId = 'ose-volta-prod'
 
 # Updated BigQuery schema
 schema = [
     bigquery.SchemaField("title", "STRING", mode="REQUIRED"),
-    bigquery.SchemaField("summary", "STRING", mode="NULLABLE"),
+    bigquery.SchemaField("genai_summary", "STRING", mode="NULLABLE"), # genai generated
     bigquery.SchemaField("url", "STRING", mode="REQUIRED"),
     bigquery.SchemaField("categories", "STRING", mode="REPEATED"),
     bigquery.SchemaField("is_gcp", "BOOLEAN", mode="REQUIRED"),
     bigquery.SchemaField("is_technical", "BOOLEAN", mode="REQUIRED"),
-    # New fields:
-    bigquery.SchemaField("user_email", "STRING", mode="REQUIRED"),
-    bigquery.SchemaField("calculated_at", "TIMESTAMP", mode="REQUIRED"),
-    bigquery.SchemaField("custom_hash", "STRING", mode="NULLABLE")  # JSON as string
+    bigquery.SchemaField("user_email", "STRING", mode="REQUIRED"), # LDAP on steroids - supports also GDEs, ..
+    bigquery.SchemaField("calculated_at", "TIMESTAMP", mode="NULLABLE"), # from JSON calculation
+    bigquery.SchemaField("populated_at", "TIMESTAMP", mode="REQUIRED"), # from NOW (this script) - probably useless
+    bigquery.SchemaField("custom_hash", "STRING", mode="NULLABLE"),  # JSON as string
+    bigquery.SchemaField("genai_model", "STRING", mode="NULLABLE"),  # string. Example: "gemini-1.5-flash"
+    bigquery.SchemaField("asset_type", "STRING", mode="REQUIRED"),  # Medium Article, ..
+    bigquery.SchemaField("asset_type_version", "STRING", mode="REQUIRED"),  # Medium Article v1 vs v2 (if we take different prompt versions..)
+    bigquery.SchemaField("publication_date", "DATE", mode="NULLABLE"),
 ]
 
 
@@ -82,31 +90,72 @@ def load_json_from_file(file_path):
 
 def load_article_data_into_bq(metadata_dict, articles_dict):
     # Construct the rows to insert
-    client = bigquery.Client(project=ProjectId)
+    projectId = 'ose-volta-dev' # ()
+    dataset = 'ose_volta_insights'
+    table_basename = 'medium_articles_data'
+    table_ver = '1_2' # TODO . into _
 
-    table_id = f"{ProjectId}.ose_volta_insights.medium_articles_data"
+    table_name = f"{table_basename}{table_ver}"
 
+    client = bigquery.Client(project=projectId)
 
-    table = bigquery.Table(table_id, schema=schema)
-    table = client.create_table(table)
+    table_id = f"{projectId}.{dataset}.{table_name}"
 
-    print(f"Created table {table.project}.{table.dataset_id}.{table.table_id}") # expand_more
+    tables = list(client.list_tables(f"{projectId}.{dataset}"))
+    table_exists = False
+    for table in tables:
+        if table.table_id == table_name:
+            table_exists = True
+            break
 
+    if not table_exists:
+        table = bigquery.Table(table_id, schema=schema)
+        table = client.create_table(table)
+        print(f"Created table {table.project}.{table.dataset_id}.{table.table_id}") # expand_more
+    else:
+        print(f"Table {table_id} already exists. No need to create.")
 
     # Construct the rows to insert
     rows_to_insert = []
-    calculated_at = datetime.datetime.now()
+    populated_at = datetime.datetime.now()
+
+    fields_to_exclude = ["accuracy", "summary"] # , "asset_type", "asset_type_version"]  # Fields to filter out
+
 
     for article in articles_dict['articles_feedback']:
         # Create the custom hash
         custom_hash = hashlib.md5(json.dumps(article, sort_keys=True).encode()).hexdigest()
 
         # Create the row dictionary and add it to rows_to_insert
-        row = article.copy()
-        row['user_email'] = metadata_dict.get('user_email', "unknown_user") # Get email or use default
-        row['calculated_at'] = calculated_at.strftime("%Y-%m-%d %H:%M:%S.%f") # TODO fix
-        row['custom_hash'] = custom_hash  # Convert to string
+        #row = article.copy()
+        ###################
+        # 1. N-th Article itself info
+        ###################
+        row = {key: value for key, value in article.items() if key not in fields_to_exclude}
+        row['genai_summary'] = article['summary']
+        ###################
+        # 2. metadata JSON file info
+        ###################
+        row['user_email'] = metadata_dict.get('user_email', None) # Get email or use default
+        row['genai_model'] = metadata_dict.get('genai_model', None) # Get model used to elaborate genai stuff.
+        #  "timestamp":"2024-07-04 09:07:33 +0200",
+        #timestamp_for_bq =  metadata_dict.get('timestamp')
+        row['populated_at'] = populated_at.strftime("%Y-%m-%d %H:%M:%S.%f") # TODO fix with actual script from ruby
+        #row['populated_at'] = populated_at.strftime("%Y-%m-%d %H:%M:%S.%f") # correct
 
+        #  sample value for timestamp:   "timestamp":"2024-07-04 09:07:33 +0200",
+        #row['populated_at'] = metadata_dict.get('timestamp').strftime("%Y-%m-%d %H:%M:%S.%f") # doesnt work
+        populated_at_str =  metadata_dict.get('timestamp')
+        populated_at = datetime.datetime.strptime(populated_at_str, "%Y-%m-%d %H:%M:%S %z")
+        populated_at_utc = populated_at.astimezone(timezone_utc)
+        row['calculated_at']  = populated_at_utc.strftime("%Y-%m-%d %H:%M:%S.%f")
+
+        print(f"calculated_at from ruby metadata file: ")
+        row['custom_hash'] = custom_hash  # Convert to string
+        # Constant for this program
+        row['asset_type'] = 'medium-article'
+        row['asset_type_version'] = f"script1.0--PromptVersionv{metadata_dict['PromptVersion']}"
+        deb(f"About to append to BQ this article row: {row}")
         rows_to_insert.append(row)
 
     errors = client.insert_rows_json(table_id, rows_to_insert)  # Insert rows
@@ -129,11 +178,12 @@ def main():
 
     # Check if loading was successful
     if metadata_dict and articles_dict:
-        print("Metadata:")
-        print(metadata_dict)
+        if DEBUG:
+            print("[DEB] Metadata: ")
+            print(metadata_dict)
 
-        print("\nArticles:")
-        print(articles_dict)
+            print("\n[DEB] Articles: ")
+            print(articles_dict)
 
         load_article_data_into_bq(metadata_dict, articles_dict)
     else:
