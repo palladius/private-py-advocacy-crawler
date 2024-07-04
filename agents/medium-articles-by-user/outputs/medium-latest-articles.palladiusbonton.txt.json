@@ -4,30 +4,30 @@
     "llm_temperature": "0.9",
     "author_name": "Riccardo Carlesso",
     "author_nationality": "Italian",
-    "author_style": "Conversational, informal, tech-focused, with a humorous tone",
-    "author_favorite_languages": "Ruby, Bash, Javascript",
+    "author_style": "Informal, conversational, and often humorous",
+    "author_favorite_languages": "Ruby, Bash",
     "author_favorite_cloud": "Google Cloud Platform",
     "typos": [
         {
-            "current": "rag_from_website",
-            "correct": "rag_content",
+            "current": "ollama gemma run!",
+            "correct": "ollama gemma run!",
             "url": "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df?source=rss-b5293b96912f------2"
         },
         {
-            "current": "couplings",
-            "correct": "abbinamenti",
-            "url": "https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2"
+            "current": "1 It’s so small and simple you won’t be able to resist porting in your fav language!",
+            "correct": "It’s so small and simple you won’t be able to resist porting it in your fav language!",
+            "url": "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df?source=rss-b5293b96912f------2"
         },
         {
-            "current": "wantgs",
-            "correct": "wants",
-            "url": "https://medium.com/google-cloud/how-to-migrate-projects-across-organizations-c7e254ab90af?source=rss-b5293b96912f------2"
+            "current": "This is a mistake: `ngFor` only exists in Angular framework (I presume?)",
+            "correct": "This is a mistake: `ngFor` only exists in the Angular framework (I presume?)",
+            "url": "https://medium.com/@palladiusbonton/hey-bard-write-a-responsive-javascript-search-engine-app-for-me-b2585e55385e?source=rss-b5293b96912f------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "RAG one-liners: curling a website with Gemma",
-            "summary": "This article demonstrates a RAG (Retrieval-Augmented Generation) technique using Ruby, Bash, and Gemma to fetch water temperature data from a website without an API. It explains the concept of RAG, its benefits, and provides a step-by-step guide to implementing it with code examples. The author highlights the simplicity of retrieving website content, injecting it into a prompt, and leveraging Gemma's summarization capabilities.",
+            "summary": "This article demonstrates a practical application of Retrieval-Augmented Generation (RAG) using Gemma, an open-source language model. The author explains how to fetch data from a website using cURL, inject it into a prompt, and leverage Gemma's abilities to summarize or infer information. He uses the example of retrieving Zurich lake water temperature, highlighting the need for RAG when APIs are not available. The author provides detailed code snippets, including a Ruby wrapper for cURL, and explains the steps to install and run the code with Ollama and Gemma.",
             "url": "https://blog.devops.dev/comand-line-rag-with-ruby-bash-and-gemma-curling-a-website-without-apis-de69215d43df?source=rss-b5293b96912f------2",
             "accuracy": 9,
             "publication_date": "2024-06-07",
@@ -42,7 +42,7 @@
         },
         {
             "title": "Gemma is born!",
-            "summary": "The article introduces Gemma, a family of open models available on Kaggle, and showcases how to interact with it using cURL and bash. It provides a step-by-step guide to installing Gemma on Google Cloud Platform, deploying it to Vertex AI, and testing it with a simple JSON input. The author emphasizes the ease of use and accessibility of Gemma, making it suitable for both experienced and novice machine learning users.",
+            "summary": "The author expresses excitement about Google's release of Gemma, a family of open-source language models available on Kaggle. He provides a step-by-step guide on how to install and interact with Gemma using cURL, highlighting the simplicity of using the model. He emphasizes that this approach requires access to Google Cloud and billing enabled, outlining the necessary prerequisites. The author then demonstrates how to use a JSON object to interact with Gemma and provides a shell wrapper for cURL to simplify the process.",
             "url": "https://medium.com/google-cloud/gemma-is-born-c5ea9ba576ec?source=rss-b5293b96912f------2",
             "accuracy": 8,
             "publication_date": "2024-02-26",
@@ -58,7 +58,7 @@
         },
         {
             "title": "Hey Gemini, explain me these pictures — in bash ‍",
-            "summary": "This article explores the multimodal capabilities of Gemini, Google's latest AI model, demonstrating how to interact with it using bash scripts to analyze images. It covers various scenarios, including image description, translation, comparison, and understanding diagrams. The author provides code snippets and explanations, highlighting the ease of integrating Gemini into workflows and its potential for various applications.",
+            "summary": "This article explores the multimodal capabilities of Google's Gemini AI, demonstrating how to use it with images and text through bash scripting. The author provides practical examples of using Gemini to describe images, compare two images, and understand diagrams. He explains the steps involved in converting images to base64 encoding and using Gemini's API to retrieve responses. The author also highlights the ability to generate audio from text using Gemini, illustrating the potential for creating more engaging and accessible content.",
             "url": "https://blog.devops.dev/hey-gemini-explain-me-these-pictures-in-bash-06c03d0d0512?source=rss-b5293b96912f------2",
             "accuracy": 9,
             "publication_date": "2023-12-14",
@@ -74,7 +74,7 @@
         },
         {
             "title": "Hey Bard, write a responsive Javascript Search Engine app for me..",
-            "summary": "The author details their experience using Bard to build a responsive Javascript search engine application. They walk through the process of writing prompts, iteratively adding complexity, and receiving code snippets from Bard. The article highlights Bard's ability to generate functional code, even for complex functionalities, and its potential as a coding assistant. It also discusses the limitations of Bard's code generation, especially in handling CSS and more advanced frameworks.",
+            "summary": "The author shares his experience using Google Bard to build a responsive JavaScript search engine app, highlighting how the tool can assist in overcoming JavaScript development challenges. He presents a series of prompts he used to guide Bard in generating code, showcasing the tool's ability to understand natural language and produce functional code. The author demonstrates the app's functionality, including responsive search, boolean selection, and sorting options, and discusses the limitations he encountered during the development process, emphasizing the importance of understanding the generated code and potential errors.",
             "url": "https://medium.com/@palladiusbonton/hey-bard-write-a-responsive-javascript-search-engine-app-for-me-b2585e55385e?source=rss-b5293b96912f------2",
             "accuracy": 7,
             "publication_date": "2023-11-20",
@@ -90,9 +90,9 @@
         },
         {
             "title": "What is toilet paper’s right side?",
-            "summary": "This lighthearted article explores the debate surrounding toilet paper orientation, using humor and personal anecdotes. The author, a Ruby on Rails developer, draws parallels to the concept of Default over Configuration in software development. While presenting the inventor's intended orientation, the article acknowledges its potential shortcomings and encourages readers to contribute their own experiences and opinions on the matter.",
+            "summary": "This humorous and light-hearted article explores the age-old debate about the correct position of toilet paper. The author, a Ruby on Rails developer,  uses his technical background to present the “official solution” as patented in 1891, but then introduces the counterarguments and situations where the “muralic” position might be preferable. He concludes by presenting his personal preference and the importance of recognizing and respecting individual choices, even in the most trivial of matters.",
             "url": "https://medium.com/@palladiusbonton/what-is-toilet-papers-right-side-8da0504d6d0b?source=rss-b5293b96912f------2",
-            "accuracy": 6,
+            "accuracy": 10,
             "publication_date": "2023-08-08",
             "is_gcp": false,
             "is_technical": false,
@@ -103,7 +103,7 @@
         },
         {
             "title": "Spaghetti Bolognese don’t exist!!1!",
-            "summary": "The author argues that the dish "Spaghetti Bolognese" is a misconception, as authentic Italian cuisine does not combine spaghetti with bolognese sauce (ragù alla bolognese). They explain the cultural and culinary reasons behind this separation, highlighting the difference in origin and texture of the ingredients. The article emphasizes the importance of using appropriate pasta types for bolognese sauce, like tagliatelle, and offers a humorous perspective on the consequences of mixing spaghetti with bolognese sauce.",
+            "summary": "The author passionately argues that the dish "Spaghetti Bolognese" is a myth, as it is not traditionally prepared in Italy. He explains that while spaghetti and bolognese sauce (ragù alla bolognese) are both iconic Italian staples, they are not typically combined. He provides historical and culinary reasons for this, including the different origins of the ingredients and the inherent challenges of mixing spaghetti's slippery texture with the rich bolognese sauce. The author then contrasts the common misconception with the traditional Italian approach, highlighting the preferred pasta shapes and emphasizing the importance of cultural authenticity.",
             "url": "https://medium.com/@palladiusbonton/spaghetti-bolognese-dont-exist-1-2088d85909dd?source=rss-b5293b96912f------2",
             "accuracy": 9,
             "publication_date": "2023-04-21",
@@ -113,7 +113,7 @@
         },
         {
             "title": "Migrate ☁️ GCP projects across organizations, with gcloud",
-            "summary": "This article guides readers through migrating GCP projects across different organizations using gcloud commands. It provides a detailed breakdown of the process, including necessary steps, potential errors, and troubleshooting tips. The author shares their personal experiences and lessons learned, emphasizing the importance of understanding IAM roles, Org Policies, and allowed export/import destinations. The article also highlights the importance of meticulous documentation and security considerations during the migration.",
+            "summary": "The author provides a comprehensive guide on migrating Google Cloud Platform (GCP) projects across organizations using the gcloud command-line interface. He begins by outlining the necessary prerequisites, including understanding the current state of projects and IAM configurations. The author then presents a series of common errors encountered during migration and provides detailed steps to resolve them, including granting IAM permissions and configuring Org Policies. He also offers insights on best practices for secure and efficient project migration in both personal and enterprise contexts.",
             "url": "https://medium.com/google-cloud/how-to-migrate-projects-across-organizations-c7e254ab90af?source=rss-b5293b96912f------2",
             "accuracy": 8,
             "publication_date": "2023-04-18",

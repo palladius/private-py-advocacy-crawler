@@ -4,7 +4,7 @@
     "llm_temperature": "0.9",
     "author_name": "Romin Irani",
     "author_nationality": "Indian",
-    "author_style": "Informative and enthusiastic",
+    "author_style": "Informative, conversational",
     "author_favorite_languages": "Java",
     "author_favorite_cloud": "Google Cloud Platform",
     "typos": [
@@ -14,20 +14,15 @@
             "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2"
         },
         {
-            "current": "its",
-            "correct": "it's",
-            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2"
-        },
-        {
-            "current": "vis-a-vis",
-            "correct": "vis-à-vis",
-            "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2"
+            "current": "Whats",
+            "correct": "What's",
+            "url": "https://iromin.medium.com/how-i-write-google-cloud-platform-technology-nuggets-newsletter-4c144ca47151?source=rss-802a4d428d95------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "How I write the Google Cloud Platform Technology Nuggets newsletter",
-            "summary": "This article details the process Romin Irani uses to compile his bi-weekly newsletter, Google Cloud Platform Technology Nuggets. He explains that the newsletter focuses on news and announcements from the official Google Cloud Platform Blog and details each step of his process, including collecting blog posts, filtering them out, writing summaries, and sending out the newsletter. He emphasizes that the process is entirely manual and avoids using any automation tools to maintain authenticity and ensure a personal touch in his summaries.  He also explains how he learned a lot about Google Cloud Platform through this process and sees it as a way to share his knowledge and insights with his readers.",
+            "summary": "This article details the manual process behind writing the Google Cloud Platform Technology Nuggets newsletter, emphasizing the author's hands-on approach and avoiding automation. The author explains each step involved, from collecting blog posts and filtering them to summarizing articles, adding images, and publishing on Medium and Substack. They also address concerns about AI usage, highlighting their preference for manual summarization and the personal learning experience it offers. The article concludes with a reminder about the newsletter's purpose: to inform readers about the latest Google Cloud Platform announcements.",
             "url": "https://iromin.medium.com/how-i-write-google-cloud-platform-technology-nuggets-newsletter-4c144ca47151?source=rss-802a4d428d95------2",
             "accuracy": 9,
             "publication_date": "2024-07-02",
@@ -41,9 +36,9 @@
         },
         {
             "title": "Google Cloud Platform Technology Nuggets — June 16–30, 2024 Edition",
-            "summary": "This article is the June 16-30, 2024 edition of Romin Irani's Google Cloud Platform Technology Nuggets newsletter. It summarizes recent Google Cloud Platform announcements across various categories, including Containers and Kubernetes, Identity and Security, API Management, Machine Learning, Data Residency, Databases, Networking, Data Analytics, Cost Management, Developers and Practitioners, DevOps and SRE, and Learn Google Cloud. It includes highlights of key improvements, new features, and announcements, along with links to the original blog posts for further details. It also provides a brief overview of the overall Google Cloud ecosystem and its evolution.",
+            "summary": "This newsletter edition covers Google Cloud Platform news from June 16-30, 2024. It highlights advancements across various services, including containers and Kubernetes (Cluster Autoscaler improvements), identity and security (Cloud KMS Autokey in preview), API management (Dialogflow CX integration with Apigee), machine learning (Vertex AI updates with Gemini 1.5, Imagen3, and Claude 3.5), data residency (grounding capabilities in Vertex AI), databases (new features for Cloud SQL for MySQL, log-based metrics in Cloud Logging), networking (optimizing AI workloads, IPv6 Hybrid Connectivity), data analytics (Vector Search in BigQuery), and cost management (FinOps announcements). The newsletter concludes with resources for developers and practitioners, including the Cloud Innovators program.",
             "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-16-30-2024-edition-c5fb52d93f08?source=rss-802a4d428d95------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2024-07-01",
             "is_gcp": true,
             "is_technical": true,
@@ -56,9 +51,9 @@
         },
         {
             "title": "Google Cloud Platform Technology Nuggets — June 1–15, 2024 Edition",
-            "summary": "This newsletter edition covers Google Cloud Platform news and announcements from June 1-15, 2024. It focuses on areas like Infrastructure, Partners, Identity and Security, Containers and Kubernetes, Machine Learning, Storage and Databases, Data Analytics, Developers and Practitioners, DevOps and SRE, and Learn Google Cloud. The newsletter summarizes new features, product updates, security advisories, and learning opportunities, providing links to original blog posts for more details. It highlights the increasing integration of Generative AI across Google Cloud services and emphasizes the importance of continuous learning and adopting new technologies.",
+            "summary": "This newsletter edition covers Google Cloud Platform news from June 1-15, 2024, with a focus on infrastructure (Compute Engine cost savings, N4 and C4 machine series), partners (Gitlab integration), identity and security (encryption in BigQuery, Security Talks 2024), containers and Kubernetes (GKE Compliance), machine learning (Forrester Wave, Gemini integration, Vertex AI Model Monitoring), storage and databases (Cloud SQL for PostgreSQL 16, LangChain integrations, new features for Cloud SQL for MySQL, Oracle Database@Google Cloud), data analytics (sentiment analysis in BigQuery, BigQuery DataFrames, DataSageGen chatbot), developers and practitioners (Cloud Run for AI applications, myths about Platform Engineering), DevOps and SRE (reliable systems resources), and the Cloud Innovators program.",
             "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-june-1-15-2024-edition-36c5d2628984?source=rss-802a4d428d95------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2024-06-17",
             "is_gcp": true,
             "is_technical": true,
@@ -71,9 +66,9 @@
         },
         {
             "title": "Google Cloud Platform Technology Nuggets — May 16–31, 2024 Edition",
-            "summary": "This newsletter covers Google Cloud Platform updates from May 16-31, 2024, featuring news on Infrastructure, Containers and Kubernetes, Identity and Security, Networking, Machine Learning, Databases, Data Analytics, Developers and Practitioners, DevOps and SRE, and Learn Google Cloud.  It highlights key announcements like Google Cloud's response to the UniSuper incident, new cost-saving strategies for Compute Engine, improvements to GKE Security Posture Dashboard, and updates on Generative AI capabilities. The newsletter provides links to original blog posts for deeper insights and emphasizes the evolving nature of cloud technologies and their applications.",
+            "summary": "This newsletter edition covers Google Cloud Platform news from May 16-31, 2024. It highlights advancements across various services, including infrastructure (UniSuper incident, Compute Engine cost savings, Google Cloud investment in Africa), containers and Kubernetes (GKE Security Posture Dashboard enhancements), identity and security (CISO bulletins, secret management in CI/CD pipelines), networking (Global Front-End updates, Cloud NGFW and FQDN), machine learning (LLM tuning methods, game asset creation, grounding model results with Google Search, Ray on Vertex AI), databases (Cloud SQL extended support, pgvector and google_ml_integration extensions), data analytics (multimodal LLMs for marketing campaigns, RAG solution with BigQuery, numeric search indexes in BigQuery, Dataflow ML enhancements), developers and practitioners (Artifact Registry artifact sharing), DevOps and SRE (SLOs changes, Platform Engineering myths), and the Cloud Innovators program.",
             "url": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-may-16-31-2024-edition-8c5dfe87fcf5?source=rss-802a4d428d95------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2024-06-03",
             "is_gcp": true,
             "is_technical": true,
@@ -85,7 +80,7 @@
         },
         {
             "title": "A Tale of Two Functions : Function calling in Gemini",
-            "summary": "This article explains the concept of Function Calling in Gemini, a feature that allows large language models (LLMs) to interact with external tools and APIs. The author uses a hypothetical inventory application scenario to illustrate how function calling can be used to improve LLM responses by leveraging real-world data. He explains how the model can interpret user prompts, determine which function to invoke, and provide responses based on the data retrieved from the API. The article includes code samples in Java and points to a GitHub repository for further exploration.",
+            "summary": "This article explores the concept of function calling within the context of Generative AI, specifically focusing on its implementation using Google Cloud Vertex AI. The author describes the challenges of integrating foundation models with real-world data and how function calling offers a solution by allowing models to interact with external tools or APIs. The article provides a practical example using an inventory API and sample prompts to illustrate how the model can interpret user requests and invoke relevant functions. It further explores how the model determines which function to call and whether it will automatically invoke it or require user intervention. The article emphasizes the use of Java language for code samples and provides a link to a GitHub repository for further exploration.",
             "url": "https://medium.com/google-cloud/a-tale-of-two-functions-function-calling-in-gemini-9b7fd8ae031b?source=rss-802a4d428d95------2",
             "accuracy": 9,
             "publication_date": "2024-05-28",

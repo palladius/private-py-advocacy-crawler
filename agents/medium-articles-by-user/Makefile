@@ -14,30 +14,38 @@ deploy:
 clean:
 	rm -f inputs/*xml inputs/*txt
 
+scrape-all-googlers:
+	ruby scrape-all-googlers.rb | bash
+
 generate-useful-data:
 	# myself
 	MEDIUM_USER_ID=palladiusbonton LDAP=ricc ruby main.rb
 
 	# My advocacy team
-	LDAP=pvergadia  MEDIUM_USER_ID=pvergadia ruby main.rb
+	LDAP=pvergadia MEDIUM_USER_ID=pvergadia ruby main.rb
 	LDAP=romin MEDIUM_USER_ID=iromin ruby main.rb
-	LDAP=deleplace  MEDIUM_USER_ID=val_deleplace ruby main.rb
-	LDAP=glaforge  MEDIUM_USER_ID=glaforge ruby main.rb
-	LDAP=laupic  MEDIUM_USER_ID=PicardParis ruby main.rb
-	LDAP=alexismp  MEDIUM_USER_ID=alexismp ruby main.rb
-	LDAP=venema  MEDIUM_USER_ID=wietsevenema ruby main.rb
-	LDAP=marccohen  MEDIUM_USER_ID=mco-blog ruby main.rb
-	LDAP=rsamborski  MEDIUM_USER_ID=rsamborski ruby main.rb
+	LDAP=deleplace MEDIUM_USER_ID=val_deleplace ruby main.rb
+	LDAP=glaforge MEDIUM_USER_ID=glaforge ruby main.rb
+	LDAP=alexismp MEDIUM_USER_ID=alexismp ruby main.rb
+	LDAP=venema MEDIUM_USER_ID=wietsevenema ruby main.rb
+	LDAP=marccohen MEDIUM_USER_ID=mco-blog ruby main.rb
+	LDAP=rsamborski MEDIUM_USER_ID=rsamborski ruby main.rb
+
 	# Extended advocacy team
+	LDAP=zackakil MEDIUM_USER_ID=zackakil ruby main.rb
+	LDAP=kotwal MEDIUM_USER_ID=ankurkotwal ruby main.rb
+	LDAP=mokeefe MEDIUM_USER_ID=askmeegs ruby main.rb
+
 	# Aja
-	LDAP=ajahammerly  MEDIUM_USER_ID=thagomizer ruby main.rb
+	LDAP=ajahammerly MEDIUM_USER_ID=thagomizer ruby main.rb
+
 	# Kaz
-	LDAP=kazsato  MEDIUM_USER_ID=kazunori279 ruby main.rb
+	LDAP=kazsato MEDIUM_USER_ID=kazunori279 ruby main.rb
 	# Yoshi
-	LDAP=yoshifumi  MEDIUM_USER_ID=ymotongpoo ruby main.rb
+	LDAP=yoshifumi MEDIUM_USER_ID=ymotongpoo ruby main.rb
 
 	# My other Google friends who might blog about
-	LDAP=cstanger  MEDIUM_USER_ID=ch.stanger ruby main.rb
+	LDAP=cstanger MEDIUM_USER_ID=ch.stanger ruby main.rb
 
 	# Popular people
 	MEDIUM_USER_ID=dhh ruby main.rb
@@ -47,3 +55,6 @@ generate-useful-data:
 
 	# Random people - not affiliated to Google
 	MEDIUM_USER_ID=hasanaboulhasan ruby main.rb
+
+	LDAP=laupic MEDIUM_USER_ID=PicardParis ruby main.rb # problematic
+

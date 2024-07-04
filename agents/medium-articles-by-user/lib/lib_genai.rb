@@ -14,6 +14,8 @@ module LibGenai
       opts_max_content_size = opts.fetch :max_content_size, -1
       opts_verbose = opts.fetch :verbose, false
       opts_temperature = opts.fetch :temperature, false
+      opts_debug = opts.fetch :debug, false
+
 
       project_id, access_token = gcp_project_id_and_access_token()
       api_url = "https://us-central1-aiplatform.googleapis.com/v1/projects/#{project_id}/locations/us-central1/publishers/google/models/#{model_id}:streamGenerateContent"
@@ -80,17 +82,19 @@ module LibGenai
         #the_answer = 300
         # this is GEMINI!
         the_answer = '' # json_body[0]['candidates'][0]['content']
-        json_body.each do | jb1| # 39
+        json_body.each do |jb1| # 39
           # Sample:
           # JB1: {"candidates"=>[{"content"=>{"role"=>"model", "parts"=>[{"text"=>" GCP documentation and a GitHub repository for managing organizational structures.\",\n            \"url\": \"https://medium.com/google-cloud/how-to-migrate-projects-across-organizations-c7e254ab90af?source=rss-b5293b9691"}]}, "safetyRatings"=>[{"category"=>"HARM_CATEGORY_HATE_SPEECH", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.103748634, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.08314291}, {"category"=>"HARM_CATEGORY_DANGEROUS_CONTENT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.08079154, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.08866235}, {"category"=>"HARM_CATEGORY_HARASSMENT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.15546274, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.078078166}, {"category"=>"HARM_CATEGORY_SEXUALLY_EXPLICIT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.070176296, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.084341794}]}]}
           #
-          #puts("JB1.A: #{jb1}")
+          puts("♊ JB1.A: #{jb1}") if opts_debug
           cleaned_up_nth_response = jb1['candidates'][0]['content']['parts'][0]['text'] rescue ''
-          #puts("JB1.B: cleaned_up_nth_response: #{cleaned_up_nth_response}")
-          #puts("JB1.C: candidates size (should be 1, if not we need JB2): #{ jb1['candidates'].length }")
-          raise "More than 1 candidates! #{jb1['candidates'].length }" if jb1['candidates'].length  != 1
-          raise "More than 1 parts! #{jb1['candidates'][0]['content']['parts'].length }" if jb1['candidates'][0]['content']['parts'].length  != 1
-          #puts("JB1.d: Keys: #{jb1.keys}")
+          jb1_candidate_length = jb1['candidates'].length rescue -1
+          jb1_candidates_content_parts_length = jb1['candidates'][0]['content']['parts'].length rescue -1
+          puts("♊ JB1.B: cleaned_up_nth_response: #{cleaned_up_nth_response}") if opts_debug
+          puts("♊ JB1.C: candidates size (should be 1, if not we need JB2): #{ jb1_candidate_length }") if opts_debug
+          raise "More than 1 candidates! #{jb1_candidate_length }" if jb1_candidate_length  > 1
+          raise "More than 1 parts! #{jb1_candidates_content_parts_length }" if jb1_candidates_content_parts_length  > 1
+          puts("♊ JB1.d: Keys: #{jb1.keys}") if opts_debug
           the_answer << cleaned_up_nth_response  # + "\n?"
         end
         #puts("Candidate length: #{json_body[0]['candidates'].length}")

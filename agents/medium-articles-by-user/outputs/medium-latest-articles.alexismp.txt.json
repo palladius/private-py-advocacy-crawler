@@ -1,74 +1,159 @@
 ```json
 {
-    "prompt_version": "1.12",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Alexis MP",
-    "author_nationality": "NULL",
-    "author_style": "Informative, concise, Google Cloud focused",
-    "author_favorite_languages": "Python",
+    "author_nationality": "French",
+    "author_style": "Informative, enthusiastic, concise",
+    "author_favorite_languages": "Python, Ruby, C++",
     "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
-            "current": "TWiGCP",
-            "correct": "TWiGCP",
-            "url": "https://medium.com/google-cloud/twigcp-gke-autopilot-databricks-mongodb-partnerships-and-quite-a-bit-more-5cb02d2b9b86?source=rss-dbfb8e06b9f2------2"
+            "current": "2⁸",
+            "correct": "28",
+            "url": "https://medium.com/google-cloud/twigcp-tail-f-spanner-for-devs-monitor-ql-and-new-regions-fa6a6036795f?source=rss-dbfb8e06b9f2------2"
         },
         {
-            "current": "TWiGCP",
-            "correct": "TWiGCP",
-            "url": "https://medium.com/google-cloud/twigcp-bare-metal-sap-9tb-ssd-sigfox-and-python-commitment-bbd551b4f113?source=rss-dbfb8e06b9f2------2"
+            "current": "Borgmon",
+            "correct": "Borgman",
+            "url": "https://medium.com/google-cloud/twigcp-custom-dashboarding-introducing-dataproc-metastore-and-confidential-computing-partners-1c3fb0fabc07?source=rss-dbfb8e06b9f2------2"
         },
         {
-            "current": "TWiGCP",
-            "correct": "TWiGCP",
-            "url": "https://medium.com/google-cloud/twigcp-introducing-apigee-x-hpc-vms-datafusion-replication-and-assured-workloads-b25fe809f893?source=rss-dbfb8e06b9f2------2"
+            "current": "Akri, with Kate Goldenrin",
+            "correct": "Akri, with Kate Goldenring",
+            "url": "https://medium.com/google-cloud/twigcp-custom-dashboarding-introducing-dataproc-metastore-and-confidential-computing-partners-1c3fb0fabc07?source=rss-dbfb8e06b9f2------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "TWiGCP — “GKE Autopilot, Databricks & MongoDB partnerships, and quite a bit more”",
-            "summary": "This article summarizes the top Google Cloud Platform (GCP) stories for the week of March 1, 2021. It includes updates on GKE Autopilot, Databricks and MongoDB partnerships, BigQuery, Compute Engine, Service Directory, Cloud Domains, GKE multi-cluster services, BigQuery BI Engine, Terraform, Google Data Catalog, Cloud Network edge points, Private Service Connect, budgets, Workflows, Cloud Run, Dataproc, machine learning models, Cloud Monitoring, and more.",
+            "summary": "This article, TWiGCP, provides a summary of the top Google Cloud Platform (GCP) news from the week of March 1, 2021. The author highlights significant product announcements and updates, including the introduction of GKE Autopilot, new partnerships with Databricks and MongoDB, and updates to BigQuery, Compute Engine, and Cloud Domains. The article also features stories from the Google Cloud Community on Medium, covering topics such as deploying applications with Terraform and Kubernetes, monitoring Dataflow pipelines, and using Google Cloud Spanner with Node.js.",
             "url": "https://medium.com/google-cloud/twigcp-gke-autopilot-databricks-mongodb-partnerships-and-quite-a-bit-more-5cb02d2b9b86?source=rss-dbfb8e06b9f2------2",
             "accuracy": 9,
             "publication_date": "2021-03-01",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "gcp-weekly",
+                "google-cloud-platform"
+            ]
         },
         {
             "title": "TWiGCP — “Bare metal SAP, 9TB SSD, Sigfox, and Python commitment”",
-            "summary": "This article highlights top Google Cloud Platform (GCP) stories for the week of February 15, 2021, including the announcement of a new bare metal solution for running SAP workloads, N2 VMs with 9TB SSDs, a collaboration between Sigfox and Google Cloud, and Google's recommitment to the Python Software Foundation. The article also includes sections on Cloud Spanner, Cloud Run, Anthos, Workflows, Security Keys, data lineage, VM Manager, budgets, AIOT, geospatial data processing, Cloud Bigtable, and customer case studies.",
+            "summary": "TWiGCP, a weekly summary of Google Cloud news, focuses on the week of February 15, 2021. Key highlights include the launch of Google Cloud's Bare Metal Solution for SAP workloads, the introduction of N2 VMs with 9TB SSDs, and Google Cloud's partnership with Sigfox for IoT connectivity. The author also mentions Google Cloud's recommitment to the Python Software Foundation. The article further delves into topics like migrating to regional backend services, managing schema changes on Cloud Spanner, triggering Cloud Run actions on BigQuery events, and securing access to Google Service Accounts from Gitlab CI.",
             "url": "https://medium.com/google-cloud/twigcp-bare-metal-sap-9tb-ssd-sigfox-and-python-commitment-bbd551b4f113?source=rss-dbfb8e06b9f2------2",
-            "accuracy": 9,
+            "accuracy": 8,
             "publication_date": "2021-02-15",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "gcp-weekly"
+            ]
         },
         {
             "title": "TWiGCP — “Introducing Apigee X, HPC VMs, DataFusion replication, and Assured Workloads”",
-            "summary": "This article covers top Google Cloud Platform (GCP) stories for the week of February 8, 2021, including the introduction of Apigee X, new HPC VM images, real-time data integration for BigQuery with Cloud Data Fusion, and Assured Workloads support. The article also features sections on VPCs, DNS, IPs, cost control, machine learning, multicloud, Cloud Workflows, GPUs, and customer news.",
+            "summary": "This article, TWiGCP, provides a summary of top Google Cloud Platform (GCP) news for the week of February 8, 2021. The author highlights new product launches and updates, including the introduction of Apigee X, new HPC VM images, real-time data integration for BigQuery using Cloud Data Fusion, and Assured Workloads for compliance. The article also includes stories from the Google Cloud Community on Medium, exploring topics such as managing quotas in GCP, using Anthos for hybrid and multicloud deployments, and securing access to Google Service Accounts from Gitlab CI.",
             "url": "https://medium.com/google-cloud/twigcp-introducing-apigee-x-hpc-vms-datafusion-replication-and-assured-workloads-b25fe809f893?source=rss-dbfb8e06b9f2------2",
             "accuracy": 9,
             "publication_date": "2021-02-08",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "gcp-weekly",
+                "google-cloud-platform"
+            ]
         },
         {
             "title": "TWiGCP “Eventarc, Cloud SQL Insights, BeyondCorp Enterprise, Dialogflow CX, Cloud DNS policies…",
-            "summary": "This article highlights the top Google Cloud Platform (GCP) stories for the week of February 1, 2021, including the general availability of Eventarc, the introduction of Cloud SQL Insights, BeyondCorp Enterprise, Dialogflow CX, Cloud DNS response policies, and VM Manager. It also features sections on Cloud SQL, serverless computing, data processing, Cloud Build, Pub/Sub Lite, Cloud Storage, logging, networking, customer case studies, and multimedia resources.",
+            "summary": "TWiGCP, a weekly digest of Google Cloud Platform (GCP) news, focuses on the week of February 1, 2021. The article highlights the general availability of Eventarc, a unified eventing experience for GCP, and the introduction of several new features, including Cloud SQL Insights, BeyondCorp Enterprise, Dialogflow CX, and Cloud DNS response policies. It also delves into topics like using Cloud SQL Insights for performance troubleshooting, deploying to serverless platforms, and managing vulnerabilities in container images.",
             "url": "https://medium.com/google-cloud/twigcp-eventarc-cloud-sql-insights-beyondcorp-enterprise-dialogflow-cx-cloud-dns-policies-and-cd73dfe2920b?source=rss-dbfb8e06b9f2------2",
             "accuracy": 9,
             "publication_date": "2021-02-01",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "gcp-weekly",
+                "google-cloud-platform"
+            ]
         },
         {
             "title": "TWiGCP — “BigQuery UI updates, Cloud Run WebSockets, and hands-on Anthos bare-metal”",
-            "summary": "This article covers the top Google Cloud Platform (GCP) stories for the week of January 25, 2021, including updates to the BigQuery UI, WebSockets support for Cloud Run, a hands-on guide to Anthos on bare metal, and a discussion on designing a data security program in a cloud-native way. It also includes sections on serverless eventing, Anthos Service Mesh, disaster recovery, networking, mobile app development, and secure enclave hardware.",
+            "summary": "This article, TWiGCP, provides a summary of top Google Cloud Platform (GCP) news for the week of January 25, 2021. The author highlights new product updates and announcements, including UI improvements for BigQuery, the introduction of WebSockets, HTTP-2, and gRPC bidirectional streams for Cloud Run, and hands-on guides for working with Anthos on bare metal. The article also includes stories from the Google Cloud Community on Medium, covering topics such as serverless eventing, securing access to Google Service Accounts from Gitlab CI, and troubleshooting services on GKE.",
             "url": "https://medium.com/google-cloud/twigcp-bigquery-ui-updates-cloud-run-websockets-and-hands-on-anthos-bare-metal-ce92a366aee1?source=rss-dbfb8e06b9f2------2",
             "accuracy": 9,
             "publication_date": "2021-01-25",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "gcp-weekly"
+            ]
+        },
+        {
+            "title": "TWiGCP — “Ruby functions, Eventarc, a year of Google Research, and free training”",
+            "summary": "This TWiGCP article highlights Google Cloud Platform news for the week of January 18, 2021, including the addition of Ruby support for Cloud Functions, the general availability of Eventarc, and the release of a retrospective on Google Research in 2020. The author also features stories from the Google Cloud Community on Medium, exploring topics such as provisioning Cloud Run with Cloud NAT using Terraform, scheduling Cloud SQL for cost optimization, migrating applications between Kubernetes clusters, and implementing leader election on Google Cloud Storage.",
+            "url": "https://medium.com/google-cloud/twigcp-ruby-functions-eventarc-a-year-of-google-research-and-free-training-bf9cca59381f?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-01-18",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "gcp-weekly"
+            ]
+        },
+        {
+            "title": "TWiGCP — “tail -f, Spanner for devs, Monitor QL, and new regions”",
+            "summary": "This TWiGCP article summarizes Google Cloud Platform (GCP) news from the week of January 11, 2021. The author highlights new regions announced by Google Cloud, the introduction of Monitoring Query Language (MQL), real-time log searching capabilities for Cloud Logging, and new features for Cloud Spanner. The article also includes stories from the Google Cloud Community on Medium, exploring topics like routing TCP traffic with Traffic Director, parallelizing C++ applications using Pub/Sub and GKE, and managing VPC-SC violations using Data Studio.",
+            "url": "https://medium.com/google-cloud/twigcp-tail-f-spanner-for-devs-monitor-ql-and-new-regions-fa6a6036795f?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2021-01-11",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "gcp-weekly",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "TWiGCP — “Custom dashboarding, introducing Dataproc Metastore, and Confidential Computing partners”",
+            "summary": "This TWiGCP article covers Google Cloud Platform (GCP) news from the week of December 21, 2020. The author highlights new features for Cloud Monitoring, the introduction of Dataproc Metastore, and Google Cloud's partnership in the Confidential Computing space. The article also includes stories from the Google Cloud Community on Medium, exploring topics such as using Cloud Workflows, managing vulnerabilities in container images, and securing access to Google Service Accounts from Gitlab CI.",
+            "url": "https://medium.com/google-cloud/twigcp-custom-dashboarding-introducing-dataproc-metastore-and-confidential-computing-partners-1c3fb0fabc07?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2020-12-21",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "gcp-weekly"
+            ]
+        },
+        {
+            "title": "TWiGCP — “Welcoming Dataform, Dataproc Hub, and Cloud Run min-instances”",
+            "summary": "This TWiGCP article summarizes Google Cloud Platform (GCP) news from the week of December 14, 2020. The author highlights the introduction of Dataform, Dataproc Hub, and the min-instances feature for Cloud Run. The article also includes stories from the Google Cloud Community on Medium, exploring topics such as migrating Microsoft workloads to Google Cloud, using Pub/Sub for real-time analytics, and building faster machine learning Dataproc clusters.",
+            "url": "https://medium.com/google-cloud/twigcp-welcoming-dataform-dataproc-hub-and-cloud-run-min-instances-a5932104687b?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2020-12-14",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "gcp-weekly"
+            ]
+        },
+        {
+            "title": "TWiGCP — “Anthos on bare metal, Container Threat Detection, and Traffic Director beyond the cloud”",
+            "summary": "This TWiGCP article provides a roundup of Google Cloud Platform (GCP) news from the week of December 7, 2020. The author highlights the general availability of Anthos on bare metal and Container Threat Detection, the announcement of Google Cloud as a leader in the Gartner DBMS MQ, and the expansion of Traffic Director beyond Google Cloud. The article also includes stories from the Google Cloud Community on Medium, exploring topics such as using Cloud Workflows, securing and optimizing data pipelines for insights, and deploying to Microk8s with Anthos Config Management.",
+            "url": "https://medium.com/google-cloud/twigcp-anthos-on-bare-metal-container-threat-detection-and-traffic-director-beyond-the-cloud-6d78985dbc08?source=rss-dbfb8e06b9f2------2",
+            "accuracy": 9,
+            "publication_date": "2020-12-07",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "gcp-weekly",
+                "google-cloud-platform"
+            ]
         }
     ]
 }

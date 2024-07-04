@@ -1,65 +1,163 @@
 ```json
 {
-    "prompt_version": "1.13",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Aja Hammerly",
     "author_nationality": "American",
-    "author_style": "Conversational, explaining technical topics in simple terms",
+    "author_style": "Informal and engaging, with a focus on practical examples and relatable analogies",
     "author_favorite_languages": "Ruby, Python, JavaScript",
-    "author_favorite_cloud": "Google Cloud",
+    "author_favorite_cloud": "Google Cloud Platform",
     "typos": [
         {
-            "current": "in the standard way using Bundler and the Gemfile",
-            "correct": "in the standard way using Bundler and a Gemfile",
+            "current": "=&gt;",
+            "correct": "=>",
             "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2"
-        },
-        {
-            "current": "The double includes the methods I call in my function, initialize, create_task, and queue_path.",
-            "correct": "The double includes the methods I call in my function, `initialize`, `create_task`, and `queue_path`.",
-            "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2"
-        },
-        {
-            "current": "It doesn’t make sense to pay for frequent read access to my backups.",
-            "correct": "It doesn’t make sense to pay for frequent read access to my media backups.",
-            "url": "https://medium.com/@thagomizer/cleaning-up-time-machine-local-snapshots-a82719ebd397?source=rss-ef484db59f33------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Contact Tracing and Exposure Notification",
-            "summary": "The article explains how Google and Apple's joint effort on contact tracing API works. It dispels misconceptions, clarifies that location data is not used, and highlights the importance of consent for data sharing. The article emphasizes the use of Bluetooth for proximity detection and outlines the process of anonymized data sharing when a user is diagnosed with COVID-19. The main downside is the need for widespread adoption for effectiveness. The author expresses personal support for the technology and encourages readers to make informed decisions based on the information provided.",
+            "summary": "This article explains how Google and Apple's joint effort for contact tracing works, dispelling misconceptions about privacy and location data. It clarifies that the technology uses Bluetooth to anonymously track proximity to others and only shares data with consent. The author emphasizes the importance of widespread adoption for the app's effectiveness, highlighting its potential to inform individuals about possible COVID-19 exposure.",
             "url": "https://medium.com/@thagomizer/contact-tracing-and-exposure-notification-1f70517cef6b?source=rss-ef484db59f33------2",
             "accuracy": 9,
             "publication_date": "2020-05-26",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "technology",
+                "privacy",
+                "health",
+                "covid-19"
+            ]
         },
         {
             "title": "CatOps: Functions Framework, Cloud Tasks, and my cat",
-            "summary": "The article details a creative solution to prevent a cat from escaping by utilizing Google Cloud services. The author describes how they use a combination of Google Cloud Run, Ruby Functions Framework, and Cloud Tasks to automatically lock a door after a specified delay. The article provides a detailed explanation of the architecture, code implementation, and testing of the solution, while highlighting the challenges faced and the chosen approach. Despite the humorous and seemingly trivial use case, the author emphasizes the generalizability of the solution for various applications, including webhooks, email sending, and reminders.",
+            "summary": "This article details the author's humorous solution to their cat's door-opening escapades using Google Cloud technologies. It showcases the use of the Ruby Functions Framework, Cloud Run, and Cloud Tasks to lock the doors automatically after a specified delay. The author explains the architecture, code implementation, and testing process, emphasizing the flexibility and simplicity of using these services for various tasks beyond CatOps. While the use case is lighthearted, it provides valuable insights into the practical application of these technologies.",
             "url": "https://medium.com/google-cloud/catops-functions-framework-cloud-tasks-and-my-cat-7b32a0b71db6?source=rss-ef484db59f33------2",
             "accuracy": 9,
             "publication_date": "2020-04-22",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "ruby",
+                "programming",
+                "cloud-functions",
+                "cloud-tasks",
+                "cloud-run",
+                "iot"
+            ]
         },
         {
             "title": "Cleaning Up Time Machine Local Snapshots",
-            "summary": "The author shares their experience dealing with Time Machine local snapshots filling up their disk space. They describe the challenges they encountered, including the limitations of tmutil command in High Sierra. The article provides a step-by-step guide to cleaning up local snapshots using commands like `tmutil listlocalsnapshotdates` and `tmutil thinlocalsnapshots`. Additionally, the author suggests disabling automatic backups and updating Time Machine exclusions to prevent similar situations in the future. They also describe their offsite backup strategy using Google Cloud Storage, emphasizing the importance of cost-effective storage solutions for media backups.",
+            "summary": "This article describes the author's experience with Time Machine local snapshots filling up their Mac's disk space. It provides a step-by-step guide to clean up these snapshots using `tmutil` commands, addressing the limitations of the tool in High Sierra. The author also highlights the importance of understanding disk usage and excluding unnecessary files from backups. The article concludes with a suggestion to use Google Cloud Storage for offsite backups of media files, offering a practical solution for managing large media libraries.",
             "url": "https://medium.com/@thagomizer/cleaning-up-time-machine-local-snapshots-a82719ebd397?source=rss-ef484db59f33------2",
             "accuracy": 8,
             "publication_date": "2018-03-27",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "apple",
+                "backup",
+                "time-machine",
+                "google-cloud-storage",
+                "cloud-storage"
+            ]
         },
         {
             "title": "A Rubyist Learns List Comprehensions",
-            "summary": "This article focuses on the differences between Ruby and Python in terms of list comprehensions. The author, a Rubyist learning Python, explains how list comprehensions provide a concise and expressive way to generate lists in Python, unlike the more verbose chain of methods used in Ruby. The article provides a simple example of calculating squares of multiples of three, highlighting the difference between Ruby's Enumerable methods and Python's list comprehension syntax. Additionally, the author touches upon the usefulness of list comprehensions for generating pairwise combinations of lists, which can be challenging to achieve in Ruby with a single line of code.",
+            "summary": "This article explores the concept of list comprehensions in Python from a Rubyist's perspective. It compares the Ruby approach using Enumerable methods with the concise and expressive list comprehensions in Python. The author highlights the benefits of list comprehensions for generating pairwise combinations and emphasizes their intuitiveness, especially for tasks involving multiple lists or nested structures.",
             "url": "https://medium.com/@thagomizer/a-rubyist-learns-list-comprehensions-b911f765f0e4?source=rss-ef484db59f33------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2018-03-21",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "ruby",
+                "python",
+                "programming",
+                "list-comprehensions",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Testing In Production",
+            "summary": "This article advocates for running at least some integration tests against production environments to detect bugs that might not be caught in pre-production testing. It highlights a real-world example where a production test exposed an error in an external partner's response, preventing a potential outage. The author provides practical advice on tooling, test selection, and data management when conducting production testing. It emphasizes the importance of testing critical workflows and ensuring tests provide meaningful verification, ultimately enhancing the reliability of software systems.",
+            "url": "https://medium.com/@thagomizer/testing-in-production-65f164bf1850?source=rss-ef484db59f33------2",
+            "accuracy": 8,
+            "publication_date": "2018-03-11",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "production",
+                "devops",
+                "testing",
+                "software-engineering"
+            ]
+        },
+        {
+            "title": "The Toaster Parable",
+            "summary": "This article introduces the "Toaster Parable" to highlight the communication gap between developers who focus on technical details and users who simply want a functional outcome. It argues that providing in-depth explanations of technical concepts might not be beneficial for everyone, especially when users just need practical guidance. The author stresses the importance of understanding and catering to different perspectives to effectively reach a wider audience in the tech community, suggesting strategies for balancing technical depth with user-friendly explanations.",
+            "url": "https://medium.com/@thagomizer/the-toaster-parable-5f5a45c36069?source=rss-ef484db59f33------2",
+            "accuracy": 9,
+            "publication_date": "2018-01-18",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "tech-culture",
+                "documentation",
+                "developer-relations",
+                "communication",
+                "user-experience"
+            ]
+        },
+        {
+            "title": "Security Advice for GCS Buckets",
+            "summary": "This article provides practical security advice for Google Cloud Storage (GCS) buckets, emphasizing the importance of secure credential management, avoiding sensitive information in bucket names, and regularly auditing permissions and access control lists (ACLs). The author highlights common security vulnerabilities and explains how to mitigate them, encouraging users to follow Google Cloud's best practices for secure data storage. The article emphasizes the need for ongoing vigilance and proactive security measures to protect data in cloud environments.",
+            "url": "https://medium.com/google-cloud/security-advice-for-gcs-buckets-6a6e9825d49f?source=rss-ef484db59f33------2",
+            "accuracy": 9,
+            "publication_date": "2018-01-17",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "devops",
+                "security",
+                "cloud-storage",
+                "google-cloud-platform",
+                "data-security"
+            ]
+        },
+        {
+            "title": "Case Statement Magic",
+            "summary": "This article explores the flexibility and power of Ruby's `case` statement, showcasing its versatility beyond simple value comparisons. It demonstrates how to use ranges, regular expressions, and custom equality operators (`===`) within `case` statements. The author highlights the benefits of using `case` for multiway conditionals, comparing it to other branching constructs and demonstrating its elegance for expressing complex logic.",
+            "url": "https://medium.com/@thagomizer/case-statement-magic-127290532ce?source=rss-ef484db59f33------2",
+            "accuracy": 9,
+            "publication_date": "2018-01-11",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "programming",
+                "conditional",
+                "ruby",
+                "case-statement"
+            ]
+        },
+        {
+            "title": "GCP Audit Logs",
+            "summary": "This article emphasizes the importance of audit logging in GCP, focusing on Admin Activity Logs and Data Access Logs. It explains how to set up and utilize these logging features, providing practical guidance for understanding and interpreting log data. The author highlights the value of audit logs for security, compliance, and troubleshooting, urging developers to make audit logging a crucial part of their GCP project setup and maintenance.",
+            "url": "https://medium.com/google-cloud/gcp-audit-logs-9dffe2f6ed75?source=rss-ef484db59f33------2",
+            "accuracy": 8,
+            "publication_date": "2017-12-27",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "logging",
+                "google-cloud-platform",
+                "audit-logs",
+                "security",
+                "compliance"
+            ]
         }
     ]
 }

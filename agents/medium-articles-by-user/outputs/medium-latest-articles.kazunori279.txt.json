@@ -1,64 +1,90 @@
 ```json
 {
-    "prompt_version": "1.13",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Kaz Sato",
     "author_nationality": "Japanese",
-    "author_style": "Informal, conversational, enthusiastic",
-    "author_favorite_languages": "Python, JavaScript",
+    "author_style": "Informal, enthusiastic, practical",
+    "author_favorite_languages": "JavaScript, Python",
     "author_favorite_cloud": "Google Cloud Platform",
     "typos": [
+        {
+            "current": "chird",
+            "correct": "chdir",
+            "url": "https://medium.com/google-cloud/build-the-world-s-largest-iot-with-raspi-and-google-bigquery-169b332d02b1?source=rss-4b21e207ea2c------2"
+        },
         {
             "current": "precipIntencity",
             "correct": "precipIntensity",
             "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF-dcc54c6b41d0?source=rss-4b21e207ea2c------2"
+        },
+        {
+            "current": "NaN",
+            "correct": "NaN",
+            "url": "https://medium.com/@kazunori279/%E5%AF%9D%E3%81%8B%E3%81%97%E3%81%A4%E3%81%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-252852c6e0a3?source=rss-4b21e207ea2c------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "AutoML Vision と RasPi でリビングのいろいろな音を認識する",
-            "summary": "This article details building a sound recognition gadget using Raspberry Pi (RasPi) and Google Cloud AutoML Vision. It starts with collecting sound samples from various sources in the living room (e.g., doorbell, microwave, voices) and processing them into spectrograms.  These spectrograms are then uploaded to AutoML Vision for training, which automatically builds a model to recognize different sounds. The article describes the process of setting up RasPi for audio recording, using sox for audio manipulation and data augmentation, generating spectrograms, and finally, using AutoML Vision to train the model. It goes into detail about the accuracy of the model, latency, and cost of using AutoML Vision for real-time sound recognition. The author highlights the ease of use and high accuracy offered by AutoML Vision, making it accessible even for those without extensive machine learning expertise.",
+            "summary": "This article describes how to build a sound recognition gadget using RasPi, USB microphone, and Google Cloud AutoML Vision. It focuses on using AutoML Vision to create a machine learning model for sound recognition, leveraging spectrograms to transform audio into images. The author details the steps involved, including recording, labeling, and augmenting the audio data, creating spectrograms, and training the AutoML Vision model. The article discusses the challenges and solutions faced during the development process, including data augmentation, accuracy, latency, and cost. It also highlights the convenience and accessibility of using AutoML Vision for sound recognition, even without deep ML expertise.",
             "url": "https://medium.com/@kazunori279/automl-vision-%E3%81%A8-raspi-%E3%81%A7%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E3%81%AE%E3%81%84%E3%82%8D%E3%81%84%E3%82%8D%E3%81%AA%E9%9F%B3%E3%82%92%E8%AA%8D%E8%AD%98%E3%81%99%E3%82%8B-a9d5d6a1a1b9?source=rss-4b21e207ea2c------2",
             "accuracy": 8,
             "publication_date": "2019-01-08",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "machine-learning",
+                "iot",
+                "google-cloud-platform"
+            ]
         },
         {
             "title": "obniz でつくる指紋認証ドアロック",
-            "summary": "This article details building a fingerprint-based door lock using an obniz board, a fingerprint scanner, and IFTTT. The author uses the obniz board's UART API to control the fingerprint scanner, enabling it to register fingerprints and perform authentication. When a match is found, a webhook call is sent to IFTTT, which triggers a Switchbot to press the Qrio Lock's physical key, unlocking the door.  The article outlines the process of connecting the fingerprint scanner to obniz, creating a web interface for managing fingerprints, and integrating IFTTT to control the Qrio Lock. It discusses the pros and cons of this approach, emphasizing the convenience of hands-free unlocking while acknowledging the potential for delays and limitations in the technology.",
+            "summary": "This article details the process of creating a fingerprint-authenticated door lock system using obniz, a microcontroller board with built-in WiFi and JavaScript support. It describes the hardware components, including the obniz board, a fingerprint scanner, and a pressure sensor. The author outlines the steps involved in interfacing the fingerprint scanner with obniz, including creating custom code for communication and handling sensor data. The article then explains how to build a user interface for fingerprint registration, deletion, and authentication testing using HTML on obniz. It concludes by discussing the challenges and limitations of the system, such as latency, accuracy, and the need for a constant browser connection. The project is ultimately a practical example of applying IoT technology to everyday tasks.",
             "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E6%8C%87%E7%B4%8B%E8%AA%8D%E8%A8%BC%E3%83%89%E3%82%A2%E3%83%AD%E3%83%83%E3%82%AF-d5f14ab2297d?source=rss-4b21e207ea2c------2",
             "accuracy": 7,
             "publication_date": "2019-01-03",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "iot"
+            ]
         },
         {
             "title": "obniz でつくるウェザークロック",
-            "summary": "This article describes building two different weather clocks using obniz boards. The first clock displays current weather information obtained from the Dark Sky API via a jQuery ajax call. It parses the JSON response and displays weather data and icons on an OLED display. The second clock uses an Adafruit LED ring to represent weather conditions with different colors. Red indicates the hour hand, and other colors, such as blue for high precipitation probability and green for low cloud cover, represent the weather. The author details the process of connecting the LED ring to obniz, using LED drivers, and creating smooth transitions for the hands of the clock.  He concludes by describing how a brightness sensor and a photo frame enhance the final product.",
+            "summary": "This article documents the creation of two weather clocks using the obniz microcontroller board. The first clock utilizes the Dark Sky API to retrieve real-time weather data and displays it on an OLED screen. The second clock uses an LED ring to represent weather conditions, with color changes based on precipitation probability and cloud cover. The article details the code used to interface with both the Dark Sky API and the LED ring, highlighting the simplicity of using obniz for such projects. The author describes the process of constructing the LED ring and implementing color transitions for the clock hands. The article concludes with a discussion of the challenges faced, including brightness control and limitations of the sensors used. It serves as a guide for creating practical and creative IoT projects with obniz.",
             "url": "https://medium.com/@kazunori279/obniz-%E3%81%A7%E3%81%A4%E3%81%8F%E3%82%8B%E3%82%A6%E3%82%A7%E3%82%B6%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF-dcc54c6b41d0?source=rss-4b21e207ea2c------2",
             "accuracy": 8,
             "publication_date": "2018-12-27",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "iot"
+            ]
         },
         {
             "title": "寝かしつけについて",
-            "summary": "This article explores the challenges of putting a baby to sleep and attempts to recreate the process using an obniz board and TensorFlow.js.  The author uses an accelerometer attached to the obniz to record motion data during various simulated baby soothing techniques, like rocking, being held, and being tossed. This data is then fed into a TensorFlow.js model to train it to recognize different motion patterns associated with calming a baby. The article discusses the use of a 1-dimensional Convolutional Neural Network (CNN) for pattern recognition in the accelerometer data and emphasizes the ease of use and efficiency of TensorFlow.js for machine learning tasks. It ends with a humorous demonstration of the model's ability to identify and simulate different soothing methods.",
+            "summary": "This article humorously explores the challenges of putting a baby to sleep using obniz, a microcontroller board, and TensorFlow.js. The author uses a real-world scenario of a baby's fussy behavior to illustrate the potential of AI to automate the tedious task of sleep-inducing motion. The article outlines the steps involved in using obniz with an accelerometer to capture motion data and train a TensorFlow.js model to recognize different patterns of movement. The author discusses the complexities of data preprocessing and the selection of a 1-D CNN for recognizing patterns in time-series data. While the article acknowledges the limitations of the model due to small data size, it demonstrates the potential of AI to simplify and optimize common tasks.",
             "url": "https://medium.com/@kazunori279/%E5%AF%9D%E3%81%8B%E3%81%97%E3%81%A4%E3%81%91%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-252852c6e0a3?source=rss-4b21e207ea2c------2",
             "accuracy": 7,
             "publication_date": "2018-12-20",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "tensorflow",
+                "iot"
+            ]
         },
         {
             "title": "Build the world’s largest IoT with RasPi and Google BigQuery",
-            "summary": "This article showcases building a weather station using a Raspberry Pi (RasPi) and Google BigQuery for data storage and analysis. The author emphasizes the potential of this setup to create a massive IoT platform by leveraging BigQuery's ability to handle large-scale data processing and analysis.  The article explains how the RasPi collects weather metrics like temperature, humidity, and atmospheric pressure and sends them to BigQuery. It discusses the advantages of using BigQuery, including its scalability, low cost, and fully managed nature, which eliminates the need for extensive infrastructure management.  The article concludes with a call to action, encouraging readers to build their own weather stations and contribute to a larger IoT network.",
+            "summary": "This article explains how to create a large-scale IoT system using Raspberry Pi (RasPi) and Google BigQuery. The author details the process of building a weather station that collects data from sensors and sends it to Google BigQuery, a cloud-based data warehouse. By utilizing Google BigQuery's scalability and low cost, the author argues that it is feasible to build a global IoT network with millions of RasPi devices. The article provides a detailed breakdown of the components needed, including sensors, wiring, and software setup using Ansible for driver installation and Fluentd for data forwarding. It emphasizes the ease of use and cost-effectiveness of using Google BigQuery for managing large volumes of data. The article concludes by demonstrating how to access and visualize the collected data using Google Spreadsheet and its scripting capabilities.",
             "url": "https://medium.com/google-cloud/build-the-world-s-largest-iot-with-raspi-and-google-bigquery-169b332d02b1?source=rss-4b21e207ea2c------2",
             "accuracy": 9,
             "publication_date": "2015-07-17",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": []
         }
     ]
 }

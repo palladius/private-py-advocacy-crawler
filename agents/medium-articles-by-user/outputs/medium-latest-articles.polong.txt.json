@@ -1,0 +1,36 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Polong Lin",
+    "author_nationality": "NULL",
+    "author_style": "Informative and friendly",
+    "author_favorite_languages": "SQL",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "retail_commender",
+            "correct": "retail_recommender",
+            "url": "https://medium.com/google-cloud/how-to-build-a-recommendation-system-on-e-commerce-data-using-bigquery-ml-df9af2b8c110?source=rss-e72de348ba0f------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "How to build a recommendation system on e-commerce data using BigQuery ML",
+            "summary": "This article explains how to build a product recommendation system using BigQuery ML, a feature of Google Cloud Platform. It explores matrix factorization, a common approach for recommendation systems, and utilizes the Google Analytics Sample dataset. The article provides a detailed walkthrough of data preprocessing, model training using the CREATE MODEL statement, and model evaluation with ML.EVALUATE. It also covers hyperparameter tuning for optimization and prediction generation using ML.RECOMMEND. Finally, it discusses methods for using predicted recommendations in production, including exporting them for marketing activation, integration with Google Analytics 360 and Salesforce Marketing Cloud, and export options like BigQuery to Pandas and Cloud Storage. ",
+            "url": "https://medium.com/google-cloud/how-to-build-a-recommendation-system-on-e-commerce-data-using-bigquery-ml-df9af2b8c110?source=rss-e72de348ba0f------2",
+            "accuracy": 9,
+            "publication_date": "2020-07-13",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "ecommerce",
+                "data-science",
+                "recommendation-system",
+                "machine-learning",
+                "business"
+            ]
+        }
+    ]
+}
+```

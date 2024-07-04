@@ -164,16 +164,25 @@ def add_metadata_per_user(medium_user, user_email)
     end
 end
 
+def alles_gut(medium_user)
+    # making sure the LAST action touches a file which says all good
+    `touch outputs/medium-latest-articles.#{medium_user}.ok.touch`
+end
+
 def main()
     init()
     medium_user = ENV.fetch 'MEDIUM_USER_ID', 'palladiusbonton'
-    user_email = (ENV.fetch 'LDAP', 'nobody') + '@google.com'
+    #user_email = (ENV.fetch 'LDAP', 'nobody') + '@google.com'
+    ldap = ENV.fetch 'LDAP', nil
+    user_email = ldap ? "#{ldap}@google.com" : 'nobody@example.com'
     puts "Fetching from the internet Medium User: '#{medium_user}'"
     add_metadata_per_user(medium_user, user_email)
 
     fetch_from_medium(medium_user)
     call_api_for_single_user(medium_user)
 
+    # finnally
+    alles_gut(medium_user)
 end
 
 main()

@@ -5,33 +5,44 @@
     "author_name": "Remigiusz",
     "author_surname": "Samborski",
     "author_nationality": "Polish",
-    "author_style": "Informative and enthusiastic",
+    "author_style": "Informative, conversational, positive tone",
     "author_favorite_languages": null,
     "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
-            "current": " ",
-            "correct": "",
+            "current": " tools.",
+            "correct": " tools.",
             "url": "https://medium.com/@rsamborski/google-x-accenture-empowering-data-engineers-with-the-google-cloud-starter-academy-in-data-ai-05b526736bad?source=rss-adf81c1f37ee------2"
         },
         {
-            "current": "amp",
-            "correct": "&",
+            "current": " stars",
+            "correct": " stars",
+            "url": "https://medium.com/@rsamborski/google-x-accenture-empowering-data-engineers-with-the-google-cloud-starter-academy-in-data-ai-05b526736bad?source=rss-adf81c1f37ee------2"
+        },
+        {
+            "current": " program.",
+            "correct": " program.",
             "url": "https://medium.com/@rsamborski/google-x-accenture-empowering-data-engineers-with-the-google-cloud-starter-academy-in-data-ai-05b526736bad?source=rss-adf81c1f37ee------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Google x Accenture: Empowering Data Engineers with the Google Cloud Starter Academy in Data&AI",
-            "summary": "Accenture Poland, a Google Cloud Partner, organized a 3-week intensive program, \"Google Cloud Starter Academy in Data&AI\", to train students in data engineering and cloud computing. The program covered Google Cloud tools and technologies, data pipelines, and Google AI. It involved online lectures, hands-on labs, and workshops, culminating in a final project presentation. Participants shared positive feedback, praising the program's content, instructors, and practical learning experiences. Some top students were offered permanent roles at Accenture.",
+            "summary": "This article describes a partnership between Accenture and Google Cloud to create a training program for aspiring data engineers. The \"Google Cloud Starter Academy in Data&AI\" is a 3-week intensive program designed to equip students with the knowledge and skills needed to excel in data engineering careers. The program covers a wide range of Google Cloud tools and technologies, including BigQuery, Dataflow, Cloud Composer, and more. It emphasizes hands-on learning through labs and workshops, led by experienced Accenture instructors. The program concludes with a final project presentation and a graduation ceremony. The article highlights the success of the program, with participants expressing positive feedback and some being offered permanent jobs at Accenture. The author encourages readers to follow Accenture and Google Cloud on LinkedIn for information about similar programs in the future.",
             "url": "https://medium.com/@rsamborski/google-x-accenture-empowering-data-engineers-with-the-google-cloud-starter-academy-in-data-ai-05b526736bad?source=rss-adf81c1f37ee------2",
             "accuracy": 9,
             "publication_date": "2024-05-16",
             "is_gcp": true,
-            "is_technical": true,
+            "is_technical": false,
             "Categories": [
                 "google-cloud-platform",
-                "google-cloud"
+                "google-cloud",
+                "data-engineering",
+                "accenture",
+                "education",
+                "technology",
+                "careers",
+                "cloud-computing"
             ]
         }
     ]

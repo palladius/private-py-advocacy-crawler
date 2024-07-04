@@ -2,6 +2,7 @@
 
 import json
 
+import argparse
 from google.cloud import bigquery
 import datetime
 import zoneinfo # fot TZ
@@ -168,13 +169,22 @@ def load_article_data_into_bq(metadata_dict, articles_dict):
 
 def main():
     # Replace with the actual paths to your JSON files
-    metadata_file_path = "inputs/medium-latest-articles.palladiusbonton.metadata.json"
+    #metadata_file_path = "inputs/medium-latest-articles.palladiusbonton.metadata.json"
 #    articles_file_path = "inputs/medium-latest-articles.palladiusbonton.txt.json"
-    articles_file_path = "inputs/medium-latest-articles.palladiusbonton.txt.cleaned.json"
+    #articles_file_path = "inputs/medium-latest-articles.palladiusbonton.txt.cleaned.json"
+
+    parser = argparse.ArgumentParser(description="Load Medium Article data into BigQuery.")
+    parser.add_argument("--metadata", required=True, help="Path to the Medium Metadata JSON file.")
+    parser.add_argument("--articles", required=True, help="Path to the Medium Articles JSON file.")
+    args = parser.parse_args()
+
+    # main(args.metadata, args.articles)
 
     # Load data into dictionaries
-    metadata_dict = load_json_from_file(metadata_file_path)
-    articles_dict = load_json_from_file(articles_file_path)
+    metadata_dict = load_json_from_file(args.metadata)
+    articles_dict = load_json_from_file(args.articles)
+    # metadata_dict = load_json_from_file(metadata_file_path)
+    # articles_dict = load_json_from_file(articles_file_path)
 
     # Check if loading was successful
     if metadata_dict and articles_dict:

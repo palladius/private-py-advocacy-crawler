@@ -1,0 +1,73 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Megan O’Keefe",
+    "author_nationality": "American",
+    "author_style": "Friendly and informative, with a focus on practical advice.",
+    "author_favorite_languages": "Golang, JavaScript",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "tech\u00a0lead.at",
+            "correct": "tech lead at",
+            "url": "https://medium.com/@askmeegs/one-year-in-devrel-21b516fdaa05?source=rss-db638f78c20f------2"
+        },
+        {
+            "current": "kdpo alias",
+            "correct": "kubectl describe pod",
+            "url": "https://medium.com/@askmeegs/a-kubernetes-development-workflow-for-macos-8c41669a4518?source=rss-db638f78c20f------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "One Year in Cloud Developer Relations",
+            "summary": "Megan O’Keefe reflects on her first year as a Developer Relations engineer at Google Cloud, sharing key lessons learned and insights into the role. She emphasizes the importance of a willingness to learn new technologies, building strong relationships with colleagues, managing a demanding calendar, and striking a work-life balance. The article offers a relatable and honest account of the challenges and rewards of DevRel.",
+            "url": "https://medium.com/@askmeegs/one-year-in-devrel-21b516fdaa05?source=rss-db638f78c20f------2",
+            "accuracy": 9,
+            "publication_date": "2019-09-03",
+            "is_gcp": true,
+            "is_technical": false,
+            "Categories": [
+                "developer-relations",
+                "google-cloud-platform",
+                "developer",
+                "software-engineering",
+                "career-advice"
+            ]
+        },
+        {
+            "title": "Building My Own Notes App (Glitch, Kubernetes)",
+            "summary": "Megan O’Keefe shares her experience building a personal notes app using Glitch for the frontend and Kubernetes for the backend. She details her design choices, including using Firestore as a database and Golang for the backend server. The article provides a practical guide and highlights the benefits of using Glitch and Kubernetes for personal projects, offering insights into serverless development and containerization.",
+            "url": "https://medium.com/@askmeegs/building-my-own-notes-app-glitch-kubernetes-bdd340af46c7?source=rss-db638f78c20f------2",
+            "accuracy": 9,
+            "publication_date": "2019-05-21",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "kubernetes",
+                "firestore",
+                "web-development",
+                "golang",
+                "glitch"
+            ]
+        },
+        {
+            "title": "A Kubernetes Development Workflow for MacOS ",
+            "summary": "Megan O’Keefe outlines a streamlined Kubernetes development workflow for MacOS users. She shares her preferred tools and techniques for navigating clusters, managing YAML files, deploying applications, inspecting Docker images, and debugging pods. The article offers a comprehensive guide for developers looking to enhance their Kubernetes experience on MacOS, covering everything from terminal configuration to using skaffold for automated deployment.",
+            "url": "https://medium.com/@askmeegs/a-kubernetes-development-workflow-for-macos-8c41669a4518?source=rss-db638f78c20f------2",
+            "accuracy": 9,
+            "publication_date": "2019-01-24",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "docker",
+                "macos",
+                "kubernetes",
+                "kubectl",
+                "containers"
+            ]
+        }
+    ]
+}
+```

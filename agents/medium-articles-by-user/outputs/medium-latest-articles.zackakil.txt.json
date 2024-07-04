@@ -1,0 +1,174 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Zack Akil",
+    "author_nationality": "American",
+    "author_style": "Technical, conversational, enthusiast",
+    "author_favorite_languages": "Python, JavaScript",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "yadayadayada",
+            "correct": "yada yada yada",
+            "url": "https://medium.com/@zackakil/hobbies-to-hired-5-tips-for-making-great-portfolio-projects-to-land-your-first-tech-job-8c45aaeafd06?source=rss-5b7ea6e5016a------2"
+        },
+        {
+            "current": "it’s",
+            "correct": "it is",
+            "url": "https://medium.com/@zackakil/how-to-identify-innovative-ideas-with-the-technical-horizon-framework-f7c9c613682e?source=rss-5b7ea6e5016a------2"
+        },
+        {
+            "current": "“Shoehorn Innovation”",
+            "correct": "Shoehorning Innovation",
+            "url": "https://medium.com/@zackakil/how-to-identify-innovative-ideas-with-the-technical-horizon-framework-f7c9c613682e?source=rss-5b7ea6e5016a------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Hobbies to Hired: 5 tips for making great Portfolio Projects to Land Your First Tech Job",
+            "summary": "This article provides five actionable tips for building strong portfolio projects that showcase your skills and impress potential employers in the tech industry. The author emphasizes the importance of going \"off-trail\" with projects, working on projects that genuinely excite you, building many smaller projects, making your work instantly interactive, and presenting your work professionally with a polished README. The article highlights the need to demonstrate ownership of learning, showcase enthusiasm, and embrace the \"many and smaller\" approach to portfolio development.  Key takeaways include: choosing projects that align with hobbies and interests, avoiding hypothetical projects, prioritizing interactive and readily accessible work, and investing time in creating a visually appealing and informative README.",
+            "url": "https://medium.com/@zackakil/hobbies-to-hired-5-tips-for-making-great-portfolio-projects-to-land-your-first-tech-job-8c45aaeafd06?source=rss-5b7ea6e5016a------2",
+            "accuracy": 8,
+            "publication_date": "2024-04-14",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "portfolio",
+                "ai",
+                "junior-developer",
+                "tech",
+                "jobs"
+            ]
+        },
+        {
+            "title": "How to Identify Innovative Ideas with the Technical Horizon Framework",
+            "summary": "This article introduces the \"Technical Horizon Framework\" as a tool for identifying innovative ideas that are technically feasible and likely to be successful. The framework categorizes ideas based on their technological feasibility for consumers, developers, and researchers. Innovative ideas are those found at the edge of the technical horizon, where new technologies enable solutions to previously unsolvable problems. The author discusses the importance of staying informed about technological advancements and being mindful of \"shoehorn innovation\" where technology is used for its novelty rather than its suitability. Key takeaways include: focusing on ideas at the edge of your technical horizon, staying informed about emerging technologies, and prioritizing solutions that leverage technology appropriately.",
+            "url": "https://medium.com/@zackakil/how-to-identify-innovative-ideas-with-the-technical-horizon-framework-f7c9c613682e?source=rss-5b7ea6e5016a------2",
+            "accuracy": 9,
+            "publication_date": "2023-08-12",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "technology",
+                "innovation",
+                "ideas",
+                "management",
+                "ai"
+            ]
+        },
+        {
+            "title": "How I conquered writer's block with Google Assistant + Google Docs",
+            "summary": "The author describes overcoming writer's block by building a voice-based Google Assistant app that interviews him about his projects and generates a Google Doc with the transcribed text. This approach significantly reduces the friction of starting to write, eliminating the daunting task of staring at an empty document. The article details the technical challenges of authenticating Google Assistant with Google Docs and highlights the use of a Google Cloud Function as a webhook to write the transcribed text into a new Google Doc. The author also discusses potential future enhancements, such as incorporating machine learning for tweet generation and intelligent question adaptation. Key takeaways include: leveraging strengths to overcome weaknesses, utilizing voice technologies for content creation, and embracing Google Cloud services for seamless integration.",
+            "url": "https://medium.com/@zackakil/how-i-conquered-writers-block-with-google-assistant-google-docs-e327d18b52b?source=rss-5b7ea6e5016a------2",
+            "accuracy": 9,
+            "publication_date": "2021-07-30",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "writing",
+                "google-docs",
+                "google-cloud-platform",
+                "productivity",
+                "google-assistant"
+            ]
+        },
+        {
+            "title": "Safer cycling with ML and Edge TPU’s",
+            "summary": "This article describes a project using machine learning and a Coral Edge TPU to create a safer cycling experience. A Raspberry Pi, mounted on the bike, runs an object detection model on images from a rear-facing camera, detecting potential hazards like vehicles and pedestrians. The system then relays this information to the rider via an LED strip on the handlebars, allowing them to anticipate dangers while focusing on the road ahead. The author discusses the challenges of achieving low latency predictions with the Raspberry Pi and the benefits of using the Coral Edge TPU for increased performance. The article also explores the possibility of customizing the model for specific regional dangers, such as swooping birds in Australia, and the limitations of pretrained models when encountering objects not included in their training data. Key takeaways include: leveraging edge computing for low-latency applications, utilizing pretrained models for faster development, and acknowledging the limitations of pretrained models in specific scenarios.",
+            "url": "https://medium.com/@zackakil/safer-cycling-with-ml-and-edge-tpus-c4883a82dae9?source=rss-5b7ea6e5016a------2",
+            "accuracy": 8,
+            "publication_date": "2021-07-29",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "raspberry-pi",
+                "machine-learning",
+                "cycling",
+                "google",
+                "edge-computing"
+            ]
+        },
+        {
+            "title": "AppSheet + AppScript for sports videography highlights tracking",
+            "summary": "The author recounts his experience using AppSheet and AppScript to streamline highlight tracking for a rugby tournament.  He created an AppSheet app for quickly logging highlight timestamps during the event and then used AppScript to automate the process of finding corresponding video clips in Google Drive based on those timestamps. The article highlights the ease of use of AppSheet for creating data entry interfaces and the power of AppScript for automating tasks within Google Suite. The author also discusses challenges related to camera clock synchronization and the importance of understanding the behavior of Google Drive API methods.  Key takeaways include: leveraging no-code tools like AppSheet for rapid development, combining AppScript with Google Drive for efficient automation, and acknowledging the importance of careful testing and documentation.",
+            "url": "https://medium.com/@zackakil/appsheet-appscript-for-painless-sport-videography-1b40fdf9a47d?source=rss-5b7ea6e5016a------2",
+            "accuracy": 9,
+            "publication_date": "2021-07-28",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "productivity",
+                "appsheet",
+                "app-script",
+                "sports",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Using AI to automate phobia safe film production",
+            "summary": "The author describes using Google Cloud's Video Intelligence API and Transcoder API to create an automated video processing pipeline that detects and hides content triggering phobias. The system leverages label detection to identify potentially scary elements in a video and then utilizes transcoding to overlay those sections, creating a phobia-safe version. The article details the technical implementation, including the use of Cloud Storage Buckets and Cloud Functions for scalability. The author discusses the challenge of identifying phobias without a complex user interface and proposes a solution using the 'see no evil' emoji in filenames.  Key takeaways include: utilizing Google Cloud services for video processing and analysis, exploring innovative ways to integrate AI into video production workflows, and considering the accessibility and usability of AI-powered solutions.",
+            "url": "https://medium.com/@zackakil/using-ai-to-automate-phobia-safe-film-production-d57a2051f533?source=rss-5b7ea6e5016a------2",
+            "accuracy": 8,
+            "publication_date": "2021-07-27",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "machine-learning",
+                "machine-vision",
+                "google-cloud-platform",
+                "video-production",
+                "film"
+            ]
+        },
+        {
+            "title": "See what Video Intelligence API can do with this visualisation tool",
+            "summary": "The author introduces a visualization tool for the Google Cloud Video Intelligence API that allows users to explore its various features. The tool provides visual representations of video analysis results, including label detection, shot detection, object tracking, and more. The author outlines the API's capabilities and offers examples of real-world use cases. The article encourages users to experiment with the tool and analyze their own videos. Key takeaways include: utilizing the Video Intelligence API for video analysis, exploring the capabilities of the API through a visual interface, and leveraging the power of Google Cloud services for media-related tasks.",
+            "url": "https://medium.com/@zackakil/see-what-video-intelligence-api-can-do-with-this-visualisation-tool-4303e371505?source=rss-5b7ea6e5016a------2",
+            "accuracy": 9,
+            "publication_date": "2021-07-26",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "google-cloud",
+                "machine-vision",
+                "machine-learning",
+                "python"
+            ]
+        },
+        {
+            "title": "Zombies & Model Rot (with ML Engine + DataStore)",
+            "summary": "The author explains the concept of \"model rot\" in machine learning, where models become outdated due to changes in the data they are trained on or the environment they operate in. The article uses the fictional example of a zombie-predicting model to illustrate how model rot can occur and the importance of monitoring and updating models. The author outlines a solution using Google Cloud Platform services, including ML Engine for model deployment, DataStore for storing feedback data, and Cloud Functions for creating web APIs.  The article emphasizes the importance of collecting feedback data, analyzing it to identify model rot, retraining the model with updated data, and deploying new versions for seamless updates. Key takeaways include: understanding the concept of model rot, utilizing Google Cloud services for model deployment and feedback collection, analyzing feedback data to identify performance issues, and retraining models with updated data for continued accuracy.",
+            "url": "https://towardsdatascience.com/zombies-model-rot-with-ml-engine-datastore-747b299526e9?source=rss-5b7ea6e5016a------2",
+            "accuracy": 9,
+            "publication_date": "2018-10-24",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "machine-learning",
+                "cloud-computing",
+                "zombies",
+                "big-data",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "TensorFlow & reflective tape : why I’m bad at basketball ",
+            "summary": "The author humorously recounts his attempts to improve his basketball skills by applying machine learning. The article focuses on using TensorFlow to analyze basketball shot trajectories and potentially predict shot outcomes. The author describes the process of collecting data by attaching reflective tape to a basketball and using a camera to capture its movement.  The article highlights the potential of combining machine learning with sports for data-driven insights and performance improvement. Key takeaways include: applying machine learning to sports-related problems, exploring the use of TensorFlow for motion analysis, and considering the potential for data-driven performance enhancement.",
+            "url": "https://towardsdatascience.com/tensorflow-reflective-tape-why-im-bad-at-basketball-a30a923332de?source=rss-5b7ea6e5016a------2",
+            "accuracy": 8,
+            "publication_date": "2018-10-05",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "basketball",
+                "tensorflow",
+                "sports",
+                "data-science",
+                "machine-learning"
+            ]
+        }
+    ]
+}
+```

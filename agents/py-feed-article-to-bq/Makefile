@@ -8,8 +8,21 @@ install:
 test-riccardo:
 	# ensure called with virtualenv :)
 	.venv/bin/python3 main.py \
-		"inputs/medium-latest-articles.palladiusbonton.metadata.json" \
-		"inputs/medium-latest-articles.palladiusbonton.txt.cleaned.json"
+		--metadata "inputs/medium-latest-articles.palladiusbonton.metadata.json" \
+		--articles "inputs/medium-latest-articles.palladiusbonton.txt.cleaned.json"
+
+populate-all-devrellers:
+	./populate-all.sh
+
+populate-some-devrellers:
+	./populate-by-medium-user.sh glaforge
+	./populate-by-medium-user.sh rsamborski
+	./populate-by-medium-user.sh palladiusbonton
+	./populate-by-medium-user.sh iromin
+
+problematics:
+	./populate-by-medium-user.sh val_deleplace
+	./populate-by-medium-user.sh wietsevenema
 
 auth:
 	gcloud auth login

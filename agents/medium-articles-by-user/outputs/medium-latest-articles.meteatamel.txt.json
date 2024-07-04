@@ -1,0 +1,149 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Mete Atamel",
+    "author_nationality": "Turkish",
+    "author_style": "Informative, concise, technical",
+    "author_favorite_languages": "Python, Node.js, Java, C#, Go",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "meteatamel",
+            "correct": "@meteatamel",
+            "url": "https://medium.com/google-cloud/grounding-llms-with-your-own-data-using-vertex-ai-search-eb7a008b025f?source=rss-6444b44155fa------2"
+        },
+        {
+            "current": "opentrivia-llm-testing",
+            "correct": "opentdb-llm-testing",
+            "url": "https://medium.com/google-cloud/give-your-llm-a-quick-lie-detector-test-97922d247c81?source=rss-6444b44155fa------2"
+        },
+        {
+            "current": "asyncapi-basics",
+            "correct": "asyncapi-samples",
+            "url": "https://medium.com/google-cloud/asyncapi-gets-a-new-version-3-0-and-new-operations-013dd1d6265b?source=rss-6444b44155fa------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Grounding LLMs with your own data using Vertex AI Search",
+            "summary": "This article explores how to ground Large Language Models (LLMs) with private data using Vertex AI Search. The author demonstrates a use case involving a fictitious vehicle's user manual. They show how to upload a PDF to Cloud Storage, create a datastore, and set up a search app. By enabling grounding with Vertex AI Search, the LLM can accurately answer questions about the vehicle, even though it wasn't trained on the manual.",
+            "url": "https://medium.com/google-cloud/grounding-llms-with-your-own-data-using-vertex-ai-search-eb7a008b025f?source=rss-6444b44155fa------2",
+            "accuracy": 9,
+            "publication_date": "2024-07-01",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "generative-ai-tools",
+                "software-development"
+            ]
+        },
+        {
+            "title": "Give your LLM a quick lie detector test",
+            "summary": "This article presents a simple approach to testing the accuracy of LLMs. The author uses the Open Trivia database, a free-to-use trivia question database, to design a test question and measure the LLM's ability to identify the correct answer. The test involves asking the LLM to find the correct answer from a list of shuffled options. The author then compares the LLM's responses to the verified answers in the dataset, measuring the accuracy. While the test is not scientifically rigorous, it provides a practical way to gauge an LLM's trustworthiness.",
+            "url": "https://medium.com/google-cloud/give-your-llm-a-quick-lie-detector-test-97922d247c81?source=rss-6444b44155fa------2",
+            "accuracy": 8,
+            "publication_date": "2024-06-06",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "generative-ai-tools",
+                "google-cloud-platform",
+                "software-development"
+            ]
+        },
+        {
+            "title": "AsyncAPI gets a new version 3.0 and new operations",
+            "summary": "This article revisits the author's previous blog post on AsyncAPI 2.6 and explores the changes introduced in version 3.0, particularly the new send and receive operations. The author discusses the rationale behind the transition from publish/subscribe to send/receive, highlighting the potential confusion surrounding the previous operations. The article uses a simple example of two microservices, Account Service and Email Service, to demonstrate how to define the architecture in both versions of AsyncAPI.",
+            "url": "https://medium.com/google-cloud/asyncapi-gets-a-new-version-3-0-and-new-operations-013dd1d6265b?source=rss-6444b44155fa------2",
+            "accuracy": 9,
+            "publication_date": "2024-05-13",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "software-development",
+                "software-engineering",
+                "open-source",
+                "event-driven-architecture"
+            ]
+        },
+        {
+            "title": "A tour of Gemini 1.5 Pro samples",
+            "summary": "This article provides a tour of various samples showcasing the capabilities of Gemini 1.5 Pro in different use cases and programming languages. The author demonstrates how to leverage Gemini's multimodal nature, including its ability to process audio, video, images, and text. Samples are provided for summarizing audio files, transcribing audio, describing videos, and handling PDF files. The article concludes by highlighting Gemini 1.5 Pro's support for system instructions.",
+            "url": "https://medium.com/google-cloud/a-tour-of-gemini-1-5-pro-samples-da48e3c907b3?source=rss-6444b44155fa------2",
+            "accuracy": 10,
+            "publication_date": "2024-05-07",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "software-engineering",
+                "google-cloud-platform",
+                "gemini",
+                "genai",
+                "software-development"
+            ]
+        },
+        {
+            "title": "C# and Vertex AI Gemini streaming API bug and workaround",
+            "summary": "This article addresses a bug encountered when using the Vertex AI Gemini streaming API with C#. The author describes an intermittent System.IO.IOException error that occurs with the Gemini 1.5 model. The root cause is identified as a bug in the interaction between the .NET gRPC client and the Google L7 load balancer. The author provides workarounds for the issue, including disabling dynamic window sizing and using Grpc.Core instead of Grpc.Net.Client. The article concludes by highlighting the upcoming permanent fix in .NET 9, .NET 8, and backported to previous versions.",
+            "url": "https://medium.com/google-cloud/c-and-vertex-ai-gemini-streaming-api-bug-and-workaround-dd5eb61f1f8e?source=rss-6444b44155fa------2",
+            "accuracy": 9,
+            "publication_date": "2024-05-01",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "software-development",
+                "gemini",
+                "dotnet",
+                "grpc",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "A Tour of Gemini Code Assist — Slides and Demos",
+            "summary": "This article provides a brief overview of a talk the author gave on Gemini Code Assist. The talk covered an introduction to Generative AI and Gemini, followed by several hands-on demos showcasing different features of Gemini Code Assist. The author used the Cloud Code IDE plugin in Visual Studio Code to demonstrate how to design, create, explain, run, generate, test, transform, and understand logs using Gemini.",
+            "url": "https://medium.com/google-cloud/a-tour-of-gemini-code-assist-slides-and-demos-dbe00fc109c7?source=rss-6444b44155fa------2",
+            "accuracy": 7,
+            "publication_date": "2024-04-24",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "software-development",
+                "genai"
+            ]
+        },
+        {
+            "title": "Vertex AI Gemini generateContent (non-streaming) API",
+            "summary": "This article explores the non-streaming generateContent API available in Vertex AI for interacting with Gemini models. The author contrasts it with the streaming streamGenerateContent method, highlighting the advantages of the non-streaming approach when latency is not critical. The article provides code examples using cURL to demonstrate the usage of both APIs and discusses the differences in response structure, emphasizing the simplicity of processing the full response in a single chunk with generateContent.",
+            "url": "https://medium.com/google-cloud/vertex-ai-gemini-generatecontent-non-streaming-api-3c4965f33cf8?source=rss-6444b44155fa------2",
+            "accuracy": 9,
+            "publication_date": "2024-02-26",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "generative-ai-tools",
+                "vertex-ai",
+                "gemini"
+            ]
+        },
+        {
+            "title": "Using Vertex AI Gemini from GAPIC libraries (C#)",
+            "summary": "This article demonstrates how to utilize Vertex AI's Gemini model from GAPIC libraries, specifically using C# as an example. The author explains the concept of GAPIC (Google API CodeGen), which provides auto-generated libraries for accessing Google Cloud services. The article compares the use of GAPIC libraries with the REST API, highlighting the pros and cons of each approach. The author recommends using hand-written SDKs over GAPIC when available, but for languages without SDK support, GAPIC offers an alternative.",
+            "url": "https://medium.com/google-cloud/using-vertex-ai-gemini-from-gapic-libraries-c-390ee4066002?source=rss-6444b44155fa------2",
+            "accuracy": 8,
+            "publication_date": "2024-02-14",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "generative-ai-tools",
+                "software-development",
+                "software-architecture"
+            ]
+        }
+    ]
+}
+```
