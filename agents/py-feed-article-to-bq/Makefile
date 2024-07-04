@@ -6,5 +6,7 @@ install:
 
 
 test-riccardo:
-	./main.py "inputs/medium-latest-articles.palladiusbonton.metadata.json" \
+	# ensure called with virtualenv :)
+	.venv/bin/python3 main.py \
+		"inputs/medium-latest-articles.palladiusbonton.metadata.json" \
 		"inputs/medium-latest-articles.palladiusbonton.txt.cleaned.json"

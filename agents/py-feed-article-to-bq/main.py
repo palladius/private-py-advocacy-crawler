@@ -84,7 +84,14 @@ def load_article_data_into_bq(metadata_dict, articles_dict):
     # Construct the rows to insert
     client = bigquery.Client(project=ProjectId)
 
-    table_id = f"{ProjectId}.ose_colta_insights.medium_articles_data"
+    table_id = f"{ProjectId}.ose_volta_insights.medium_articles_data"
+
+
+    table = bigquery.Table(table_id, schema=schema)
+    table = client.create_table(table)
+
+    print(f"Created table {table.project}.{table.dataset_id}.{table.table_id}") # expand_more
+
 
     # Construct the rows to insert
     rows_to_insert = []
@@ -127,6 +134,8 @@ def main():
 
         print("\nArticles:")
         print(articles_dict)
+
+        load_article_data_into_bq(metadata_dict, articles_dict)
     else:
         print("Error loading JSON data. Please check the file paths and contents.")
 
