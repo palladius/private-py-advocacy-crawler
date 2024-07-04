@@ -1,64 +1,168 @@
 ```json
 {
-    "prompt_version": "1.12",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Val Deleplace",
     "author_nationality": "French",
-    "author_style": "Informative and practical, focusing on efficiency and optimization",
+    "author_style": "Informative, conversational, engaging",
     "author_favorite_languages": "Go",
     "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
-            "current": "caught my attention me",
-            "correct": "caught my attention",
+            "current": "me",
+            "correct": "my",
             "url": "https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d?source=rss-5c7fb9360a28------2"
+        },
+        {
+            "current": "The last gotcha caught my attention me",
+            "correct": "The last gotcha caught my attention",
+            "url": "https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d?source=rss-5c7fb9360a28------2"
+        },
+        {
+            "current": "Spikes last longer than usual",
+            "correct": "Spikes last longer than usual,",
+            "url": "https://medium.com/google-cloud/app-engine-under-heavy-load-8fa40a33d531?source=rss-5c7fb9360a28------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Go slices, deleting items, and memory usage",
-            "summary": "This article discusses the memory implications of deleting elements from Go slices using the `slices.Delete` function. The author highlights that while the function modifies the slice in-place, it doesn't shrink the underlying array, potentially leaving pointers to large objects alive in an inaccessible part of the array. This can lead to memory leaks and performance issues. The author proposes a solution where the deleted elements are zeroed, allowing for proper garbage collection. The article also delves into backward compatibility considerations and the updated documentation for `slices.Delete`.",
+            "summary": "This article dives into the intricacies of using Go's `slices.Delete` function, highlighting its memory usage implications. It discusses the potential memory leak that occurred in Go 1.21 due to uncollected pointers after deletion, and how the author proposed and implemented a fix for this issue in Go 1.22. The author emphasizes the importance of understanding the in-place modification behavior of `slices.Delete` and the consequences of ignoring its return value. The article concludes by underscoring the value of writing code that is frugal with memory and minimizes the risk of Out of Memory errors in cloud applications.",
             "url": "https://medium.com/google-cloud/go-slices-deleting-items-and-memory-usage-81419317db3d?source=rss-5c7fb9360a28------2",
-            "accuracy": 9,
+            "accuracy": 10,
             "publication_date": "2024-03-04",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "memory-leak",
+                "golang",
+                "go",
+                "gcp-app-dev",
+                "memory-management"
+            ]
         },
         {
             "title": "Pixel guessing : using Gemini Pro Vision with Go",
-            "summary": "The author explores the capabilities of Gemini Pro Vision, a multimodal AI model, in recognizing images at low resolution. The article demonstrates how to call the Google Cloud Vertex AI API from Go code using the new Go SDK. The author showcases a simple demo application where users can upload an image, which is then pixelated and sent to the Gemini Pro Vision model for content recognition. The article covers the necessary setup steps, including project creation, API enablement, and installing the Google Cloud SDK. It also discusses the frontend and backend architecture, showcasing code snippets for image resizing and API interaction.",
+            "summary": "This article explores the capabilities of Google's Gemini Pro Vision model for image recognition, particularly in low-resolution settings. The author demonstrates how to use the Go SDK to access the Vertex AI service and leverage Gemini Pro Vision to analyze pixelated images. The article showcases a demo application built with a Frontend and Backend, allowing users to upload images, resize them to different resolutions, and query the model for object identification. The author highlights the benefits of using Duet AI for code generation and completion, simplifying the development process. The article concludes with a call to action, encouraging readers to experiment with multimodal AI models and explore the potential applications in various domains.",
             "url": "https://medium.com/google-cloud/pixel-guessing-using-gemini-pro-vision-with-go-26f1beac3cf2?source=rss-5c7fb9360a28------2",
-            "accuracy": 9,
+            "accuracy": 10,
             "publication_date": "2024-01-25",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "machine-learning",
+                "golang",
+                "computer-vision",
+                "gemini"
+            ]
         },
         {
             "title": "Cutting cost: stopping the Cloud SQL instance is not enough!",
-            "summary": "This article discusses the cost implications of stopping a Cloud SQL instance, specifically in cases where the instance has a public IP address. The author points out that even after stopping the instance, the IP address remains reserved, incurring a monthly cost. This unexpected cost can be a significant factor in cloud billing, especially when the instance is used infrequently. The article recommends deleting the instance altogether to avoid any recurring charges.",
+            "summary": "This article examines the hidden costs associated with stopping a Google Cloud SQL instance. While stopping an instance may seem like a cost-saving measure, the author reveals that reserving the public IP address for the stopped instance still incurs a monthly fee. To fully eliminate the cost, the author recommends deleting the instance altogether after migrating data to BigQuery. This article emphasizes the importance of understanding the billing nuances of Google Cloud services and encourages readers to explore cost-optimization strategies for their projects.",
             "url": "https://medium.com/google-cloud/cutting-cost-stopping-the-cloud-sql-instance-is-not-enough-c7e0bfe63e4d?source=rss-5c7fb9360a28------2",
-            "accuracy": 8,
+            "accuracy": 10,
             "publication_date": "2023-03-08",
             "is_gcp": true,
-            "is_technical": false
+            "is_technical": true,
+            "Categories": [
+                "cloud-computing",
+                "google-cloud-platform",
+                "google-cloud-sql",
+                "gcp-security-operations",
+                "cloud-billing"
+            ]
         },
         {
             "title": "Cost of a bool slice in Go",
-            "summary": "The author explores the memory usage of boolean slices in Go. While Go uses bytes as the smallest addressable unit, a boolean slice takes up 1 byte per boolean, resulting in an 8x overhead. The article explains that this overhead is due to the way Go manages memory and the requirement for individual bytes to be addressable. The author recommends using bitsets for situations where memory efficiency is crucial.",
+            "summary": "This article examines the memory usage of a slice of booleans in Go. The author explains that while each bool value only requires a single bit of storage, due to the byte-oriented memory addressing in Go, each bool actually occupies an entire byte, resulting in an 8x overhead. The article highlights the inefficiency of using a simple bool slice for storing large sets of boolean values and suggests exploring more compact alternatives like bitsets for optimizing memory consumption.",
             "url": "https://medium.com/@val_deleplace/cost-of-a-bool-slice-in-go-b7d7ba1d6dda?source=rss-5c7fb9360a28------2",
-            "accuracy": 9,
+            "accuracy": 10,
             "publication_date": "2020-08-17",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "bitset",
+                "golang",
+                "data-structures",
+                "memory-improvement"
+            ]
         },
         {
             "title": "7 ways to implement a Bit set in Go",
-            "summary": "This article provides a comprehensive guide to implementing bitsets in Go, highlighting various methods and their trade-offs in terms of memory efficiency and performance. The author introduces the Bitset interface, defining essential methods like `GetBit`, `SetBit`, and `Len`. The article then explores 7 concrete implementations, including slice of booleans, map of booleans, big integers, slice of bytes, and slice of 64-bit integers. Each implementation is explained with code snippets and analyzed for its memory compactness and performance characteristics. The article also includes benchmark results to compare the different approaches, providing insights into the best choices for different scenarios.",
+            "summary": "This article explores various approaches to implementing a Bitset data structure in Go. The author presents seven distinct implementations using different underlying data types, including slices of booleans, maps, big integers, and slices of bytes and 64-bit integers. Each implementation is analyzed in terms of its compactness, performance, and suitability for different use cases. The article also includes a detailed benchmark comparing the performance of different implementations for read and write operations. The author concludes by recommending the use of slices of booleans as a simple, efficient, and readily understandable Bitset implementation.",
             "url": "https://medium.com/@val_deleplace/7-ways-to-implement-a-bit-set-in-go-91650229b386?source=rss-5c7fb9360a28------2",
-            "accuracy": 9,
+            "accuracy": 10,
             "publication_date": "2020-08-17",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "bitset",
+                "golang",
+                "performance",
+                "benchmark",
+                "data-structures"
+            ]
+        },
+        {
+            "title": "App Engine under heavy load",
+            "summary": "This article recounts the author's experience with a sudden traffic spike on their App Engine Standard application caused by a feature on their website being highlighted on Hacker News. The author details the steps they took to diagnose the issue, including monitoring the requests per second, instance count, and logging information. They also discuss the infrastructure components used for the website, highlighting the scalability of App Engine and Datastore. The article emphasizes the importance of performance optimization and caching strategies, and explores the impact of the spike on various performance metrics. The author concludes by reflecting on the value of Google Cloud's autoscaling capabilities and the financial implications of handling unexpected traffic surges.",
+            "url": "https://medium.com/@val_deleplace/app-engine-under-heavy-load-8fa40a33d531?source=rss-5c7fb9360a28------2",
+            "accuracy": 10,
+            "publication_date": "2020-02-28",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "bigquery",
+                "google-app-engine",
+                "google-cloud-platform",
+                "memorystore",
+                "xss-vulnerability"
+            ]
+        },
+        {
+            "title": "Tiny evil factor",
+            "summary": "This article delves into the concept of logarithmic factors in big-O notation, particularly the "log n" factor. The author argues that while logarithmic factors are often disregarded due to their slow growth, they can significantly impact real-world performance. The article provides a rule of thumb for estimating the impact of "log n" factors and emphasizes the importance of considering constant factors in performance analysis. The author concludes by suggesting that while big-O analysis is valuable, it should not be relied upon solely, as constant factors can have a significant influence on actual performance.",
+            "url": "https://medium.com/@val_deleplace/tiny-evil-factor-46a34d5e5b60?source=rss-5c7fb9360a28------2",
+            "accuracy": 10,
+            "publication_date": "2019-12-11",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "programming",
+                "algorithms",
+                "big-o-notation",
+                "computer-science"
+            ]
+        },
+        {
+            "title": "A sample of source transformation of Go code",
+            "summary": "This article demonstrates the use of `gofmt` for automated source code transformation in Go. The author describes a scenario where they want to replace a non-idiomatic use of `strings.Index` with the more concise `strings.Contains`. They show how to use `gofmt`'s `-w` and `-r` flags to perform this transformation across an entire codebase, effectively replacing specific code patterns with desired equivalents. This article highlights the capabilities of `gofmt` beyond its traditional formatting role, emphasizing its usefulness for automated code refactoring.",
+            "url": "https://medium.com/@val_deleplace/a-sample-of-source-transformation-of-go-code-c96a6ab2b47c?source=rss-5c7fb9360a28------2",
+            "accuracy": 10,
+            "publication_date": "2019-10-17",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "golang",
+                "programming"
+            ]
+        },
+        {
+            "title": "Surviving traffic spike from Hacker News: my dreaded Google Cloud invoice",
+            "summary": "This article recounts the author's experience with a sudden surge in traffic to their website, "Programming Idioms," after it was featured on Hacker News. The author details the unexpected traffic increase, the website's infrastructure components (App Engine, Datastore, Memcache), and the performance optimization techniques implemented. The article explores the author's monitoring efforts, including reviewing logging information and performance dashboards, and highlights the challenges of maintaining service quality under high load. The author concludes by reflecting on the financial implications of handling unexpected traffic spikes and emphasizing the importance of scalable infrastructure design.",
+            "url": "https://medium.com/@val_deleplace/surviving-traffic-spike-from-hacker-news-my-dreaded-google-cloud-invoice-6b940dd9eba6?source=rss-5c7fb9360a28------2",
+            "accuracy": 10,
+            "publication_date": "2019-10-09",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "scalability",
+                "app-engine",
+                "google-cloud-platform",
+                "golang",
+                "hacker-news"
+            ]
         }
     ]
 }

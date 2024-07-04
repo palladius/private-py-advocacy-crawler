@@ -1,51 +1,162 @@
 ```json
 {
-    "prompt_version": "1.12",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Guillaume Laforge",
-    "author_nationality": "French",
-    "author_style": "Technical, informative, and enthusiastic.",
-    "author_favorite_languages": "Java, Groovy",
+    "author_nationality": "Belgian",
+    "author_style": "Technical and informative, using concise language.",
+    "author_favorite_languages": "Java",
     "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
             "current": "Gemma",
             "correct": "Gemini",
             "url": "https://medium.com/google-cloud/grounding-gemini-with-web-search-results-in-langchain4j-2f949bd69492?source=rss-431147437aeb------2"
-        },
-        {
-            "current": "Gemma",
-            "correct": "Gemini",
-            "url": "https://medium.com/google-cloud/calling-gemma-with-ollama-testcontainers-and-langchain4j-fbfe220ca715?source=rss-431147437aeb------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Let’s make Gemini Groovy!",
-            "summary": "This article explores integrating Groovy scripting into Google's Gemini AI model using the LangChain4j framework. The author showcases how to create a Groovy interpreter tool and craft a system instruction that allows Gemini to execute Groovy scripts for mathematical calculations and logic tasks. While promising, the solution is considered experimental due to occasional internal errors and repetitive script execution.",
+            "summary": "This article explores integrating Groovy scripts into the Gemini AI web assistant using LangChain4j. The author creates a custom Groovy interpreter tool for Gemini, enabling it to execute Groovy scripts for advanced math questions. The article discusses challenges such as newline character handling and the need to enforce idiomatic Groovy code style.  It highlights the potential of a dedicated execution engine for LangChain4j.",
             "url": "https://medium.com/google-cloud/lets-make-gemini-groovy-7481ac6add04?source=rss-431147437aeb------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2024-06-03",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "gemini",
+                "groovy",
+                "java",
+                "generative-ai",
+                "langchain4j"
+            ]
         },
         {
             "title": "Grounding Gemini with Web Search results in LangChain4j",
-            "summary": "This article explores how to enhance Gemini's responses by grounding them with results from web searches using LangChain4j. The author demonstrates using a Google Custom Search Engine to retrieve relevant information from a personal website, and then integrates this information into Gemini's answers. While promising, the solution is still under development and faces challenges in ensuring the accuracy and completeness of the responses.",
+            "summary": "This article demonstrates how to integrate Google Custom Search Engine with LangChain4j to ground Gemini's responses with relevant web search results. The author provides a step-by-step guide on creating a custom search engine, configuring the web search engine in LangChain4j, and using it to answer questions related to a personal website. The article highlights the benefits of grounding LLMs with up-to-date information and explores different approaches to refine the responses.",
             "url": "https://medium.com/google-cloud/grounding-gemini-with-web-search-results-in-langchain4j-2f949bd69492?source=rss-431147437aeb------2",
-            "accuracy": 7,
+            "accuracy": 9,
             "publication_date": "2024-05-28",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "generative-ai",
+                "google-cloud-platform",
+                "langchain4j",
+                "gemini",
+                "java"
+            ]
         },
         {
             "title": "Calling Gemma with Ollama, TestContainers, and LangChain4j",
-            "summary": "This article explores how to run the Gemma open language model with LangChain4j using Ollama and TestContainers. The author provides a step-by-step guide for containerizing Ollama and integrating it with LangChain4j to interact with the Gemma model. The article showcases the benefits of using containerized environments for easier deployment and management of language models.",
+            "summary": "The article explores running the Gemma language model locally using Ollama and TestContainers. The author demonstrates how to use LangChain4j to interact with Gemma within a containerized environment, eliminating the need to install Ollama locally. The article emphasizes the ease of integration with LangChain4j and highlights the benefits of containerization for testing and development.",
             "url": "https://medium.com/google-cloud/calling-gemma-with-ollama-testcontainers-and-langchain4j-fbfe220ca715?source=rss-431147437aeb------2",
             "accuracy": 9,
             "publication_date": "2024-04-03",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "gcp-app-dev",
+                "ollama",
+                "google-cloud-platform",
+                "testcontainer",
+                "langchain4j"
+            ]
+        },
+        {
+            "title": "Gemini codelab for Java developers using LangChain4j",
+            "summary": "This article introduces a codelab for Java developers to learn about using Gemini with LangChain4j. The codelab covers various use cases, including making calls to Gemini, maintaining conversations, analyzing images, extracting structured information, using prompt templates, and implementing Retrieval Augmented Generation. The article encourages developers to attend a Hands-on-Lab workshop at Devoxx France to explore the codelab in detail.",
+            "url": "https://medium.com/google-cloud/gemini-codelab-for-java-developers-using-langchain4j-769fbd419756?source=rss-431147437aeb------2",
+            "accuracy": 8,
+            "publication_date": "2024-03-27",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "langchain4j",
+                "gemini",
+                "google-cloud-platform",
+                "gcp-app-dev",
+                "java"
+            ]
+        },
+        {
+            "title": "Visualize PaLM-based LLM tokens",
+            "summary": "This article describes a tool for visualizing tokens generated by PaLM-based large language models (LLMs). The author explains how the tool works and provides links to try it online and view the source code. It mentions deploying the application on Google Cloud Run for scalability and highlights the convenience of source-based deployment.",
+            "url": "https://medium.com/google-cloud/visualize-palm-based-llm-tokens-8760b3122c0f?source=rss-431147437aeb------2",
+            "accuracy": 8,
+            "publication_date": "2024-02-05",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "llm",
+                "google-cloud-platform",
+                "gcp-app-dev",
+                "vertex-ai",
+                "generative-ai-tools"
+            ]
+        },
+        {
+            "title": "Image generation with Imagen and LangChain4j",
+            "summary": "This article explores using Imagen, Google's text-to-image diffusion model, with LangChain4j for image generation and editing. The author provides a comprehensive guide on configuring Imagen v1 and v2 in Java, generating images, and performing image editing tasks such as mask-based editing, mask-free editing, and upscaling. The article emphasizes the ease of integration with LangChain4j and highlights the potential of Imagen for creative applications.",
+            "url": "https://medium.com/google-cloud/image-generation-with-imagen-and-langchain4j-61ca08ae6aac?source=rss-431147437aeb------2",
+            "accuracy": 9,
+            "publication_date": "2024-02-01",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "imagen",
+                "java",
+                "langchain",
+                "generative-ai-use-cases"
+            ]
+        },
+        {
+            "title": "Gemini Function Calling",
+            "summary": "The article focuses on Gemini's function calling feature, a powerful capability that allows the model to interact with external functions and APIs. The author delves into using the internal protobuf classes for function calling in Java, as the current Java SDK doesn't fully support this feature. The article provides a step-by-step guide on configuring function declarations, handling function call requests, and constructing function responses. It concludes with a demonstration of a simple weather query using function calling.",
+            "url": "https://medium.com/google-cloud/gemini-function-calling-1585c044d28d?source=rss-431147437aeb------2",
+            "accuracy": 9,
+            "publication_date": "2023-12-22",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "java",
+                "gcp-app-dev",
+                "google-cloud-platform",
+                "vertex-ai",
+                "gemini"
+            ]
+        },
+        {
+            "title": "Visualize and Inspect Workflows Executions",
+            "summary": "This article highlights a new feature in Google Cloud Workflows that allows for deeper inspection of workflow executions. The author explains how to view the history of execution steps, visualize the workflow graph with successful and failed steps, and use filters to refine the view. The article emphasizes the improved developer experience and benefits for operations teams in understanding workflow execution behavior.",
+            "url": "https://medium.com/google-cloud/visualize-and-inspect-workflows-executions-00aafe188d3d?source=rss-431147437aeb------2",
+            "accuracy": 8,
+            "publication_date": "2023-12-22",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "gcp-workflows",
+                "workflow",
+                "debugging",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Hands on Codelabs to dabble with Large Language Models in Java",
+            "summary": "The article introduces two codelabs designed to help Java developers get hands-on experience with large language models (LLMs) using LangChain4J and the PaLM 2 model. The author describes the codelabs' content, including text generation, chatbots, and retrieval augmented generation (RAG).  It encourages developers to use Google Cloud's built-in shell and code editor for development and highlights the use of Maven for building the code.",
+            "url": "https://medium.com/google-cloud/hands-on-codelabs-to-dabble-with-large-language-models-in-java-ee7bc330f5fe?source=rss-431147437aeb------2",
+            "accuracy": 8,
+            "publication_date": "2023-12-18",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "llm",
+                "generative-ai",
+                "java",
+                "google-cloud-platform",
+                "langchain"
+            ]
         }
     ]
 }

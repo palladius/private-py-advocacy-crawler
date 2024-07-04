@@ -171,8 +171,8 @@ def main()
     puts "Fetching from the internet Medium User: '#{medium_user}'"
     add_metadata_per_user(medium_user, user_email)
 
-    #fetch_from_medium(medium_user)
-    #call_api_for_single_user(medium_user)
+    fetch_from_medium(medium_user)
+    call_api_for_single_user(medium_user)
 
 end
 

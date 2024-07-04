@@ -1,10 +1,12 @@
-PromptVersion = '1.13a'
+PromptVersion = '1.15'
 #ArticleMaxBytes = 2200 # manually nitted to get right amount of tokens :)
 #ArticleMaxBytes = 8800 # from v1.11
 ArticleMaxBytes = 16000 # from v1.13a
 
 
 
+# 1.15 4jul24 Added categories since Medium gives them for free.
+# 1.14 3jul24 Increased input and refreshed the inputs with make clean :)
 # 1.13 3jul24 Explicited in the Prompt instructions to drop the ```json...``` part
 # 1.12 3jul24 removed ```json. added Typo URL
 # 1.11 3jul24 added ```json. Increased bytes to 4x=8k. Using Gemini 1.5 flash now.
@@ -80,6 +82,7 @@ Please provide the output in a `JSON` file as an array of answer per article, li
         "publication_date": "YYYY-MM-DD", // string, the day in which this article was published.
         "is_gcp": XXX,   // boolean, true of false
         "is_technical": XXX,   // boolean, true of false
+        "Categories": ["foo", "bar-baz", ..],   // ARRAY of STRINGs, with categories collected from Medium.
         ]
     },
 

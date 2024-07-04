@@ -85,7 +85,7 @@ module LibGenai
           # JB1: {"candidates"=>[{"content"=>{"role"=>"model", "parts"=>[{"text"=>" GCP documentation and a GitHub repository for managing organizational structures.\",\n            \"url\": \"https://medium.com/google-cloud/how-to-migrate-projects-across-organizations-c7e254ab90af?source=rss-b5293b9691"}]}, "safetyRatings"=>[{"category"=>"HARM_CATEGORY_HATE_SPEECH", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.103748634, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.08314291}, {"category"=>"HARM_CATEGORY_DANGEROUS_CONTENT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.08079154, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.08866235}, {"category"=>"HARM_CATEGORY_HARASSMENT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.15546274, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.078078166}, {"category"=>"HARM_CATEGORY_SEXUALLY_EXPLICIT", "probability"=>"NEGLIGIBLE", "probabilityScore"=>0.070176296, "severity"=>"HARM_SEVERITY_NEGLIGIBLE", "severityScore"=>0.084341794}]}]}
           #
           #puts("JB1.A: #{jb1}")
-          cleaned_up_nth_response = jb1['candidates'][0]['content']['parts'][0]['text']
+          cleaned_up_nth_response = jb1['candidates'][0]['content']['parts'][0]['text'] rescue ''
           #puts("JB1.B: cleaned_up_nth_response: #{cleaned_up_nth_response}")
           #puts("JB1.C: candidates size (should be 1, if not we need JB2): #{ jb1['candidates'].length }")
           raise "More than 1 candidates! #{jb1['candidates'].length }" if jb1['candidates'].length  != 1

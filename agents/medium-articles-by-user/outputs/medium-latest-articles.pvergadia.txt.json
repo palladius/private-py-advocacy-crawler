@@ -1,12 +1,12 @@
 ```json
 {
-    "prompt_version": "1.12",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Priyanka Vergadia",
     "author_nationality": "Indian",
-    "author_style": "Informative, concise, tech-focused",
-    "author_favorite_languages": "Python",
-    "author_favorite_cloud": "Google Cloud",
+    "author_style": "Informative, engaging, conversational",
+    "author_favorite_languages": "Python, MATLAB",
+    "author_favorite_cloud": "Google Cloud Platform",
     "typos": [
         {
             "current": "article circle",
@@ -14,70 +14,176 @@
             "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
         },
         {
-            "current": "a lot",
-            "correct": "a lot",
-            "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
+            "current": "a rougth",
+            "correct": "a rough",
+            "url": "https://medium.com/google-cloud/zero-trust-with-reverse-proxy-c744d8956f21?source=rss-9b9e67983b04------2"
         },
         {
-            "current": "Faibanks",
-            "correct": "Fairbanks",
+            "current": "Aroura viewing",
+            "correct": "Aurora viewing",
             "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Winter travel guide to Alaska",
-            "summary": "This article details a winter trip to Alaska, focusing on a 9-day itinerary including travel to Fairbanks by train and back. The author shares experiences with the Northern Lights, Arctic Circle tour, Coldfoot Camp activities (mountain safari, snowshoeing), and Chena Hot Springs. The piece emphasizes the beauty of the Alaskan winter landscape, the importance of planning in advance, and the unique experiences available to those willing to embrace the cold.",
+            "summary": "This article is a detailed travel guide to Alaska in winter, covering everything from transportation to activities like snowshoeing, dog sledding, and aurora viewing. It includes practical tips on packing, accommodation, and maximizing your time in the state. The author shares personal experiences and insights from their own winter trip, offering valuable advice for anyone planning a similar adventure.",
             "url": "https://medium.com/travelwonders/winter-travel-guide-to-alaska-e46caa98a6d8?source=rss-9b9e67983b04------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2021-12-12",
             "is_gcp": false,
-            "is_technical": false
+            "is_technical": false,
+            "Categories": [
+                "traveling",
+                "travel",
+                "adventure",
+                "travel-writing",
+                "travel-tips"
+            ]
         },
         {
             "title": "Zero Trust with Reverse Proxy",
-            "summary": "This article explains the concept of Zero Trust security and its implementation using reverse proxy in Google Cloud. It uses the metaphor of an airplane to illustrate how a reverse proxy checks requests from various sources and determines access based on user identity, device health, and location. The article highlights the importance of device security in a Zero Trust environment and provides resources for further learning.",
+            "summary": "This article discusses the concept of Zero Trust security and how reverse proxies play a crucial role in implementing it. The author explains how a reverse proxy acts as a gatekeeper, carefully scrutinizing requests from users and devices to ensure they meet the security criteria. It emphasizes the importance of verifying identity, device health, and other factors to determine access to sensitive data. The article also provides valuable resources for further exploration of Zero Trust and reverse proxy technologies.",
             "url": "https://medium.com/google-cloud/zero-trust-with-reverse-proxy-c744d8956f21?source=rss-9b9e67983b04------2",
             "accuracy": 9,
             "publication_date": "2021-06-28",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "gcp-security-operations",
+                "cybersecurity",
+                "cloud-services",
+                "cloud-computing",
+                "security"
+            ]
         },
         {
             "title": "Top 13 Google Cloud reference Architectures",
-            "summary": "This article summarizes a series of 13 common Google Cloud reference architectures, highlighting key areas of cloud development. Each architecture addresses a specific use case, including streaming video analytics, ML vision analytics, hybrid cloud connectivity, database migration, infrastructure as code, MLOps, serverless computing, data migration, continuous delivery, VM migration, data replication, and Vertex AI. The author encourages engagement and participation from the Google Cloud community.",
+            "summary": "This article summarizes a series of 13 common Google Cloud reference architectures, providing a comprehensive overview of best practices and solutions for various cloud-based projects. It highlights key aspects of each architecture, such as building streaming video analytics pipelines, implementing machine learning solutions, and managing infrastructure as code. The author encourages readers to engage with the Google Cloud community and explore these architectures for their own cloud-based endeavors.",
             "url": "https://medium.com/google-cloud/top-13-google-cloud-reference-architectures-c8a697546505?source=rss-9b9e67983b04------2",
-            "accuracy": 9,
+            "accuracy": 8,
             "publication_date": "2021-06-28",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "architecture",
+                "learn-gcp",
+                "cloud-computing",
+                "cloud-services",
+                "google-cloud-platform"
+            ]
         },
         {
             "title": "Devices and Zero Trust security",
-            "summary": "This article focuses on device security in a Zero Trust environment. It explains how device metadata, such as software running and last OS update, is used to assess trust and grant access. The article highlights various data types collected from different sources to make informed decisions about device access. It also recommends resources for further exploration of device security.",
+            "summary": "This article delves into the role of devices in a Zero Trust security environment. It emphasizes the importance of verifying device health and metadata to ensure secure access to sensitive systems. The author discusses various device data points that should be considered, such as operating system version, patch date, and binaries installed, and outlines sources for gathering this information. It encourages readers to adopt a comprehensive approach to device security, relying on multiple data sources for informed decisions about access control.",
             "url": "https://medium.com/google-cloud/devices-and-zero-trust-security-21864ceb0a96?source=rss-9b9e67983b04------2",
             "accuracy": 9,
             "publication_date": "2021-06-28",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "gcp-security-operations",
+                "google-cloud-platform",
+                "cloud-computing",
+                "security",
+                "infosec"
+            ]
         },
         {
             "title": "Security keys and zero trust",
-            "summary": "This article discusses the importance of security keys in Zero Trust security. It highlights the limitations of traditional 2-step verification methods and emphasizes how security keys provide stronger login protection against phishing attacks. The article explains how security keys work through cryptographic handshake, open standards (FIDO), and firmware integrity. It also mentions the benefits of using security keys, including faster logins and fewer support tickets.",
+            "summary": "This article explores the importance of security keys in a Zero Trust security model. It highlights the enhanced security they provide over traditional two-factor authentication methods like SMS codes or authenticator apps. The author explains how security keys offer the highest level of protection against phishing attacks by verifying identity through a cryptographic handshake. It emphasizes the benefits of using open standards and the ease of deployment for both personal and work accounts.",
             "url": "https://medium.com/google-cloud/security-keys-and-zero-trust-1c3efcfb302?source=rss-9b9e67983b04------2",
             "accuracy": 9,
             "publication_date": "2021-03-21",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "comics",
+                "cloud-computing",
+                "gcp-security-operations",
+                "google-cloud-platform",
+                "security"
+            ]
         },
         {
             "title": "Data Analysis to Power Wind Kites",
-            "summary": "This article delves into the Makani project, which aimed to develop wind energy kites using data analysis and Google Cloud. It explains how the kite system worked, its advantages over traditional turbines, and the data collection and analysis involved. The article highlights Google Cloud's role in powering sustainable energy innovation.",
+            "summary": "This article provides a behind-the-scenes look at the Makani project, where Google Cloud played a pivotal role in developing wind energy kites for sustainable energy generation. It explains the workings of the kite technology and how it differs from traditional wind turbines. The article highlights the iterative process of simulation, analysis, and real-world testing, emphasizing the use of Google Cloud services like Compute Engine, Cloud Storage, and App Engine for data analysis and workflow management. The author concludes by emphasizing the importance of learning from the Makani project's journey and exploring the open source resources available.",
             "url": "https://medium.com/google-cloud/data-analysis-to-power-wind-kites-8b4e97e90b58?source=rss-9b9e67983b04------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2021-01-06",
             "is_gcp": true,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "data-science",
+                "google-cloud-platform",
+                "data",
+                "google",
+                "data-scientist"
+            ]
+        },
+        {
+            "title": "All you need to know about Google Cloud Dataproc?",
+            "summary": "This article provides a concise explanation of Google Cloud Dataproc, a managed service for Hadoop and Spark ecosystems. It emphasizes Dataproc's ease of use, speed, and cost-effectiveness compared to traditional cluster management. The author outlines Dataproc's key features, including support for open-source tools, customizable virtual machines, and tight integration with other Google Cloud services. The article concludes by encouraging readers to explore Dataproc for efficient data processing and analysis.",
+            "url": "https://medium.com/google-cloud/all-you-need-to-know-about-google-cloud-dataproc-23fe91369678?source=rss-9b9e67983b04------2",
+            "accuracy": 8,
+            "publication_date": "2020-12-30",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "data-science",
+                "google-cloud-platform",
+                "cloud-computing",
+                "machine-learning",
+                "data"
+            ]
+        },
+        {
+            "title": "What is Zero Trust Identity Security?",
+            "summary": "This article introduces the concept of Zero Trust Identity security, where no user, device, or network is inherently trusted. It explains how Zero Trust systems emphasize verifying identity and granting access based on a combination of factors, including user identity, device health, location, and time of day. The author highlights the benefits of Zero Trust, such as enhanced security, portability, and reduced friction for users. It also mentions Google's BeyondCorp implementation of Zero Trust and provides resources for further exploration.",
+            "url": "https://medium.com/google-cloud/what-is-zero-trust-identity-security-e6f58330a7a?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2020-12-10",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "security",
+                "identity",
+                "cybersecurity",
+                "cloud",
+                "cloud-computing"
+            ]
+        },
+        {
+            "title": "Understanding Data Encryption in Google Cloud",
+            "summary": "This article provides a comprehensive overview of data encryption in Google Cloud. It explains the concepts of encryption at rest and in transit, emphasizing how Google protects customer data using multiple layers of encryption. The author describes the encryption mechanisms employed, including AES256, Google's Key Management Service, and the Tink cryptographic library. It also details the security measures implemented for data in transit, including TLS and IPSec tunnels. The article encourages readers to explore Google's security whitepaper for further insights.",
+            "url": "https://medium.com/google-cloud/understanding-data-encryption-in-google-cloud-c36d9095fb38?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2020-10-30",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "security",
+                "cloud-computing",
+                "data-science",
+                "cloud",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "How Google delivers Defense in Depth?",
+            "summary": "This article explores the concept of Defense in Depth, a multi-layered security approach employed by Google Cloud to protect its infrastructure and applications. It highlights the importance of building a secure foundation through various layers of protection, such as hardware security, application security, identity authentication, data encryption, and DDoS mitigation. The author emphasizes the role of Google's Zero Trust model, BeyondCorp, in extending these security principles to applications running on Google Cloud. The article concludes by encouraging readers to learn more about Google's security practices and adopt a similar layered defense approach.",
+            "url": "https://medium.com/google-cloud/how-google-delivers-defense-in-depth-959b97ca782c?source=rss-9b9e67983b04------2",
+            "accuracy": 9,
+            "publication_date": "2020-09-09",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "cloud-computing",
+                "security",
+                "cybersecurity",
+                "data",
+                "cloud"
+            ]
         }
     ]
 }
