@@ -18,7 +18,7 @@ source .venv/bin/activate
 #pip freeze > requirements.txt
 
 #############################################################################
-#
+# Ose Volta Dev project: https://pantheon.corp.google.com/welcome?project=ose-volta-dev&e=-13802955&inv=1&invt=AbV38w&mods=logs_tg_staging
 
 cd $(git rev-parse --show-toplevel) && python3 -m venv .venv && source .venv/bin/activate  && cd -
 

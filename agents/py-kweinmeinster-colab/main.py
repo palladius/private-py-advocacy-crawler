@@ -9,10 +9,7 @@ I've also found this useful:
 
 #import IPython
 import time
-
-#app = IPython.Application.instance()
-#app.kernel.do_shutdown(True)
-
+import gspread
 from bs4 import BeautifulSoup
 import pandas as pd
 import plotly.express as px
@@ -24,6 +21,9 @@ from vertexai.generative_models import (
     Part
 )
 # https://pureai.com/Articles/2023/12/20/try-gemini.aspx
+from prompt import flywheel_stage_prompt_header, flywheel_stage_prompt_footer
+
+
 
 GeminiModel = 'gemini-1.5-pro'
 CallGemini  = False
@@ -31,7 +31,6 @@ CallCurls = False
 TrixTitle = '[ose-volta-dev] Karl results' # https://docs.google.com/spreadsheets/d/1OlOaE_KcMa6EKCAJAtQs7APGfVV4cy6n2PWLJA6geBY/edit?gid=0&resourcekey=0-JCHsxIAgySvLoUQLOCDfng#gid=0
 #GeminiModel = "gemini-1.0-pro"
 
-from prompt import flywheel_stage_prompt_header, flywheel_stage_prompt_footer
 
 def extract_text_from_url(url):
     try:
@@ -74,6 +73,10 @@ def classify_content(prompt_header,prompt_footer, content_type, title, url, cont
 
 
 def write_onto_spreadsheet(df):
+    '''auth is hard here. NEeds a SvcAcct.
+    '''
+    gc = gspread.service_account()
+
     print("TODO auth")
     sh = gc.open('My poor gym results')
     exit(42)
