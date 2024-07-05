@@ -1,0 +1,129 @@
+# inspired by:
+# 1.https://docs.google.com/spreadsheets/d/1SVDE6hEywHbe5wgA0RfTKXLl5j_rhOuS2Nt6KHKh3yI/edit?gid=1414538327#gid=1414538327
+# 2. influencers: https://docs.google.com/spreadsheets/d/1HqBhSdNSC29pr1qE15em6ajXV85CgR-ZQUB3vUiN7dQ/edit?gid=0#gid=0
+# 3. https://docs.google.com/spreadsheets/d/189Qt9OkC8tH1ZUnzLcNI_XjeiKF2l6_88uanF-hrYBg/edit?gid=162695964#gid=162695964
+google.com:
+  main-team:
+      # My advocacy team
+    ricc:
+      medium: palladiusbonton
+      blogs:
+      - https://ricc.rocks/en/
+      rss:
+      - https://ricc.rocks/en/index.xml
+      da_url: https://cloud.google.com/developers/advocates/riccardo-carlesso
+      da: riccardo-carlesso # equivalent to the above
+
+    pvergadia:
+      medium: pvergadia
+    romin:
+      medium: iromin
+    deleplace:
+      medium: val_deleplace
+    glaforge:
+      medium: glaforge
+      blogs:
+      - http://feeds.feedburner.com/glaforge
+    alexismp:
+      medium: alexismp
+    venema:
+      medium: wietsevenema
+    marccohen:
+      medium: mco-blog # also marcacohen ?
+      blogs:
+      - https://mco.dev/
+    rsamborski:
+      medium: rsamborski
+    # Extended advocacy team
+    zackakil:
+      medium: zackakil
+      blogs:
+      - https://towardsdatascience.com/@zackakil
+      - https://www.zackakil.com/
+    kotwal:
+      medium: ankurkotwal
+    glasnt:
+      medium: glasnt
+      blogs:
+      - https://glasnt.com/blog/
+    mokeefe: # Megan O’Keefe
+      medium: askmeegs
+    # Aja
+    ajahammerly:
+      medium: thagomizer
+    polong:
+      medium: polong
+    meteatamel:
+      medium: meteatamel
+      blogs:
+      - https://atamel.dev/
+    kazsato:
+      medium: kazunori279
+    yoshifumi:
+      medium: ymotongpoo
+      blogs:
+      - https://dev.to/ymotongpoo
+    laupic:
+      medium: PicardParis  # problematic
+    ianlewis:
+      medium: IanMLewis
+    leeboonstra:
+      blogs:
+      - https://medium.com/@ladysign
+      - https://www.leeboonstra.dev/index.html
+    colton:
+      medium: duhroach
+    nathenharvey:
+      medium: nathenharvey
+    kweinmeister:
+      medium: kweinmeister
+      da_url: https://cloud.google.com/developers/advocates/karl-weinmeister
+      da: karl-weinmeister # equivalent to the above
+
+  friends-of-devrel:
+    # My other Google friends who might blog about
+    cstanger:
+      medium: ch.stanger
+      description: friend of Ricc, did videos with other DAs.
+    tfayyaz: # xoogler
+      medium: tfayyaz
+      description: Xoogler, ex DA
+    # ??? xoogler Allen Daay:
+    # medium: allenday
+    retomeier:
+      medium: retomeier
+
+    # ex DA , L9 googler
+    thockin:
+      medium: thockin_25842
+      blogs:
+      - http://hockin.org/
+    kelseyhightower:
+      twitter: kelseyhightower
+      github: kelseyhightower
+      medium: kelseyhightower
+    # Cassie Kozyrkov
+    kozyr: # xoogler
+      medium: kozyrkov
+      name: Cassie Kozyrkov
+
+
+# Popular people
+externals:
+  popular-people:
+    dhh:
+      medium: dhh
+      description: invented Ruby on Rails
+
+
+  gcp-champions:
+    google-cloud:
+      description: a Medium entity with Curated articles for developers
+      medium: google-cloud
+
+    Gianni Forlastro:
+      medium: gianni.forlastro
+      role: GDE Italy
+  # hasanaboulhasan good with LLM but not GCP
+
+
