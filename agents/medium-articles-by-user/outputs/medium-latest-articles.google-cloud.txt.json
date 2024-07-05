@@ -1,0 +1,19 @@
+Please provide me with the list of articles, including their URLs and content. I need the actual text of the articles to analyze them and answer your questions. 
+
+Once you provide the articles, I will be able to:
+
+1. **Analyze each article:**
+    * Extract the title.
+    * Summarize the content.
+    * Identify topics and writing style.
+    * Determine the accuracy and professionalism rating.
+    * Identify if Google Cloud is mentioned and if the content is technical.
+    * Extract the publication date.
+    * Extract the categories from Medium (if applicable). 
+2. **Analyze the author overall:**
+    * Determine the author's name and nationality.
+    * Describe the author's style.
+    * Identify preferred programming languages and cloud providers.
+    * Identify any typos or recurring mistakes.
+
+I will then output the results as a JSON file in the format you provided. 

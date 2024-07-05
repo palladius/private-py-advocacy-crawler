@@ -1,0 +1,66 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Kelsey Hightower",
+    "author_nationality": "American",
+    "author_style": "Informative and opinionated, providing technical insights with clear explanations",
+    "author_favorite_languages": "Go",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "Fact0r",
+            "correct": "Factor",
+            "url": "https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c?source=rss-9e783a6f12f6------2"
+        },
+        {
+            "current": "preformed",
+            "correct": "performed",
+            "url": "https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c?source=rss-9e783a6f12f6------2"
+        },
+        {
+            "current": "end-points",
+            "correct": "endpoints",
+            "url": "https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07?source=rss-9e783a6f12f6------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Tech Conferences",
+            "summary": "This article by Kelsey Hightower explores the evolution of his experiences at tech conferences, from attending as a shy participant to becoming a speaker and conference chair. He reflects on the initial feeling of being an outcast, the power of asking questions, and the importance of representation. Hightower discusses his journey from local meetups to speaking at major conferences like PuppetConf and OSCON, highlighting the challenges and rewards of public speaking. He emphasizes the responsibility of conference organizers to promote inclusion and diversity, and the importance of focusing on high-quality content. The article concludes with an inspiring message about the power of tech conferences to bring people together and foster learning.",
+            "url": "https://medium.com/@kelseyhightower/tech-conferences-84d67cf994f6?source=rss-9e783a6f12f6------2",
+            "accuracy": 9,
+            "publication_date": "2017-01-23",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "public-speaking",
+                "conference"
+            ]
+        },
+        {
+            "title": "12 Fractured Apps",
+            "summary": "Kelsey Hightower examines the common pitfalls and misconceptions surrounding Docker adoption, particularly in relation to legacy applications. He argues that many applications, even modern ones, have inherent weaknesses in their startup process, leading to "fractured apps" that exhibit brittle behavior and require complex deployment solutions. Hightower delves into the challenges of configuring and managing such applications within a Docker environment, highlighting the overuse of configuration management tools, custom Docker entrypoints, and shell scripts as Band-Aids for underlying problems. He emphasizes that these solutions often introduce further complexities and suggest a more proactive approach by incorporating robust error handling, configuration management, and dependency management directly within the application itself. The article concludes with a compelling argument for writing applications that are resilient, self-contained, and adaptable to different environments, showcasing practical code snippets and a step-by-step example of how to implement these principles in a Go application.",
+            "url": "https://medium.com/@kelseyhightower/12-fractured-apps-1080c73d481c?source=rss-9e783a6f12f6------2",
+            "accuracy": 9,
+            "publication_date": "2015-12-13",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "docker",
+                "devops"
+            ]
+        },
+        {
+            "title": "Building Docker Images for Static Go Binaries",
+            "summary": "Kelsey Hightower explores the benefits and challenges of using Docker for deploying statically linked Go binaries. He discusses how Docker provides a convenient packaging format for sharing and installing applications, but highlights the potential for large image sizes when incorporating the build process within the Dockerfile. To address this, he advocates for separating the build process (performed in Continuous Integration) from the image creation process, allowing for smaller and more streamlined Docker images. The article delves into techniques for optimizing image size, such as using smaller base images like Busybox or even the "scratch" image, while addressing potential challenges like SSL certificate dependencies. Hightower demonstrates how to bundle root CA certificates within the application itself, enabling successful SSL communication even when using the "scratch" image. The article concludes with a practical guide to building a small, efficient Docker image for a Go application, showcasing the process of adding the static binary, setting up environment variables, and exposing ports for container communication.",
+            "url": "https://medium.com/@kelseyhightower/optimizing-docker-images-for-static-binaries-b5696e26eb07?source=rss-9e783a6f12f6------2",
+            "accuracy": 9,
+            "publication_date": "2014-08-14",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": []
+        }
+    ]
+}
+```

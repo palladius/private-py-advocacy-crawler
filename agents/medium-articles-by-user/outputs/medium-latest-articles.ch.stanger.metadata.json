@@ -1,0 +1,1 @@
+{"user_email":"cstanger@google.com","medium_user":"ch.stanger","timestamp":"2024-07-04 17:32:01 +0200","genai_model":"gemini-1.5-flash","max_byte_input_size":50000,"PromptVersion":"1.15","ArticleMaxBytes":16000,"temperature":0.9,"comments":"Temperature isnt functional yet, I just ported from Palm to Gemini this morning"}

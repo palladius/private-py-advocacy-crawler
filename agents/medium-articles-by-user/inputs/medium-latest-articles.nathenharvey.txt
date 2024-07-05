@@ -1,0 +1,18 @@
+
+== Article 1
+* Title: 'OK, Google'
+* Author: 'Nathen Harvey'
+* URL: 'https://medium.com/@nathenharvey/ok-google-95fa8617293f?source=rss-43eb4dfd0000------2'
+* PublicationDate: 'Tue, 18 Sep 2018 17:15:30 GMT'
+* Categories: cloud-computing
+
+I am beginning a new adventure this week as a Developer Advocate with Google Cloud Platform (GCP).I have built a career based on learning from those around me and helping share ideas, stories, and ways of working with others. Together, we can create more humane workplaces where learning and collaboration help create better customer experiences.I have spent the last decade in and around the DevOps community learning from and being influenced by those around me. I am a practitioner of Chef-style DevOps which defines DevOps asA cultural and professional movement, focused on how we build and operate high velocity organizations, born from the experiences of its practitioners.I’ll be working for Mandy Waite (@tekgrrl) and, once again, with my good friend, Seth Vargo (@sethvargo). Over the coming weeks, I’ll be meeting the rest of my new teammates and learning about our practices for helping and learning from you.Are you using GCP? I would love to hear from you!What are you building?What do you love?What do you hate?Get in touch with me on twitter @nathenharvey, DMs are open.
+
+== Article 2
+* Title: 'Leaving Chef'
+* Author: 'Nathen Harvey'
+* URL: 'https://medium.com/@nathenharvey/leaving-chef-7cfb441917f3?source=rss-43eb4dfd0000------2'
+* PublicationDate: 'Mon, 10 Sep 2018 13:58:38 GMT'
+* Categories: 
+
+Six years ago I joined Chef to help the grow and foster a community of people who believe in automation, technology, and, most importantly, one another. This has been the most fulfilling work of my career. Chef is part of my identity and I cannot describe how proud I am to have been part of this journey. However, it is time for the next step in my career and this is my last week as an employee of Chef.Chef has grown and evolved in so many wonderful, impactful ways over the years and I have had the opportunity to work with so many awesome people. I have learned so much that I will take with me on my next adventures.Chef’s impact on me as a professional is difficult to overstate. I became a professional system administrator that moment I realized the next change to my production systems was going to start with a commit to the git repository that held my cookbooks. But the thing that really impacted me was the people around the Chef community. People that believed in me, people that wanted to help me, people that challenged me to be the best I could be. Come for the automation, stay for the community.I’m excited to continue this journey with the community and to participate in the future success of Chef. Thank you for believing in me and for being part of this community. I look forward to seeing you around the web and in-person at DevOps-related events where the #HugOps will continue.

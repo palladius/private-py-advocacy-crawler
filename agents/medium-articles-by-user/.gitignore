@@ -1,2 +1,4 @@
 #inputs/
 #outputs/
+.tmp*
+t.*

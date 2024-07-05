@@ -1,0 +1,154 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Colt McAnlis",
+    "author_nationality": "American",
+    "author_style": "Technical, informative, casual,  focus on code examples",
+    "author_favorite_languages": "Go",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "TIMESLIDERS",
+            "correct": "Timesliders",
+            "url": "https://medium.com/@duhroach/cloud-bigtable-time-series-data-eecc32dd9cf2?source=rss-6e1a63c4fcd1------2"
+        },
+        {
+            "current": "UFF’s",
+            "correct": "UFF's",
+            "url": "https://medium.com/@duhroach/the-right-cloud-bigtable-index-makes-all-the-difference-3bcabe9bd65a?source=rss-6e1a63c4fcd1------2"
+        },
+        {
+            "current": "martech",
+            "correct": "MarTech",
+            "url": "https://medium.com/@duhroach/cloud-bigtable-performance-101-8bf884bc1d1c?source=rss-6e1a63c4fcd1------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Cloud Bigtable & time series data",
+            "summary": "This article explains the challenges of storing time series data in Cloud Bigtable due to hotspotting, caused by timestamp-based row keys. It explores two solutions: field promotion and salting. Field promotion involves moving fields from the column data into the row key to distribute writes, while salting adds a calculated element to the row key for similar distribution. The author suggests field promotion as a better solution for Timesliders, a mobile-application performance library. They also mention OpenTSDB as a third-party library for handling time series data in Bigtable.",
+            "url": "https://medium.com/@duhroach/cloud-bigtable-time-series-data-eecc32dd9cf2?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2019-02-01",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "big-data",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "The right Cloud Bigtable index makes all the difference.",
+            "summary": "This article discusses the importance of proper index design in Cloud Bigtable for optimizing performance. It highlights the case of Urban Fitness Forge, a real-time fitness tracker company, which faced performance issues due to their naive use of latitude/longitude values in their row key. The article explains how their query pattern, combined with Bigtable's lexicographical sorting, resulted in full table scans, impacting performance. The author proposes using a space-filling curve, like the Hilbert curve, to modify the index and ensure that geographically close entities are also close in the table space, reducing scan size. He emphasizes that understanding data usage patterns and choosing the right row key is crucial for achieving good performance in Bigtable.",
+            "url": "https://medium.com/@duhroach/the-right-cloud-bigtable-index-makes-all-the-difference-3bcabe9bd65a?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2019-01-17",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "big-data",
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Cloud Bigtable : Getting the geography right",
+            "summary": "This article delves into the impact of geographic location on Cloud Bigtable performance. It highlights the importance of having clients accessing Bigtable within the same zone for optimal performance, as latency increases significantly when clients and clusters are located in different zones. The author explores several solutions to bridge the geographic gap, including using multiple clusters, multithreaded push/pull for clients, Cloud Pub/Sub with a Compute Engine instance, and serverless endpoints with Cloud Functions or App Engine. The article concludes with FlightMight, a company monitoring aircraft data, adopting a solution using Cloud Pub/Sub and a Cloud Function deployed in the same zone as their Bigtable cluster for improved performance and lower costs.",
+            "url": "https://medium.com/@duhroach/cloud-bigtable-getting-the-geography-right-645577216516?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2019-01-03",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Using Cloud Bigtable Monitoring UI",
+            "summary": "This article explores the use of Cloud Bigtable Monitoring UI for analyzing instance performance. It emphasizes the importance of monitoring CPU utilization, error rate, storage utilization, and read/write throughput to understand the health and efficiency of Bigtable instances. The author details how to interpret monitoring data to identify scenarios like needing more nodes or imbalances in read/write distribution. The article also introduces the Key Visualizer tool for deeper insights into usage patterns.  Finally, it mentions Stackdriver Monitoring and Logging for programmatic monitoring and client-side performance metrics.",
+            "url": "https://medium.com/@duhroach/using-cloud-bigtable-monitoring-ui-40d3f4c726d6?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2019-01-03",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "big-data"
+            ]
+        },
+        {
+            "title": "Cloud Bigtable Performance 101",
+            "summary": "This article provides an overview of Cloud Bigtable performance, highlighting its capabilities and limitations. It describes how Bigtable works internally, with a frontend server pool, compute nodes for connections, and a scalable backend storage. The author explains how Bigtable shards data into tablets and how these tablets are reassigned between nodes for scaling and load balancing.  He discusses expected performance based on storage type and provides guidelines for when to and when not to use Bigtable. The article concludes with alternative GCP offerings like Cloud SQL, Cloud Storage, Cloud Datastore, and Cloud Spanner for specific use cases.",
+            "url": "https://medium.com/@duhroach/cloud-bigtable-performance-101-8bf884bc1d1c?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2018-11-30",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "QUIC and HTTPS Load Balancer",
+            "summary": "This article explores the use of QUIC (Quick UDP Internet Connections) with HTTPS load balancers in Google Cloud Platform. QUIC is a modern transport layer protocol that offers performance enhancements like reduced latency and increased throughput. The author explains how QUIC works and its advantages over traditional TCP. He provides a step-by-step guide to enabling QUIC on an HTTPS Load Balancer and demonstrates its performance benefits through a test scenario. The article recommends using QUIC in low-connectivity environments where packet loss and delay are high, while highlighting its compatibility with BBR for further performance optimization.",
+            "url": "https://medium.com/@duhroach/quic-and-https-load-balancer-53799b0a16ca?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 8,
+            "publication_date": "2018-11-09",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "load-balancing"
+            ]
+        },
+        {
+            "title": "Reduce latency with Stackdriver Trace",
+            "summary": "This article focuses on Stackdriver Trace, a tool for analyzing request propagation through applications, helping reduce latency and facilitate root cause analysis. The author explains how Stackdriver Trace automatically captures traces for App Engine Standard applications and introduces the new instrumentation libraries for tracing applications on VMs, containers, and other non-Google services. The article covers the automatic tracing of RPC calls and incoming requests, with the possibility of adding custom spans for further insights. It provides instructions on how to get started with Stackdriver Trace and mentions its integration with other tools like Stackdriver Debugger.",
+            "url": "https://medium.com/@duhroach/reduce-latency-with-stackdriver-trace-bb3ddde85e06?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2018-10-17",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Application performance management with Stackdriver",
+            "summary": "This article introduces Stackdriver Profiler, a low-overhead profiling tool for production applications. The author highlights the challenges of profiling in production without negatively impacting performance and how Stackdriver Profiler addresses these challenges.  The article details how Stackdriver Profiler works, its features, and how to use it. It describes its ability to analyze code execution across all environments, its continuous operation using statistical methods, and its low overhead, making it cost-effective. The article showcases a simple example using a Go application and illustrates how to access and interpret profiling data in the Google Cloud Platform Console. It concludes with information on profiling frequency and overhead.",
+            "url": "https://medium.com/@duhroach/application-performance-management-with-stackdriver-844300899d52?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2018-10-17",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform",
+                "performance"
+            ]
+        },
+        {
+            "title": "Datastore & Sharded counters",
+            "summary": "This article discusses the issue of Datastore contention, particularly when updating counters rapidly. It explains that Datastore contention arises from concurrent requests to update the same entity or entity group. The author presents sharding as the optimal solution for mitigating contention, where multiple copies of an entity are created and updated randomly, reducing load on a single entity. The article illustrates the performance improvement through a load test comparing a single entity counter with a sharded version, demonstrating a significant decrease in execution time. It suggests that sharding is an effective strategy for handling high update rates on Datastore.",
+            "url": "https://medium.com/@duhroach/datastore-sharded-counters-2ba6da7475b0?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2018-09-07",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Datastore & Lexicographical contention",
+            "summary": "This article explores lexicographical contention in Cloud Datastore, which occurs when indexed values with monotonically increasing keys (like timestamps) cause hotspotting on reads. The author explains how Bigtable's sharding mechanism, combined with lexicographically ordered keys, leads to workload concentration on a limited number of tablets.  He demonstrates how this contention can negatively impact read performance through a load test, showing a significant increase in execution time when the QPS reaches a certain threshold. The article suggests prepending a random hash to keys to distribute them across multiple tablets as a solution.  However, it emphasizes that this solution can complicate queries and should be used only when encountering this specific issue.",
+            "url": "https://medium.com/@duhroach/datastore-lexicographical-contention-fc02fb4864e9?source=rss-6e1a63c4fcd1------2",
+            "accuracy": 9,
+            "publication_date": "2018-08-23",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "big-data",
+                "google-cloud-platform"
+            ]
+        }
+    ]
+}
+```

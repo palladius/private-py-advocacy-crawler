@@ -1,0 +1,57 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Tahir Fayyaz",
+    "author_nationality": "NULL",
+    "author_style": "Technical and informative, focusing on practical use cases.",
+    "author_favorite_languages": "Python, Scala",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "jargs://spark-lib/bigquery/spark-bigquery-latest.jar",
+            "correct": "gs://spark-lib/bigquery/spark-bigquery-latest.jar",
+            "url": "https://medium.com/google-cloud/apache-spark-and-jupyter-notebooks-made-easy-with-dataproc-component-gateway-fa91d48d6a5a?source=rss-61dbd674077e------2"
+        },
+        {
+            "current": "jargs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar",
+            "correct": "gs://spark-lib/bigquery/spark-bigquery-latest_2.12.jar",
+            "url": "https://medium.com/google-cloud/apache-spark-and-jupyter-notebooks-made-easy-with-dataproc-component-gateway-fa91d48d6a5a?source=rss-61dbd674077e------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Apache Spark BigQuery Connector — Optimization tips & example Jupyter Notebooks",
+            "summary": "This article focuses on optimizing Apache Spark jobs that interact with BigQuery using the BigQuery Storage API. It demonstrates how to use partition filtering, columnar storage filtering, and row filtering to improve performance. Additionally, it discusses caching data in memory to speed up repeated operations.  The article provides Jupyter Notebook examples for data loading, processing, and analysis, showcasing the Apache Spark BigQuery connector in action.",
+            "url": "https://medium.com/google-cloud/apache-spark-bigquery-connector-optimization-tips-example-jupyter-notebooks-f17fd8476309?source=rss-61dbd674077e------2",
+            "accuracy": 9,
+            "publication_date": "2020-05-21",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "bigquery",
+                "google-cloud-platform",
+                "apache-spark",
+                "jupyter-notebook",
+                "big-data"
+            ]
+        },
+        {
+            "title": "Apache Spark and Jupyter Notebooks made easy with Dataproc component gateway",
+            "summary": "This article introduces the Dataproc Component Gateway feature, which simplifies the setup and use of Jupyter Notebooks on Google Cloud Dataproc clusters. It provides step-by-step instructions on creating a Dataproc cluster with Jupyter and Anaconda, enabling the Component Gateway, and accessing the Jupyter/JupyterLab web interfaces.  The author demonstrates how to write a basic PySpark notebook, explaining how to connect to BigQuery datasets and perform data aggregation. The article concludes by discussing security considerations and deleting Dataproc clusters.",
+            "url": "https://medium.com/google-cloud/apache-spark-and-jupyter-notebooks-made-easy-with-dataproc-component-gateway-fa91d48d6a5a?source=rss-61dbd674077e------2",
+            "accuracy": 8,
+            "publication_date": "2020-03-12",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "data-science",
+                "apache-spark",
+                "jupyter-notebook",
+                "bigquery",
+                "google-cloud-platform"
+            ]
+        }
+    ]
+}
+```

@@ -1,0 +1,57 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Ian Lewis",
+    "author_nationality": "American",
+    "author_style": "Technical, concise and informative",
+    "author_favorite_languages": "Go",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "couldn’t quitefind",
+            "correct": "couldn’t quite find",
+            "url": "https://medium.com/google-cloud/deploying-go-servers-with-kubernetes-on-container-engine-3fee717a7e2a?source=rss-8660bca0444d------2"
+        },
+        {
+            "current": "but but not many",
+            "correct": "but not many",
+            "url": "https://medium.com/google-cloud/deploying-go-servers-with-kubernetes-on-container-engine-3fee717a7e2a?source=rss-8660bca0444d------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Google Cloud Platform HTTP Load Balancers Explained via the CLI",
+            "summary": "This article provides a detailed, step-by-step guide on setting up an HTTP Load Balancer on Google Cloud Platform (GCP) using the command-line interface (CLI). It explains the various components involved, including health checks, backend services, URL maps, target proxies, and forwarding rules. The author uses clear diagrams and code snippets to illustrate the process. The article is aimed at developers and DevOps professionals familiar with GCP and the CLI.",
+            "url": "https://medium.com/google-cloud/google-cloud-platform-http-load-balancers-explained-via-the-cli-4f4d61805297?source=rss-8660bca0444d------2",
+            "accuracy": 9,
+            "publication_date": "2016-04-18",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "google-cloud-platform"
+            ]
+        },
+        {
+            "title": "Deploying Go Servers with Kubernetes on Container Engine",
+            "summary": "This article provides a comprehensive guide on deploying a Go server application using Kubernetes on Google Container Engine (GKE). It covers steps like building a Docker image, pushing it to Google Container Registry, configuring Kubernetes resources, and deploying the application. The article also addresses best practices for maintaining and upgrading the application using rolling updates. It is a valuable resource for Go developers looking to leverage the benefits of containerization and Kubernetes.",
+            "url": "https://medium.com/google-cloud/deploying-go-servers-with-kubernetes-on-container-engine-3fee717a7e2a?source=rss-8660bca0444d------2",
+            "accuracy": 9,
+            "publication_date": "2015-07-16",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": []
+        },
+        {
+            "title": "Learning a Language as Muscle Memory",
+            "summary": "The author argues that learning a language is not just about memorizing vocabulary and grammar, but also about developing muscle memory through practice. He emphasizes the importance of real-time communication and the need to build fluency through consistent interaction. He uses his experience learning Japanese to illustrate this point, highlighting the limitations of rote learning for conversational proficiency. The article encourages readers to prioritize speaking and understanding over memorization.",
+            "url": "https://medium.com/@IanMLewis/learning-a-language-as-muscle-memory-16332f7c7666?source=rss-8660bca0444d------2",
+            "accuracy": 8,
+            "publication_date": "2013-06-02",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": []
+        }
+    ]
+}
+```

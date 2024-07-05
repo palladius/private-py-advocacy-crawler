@@ -1,0 +1,3 @@
+app:
+  description: Given a number of Medium User id, gets their RSS and reads their content.
+  automated: false

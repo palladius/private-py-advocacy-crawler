@@ -1,0 +1,90 @@
+
+== Article 1
+* Title: 'Do your leaders need this AI course?'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/do-your-leaders-need-this-ai-course-f298d1d978d9?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Fri, 21 Jun 2024 17:42:24 GMT'
+* Categories: productivity, security, artificial-intelligence, leadership, technology
+
+(Yes.)HBR estimates 80% of AI projects fail. Don’t let your projects meet this fate.There are two ways to implement AI in your organization:Create frameworks to build &amp; deploy enterprise automation systems at scaleLeverage the right AI tools to fuel productivity and efficiencyI’ve created a new course to help business leaders and aspiring leaders kick their bad AI habits. If you can think of someone who’ll benefit from some enterprise AI savvy, please share this enrollment link with them: 🌟https://bit.ly/cassiemaven1🌟In the course, I’ll break down everything you need to know about safely implementing AI in your enterprise and actually driving revenue. The course features lectures from my friends Dan Guido and Nick Sonnenberg (scroll down for bios), each a leading expert on one of these two polar approaches to enterprise AI.The first cohort starts 🌟tomorrow🌟 and covers:How to evaluate AI use cases within your companyFrameworks for ideating, scoping, testing, and deploying AI systemsAI illusions to avoid and how to set AI expectations in your orgHow GenAI systems differ from traditional machine learningLeveraging AI tools for more efficient, productive orgsKeeping your company’s data safe and secureEvaluating vendors and working with external AI systemsCombining the right skillsets and roles to build the data team you need… and much, much moreJoin us for live teaching sessions and live Q+As.Enroll here: 🌟https://bit.ly/cassiemaven1🌟About the lecturersFor those who haven’t met me yetCassie Kozyrkov pioneered the field of Decision Intelligence and served as Google’s first Chief Decision Scientist, advised senior leadership on decision process, AI strategy, and building data-driven organizations. She combines an academic background in mathematical statistics, psychology, and cognitive neuroscience with a decade of executive experience at Google to help leaders optimize their biggest decisions and leverage data to drive better business outcomes. Known for her entertaining courses, Cassie personally trained over 20,000 Googlers in data-driven decision-making. One of her most popular courses has been viewed over 150,000 times on YouTube. Cassie also writes extensively on AI, data science, and decision making. Her writing has garnered an audience of over a million followers across her social channels and Medium blog. Cassie is a sought after keynote speaker for global tech conferences and Fortune 500 companies.Dan GuidoDan Guido is the CEO of Trail of Bits, a cybersecurity firm he founded in 2012 to address software security challenges with cutting-edge research. In his tenure leading Trail of Bits, Dan has grown the team to 80 engineers, led the team to compete in the DARPA Cyber Grand Challenge, built an industry-leading blockchain security practice, and refined open-source tools for the endpoint security market. In addition to his work at Trail of Bits, he’s active on the boards of four early-stage technology companies. Dan contributes to cybersecurity policy papers from RAND, CNAS, and Harvard. He runs Empire Hacking, a 1,500-member meetup group focused on NYC-area cybersecurity professionals. His latest hobby coding project — AlgoVPN — is the Internet’s most recommended self-hosted VPN. In prior roles, Dan taught a capstone course on software exploitation at NYU as a faculty member and the Hacker in Residence, consulted at iSEC Partners (now NCC Group), and worked as an incident responder for the Federal Reserve System.Nick SonnenbergNick Sonnenberg is the founder and CEO of Leverage, a business efficiency consultant, Inc. columnist and author of the book Idea to Execution. His book, Come Up for Air, is a WSJ bestseller. As a serial entrepreneur with a passion for productivity and a background in data science, Nick’s mission is to create companies that disrupt the way people work by leveraging the power of outsourcing, remote teams, common tools, and automation. Nick has worked with individuals and companies of all sizes, including Tony Robbins, Jay Abraham, Joe Polish, Ethereum and more.Bonus fun factI’ve known Dan about an hour longer than Nick, since I met them at the same party in New York a few years ago. It hadn’t occurred to me until a moment ago that it’s a fun coincidence that I know my favorite efficiency expert and my favorite security expert thanks to one particular rooftop.I met this guy there too, but he was busy this weekend and couldn’t join to give the guest lecture on A-meow.Join us or share this link with someone who’ll benefit:🌟https://bit.ly/cassiemaven1🌟
+
+== Article 2
+* Title: 'Why We Urgently Need AI Control Systems'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Sun, 19 May 2024 16:12:17 GMT'
+* Categories: artificial-intelligence, leadership, technology, editors-pick, machine-learning
+
+
+
+== Article 3
+* Title: 'Glossary: Controlling AI Systems'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/glossary-controlling-ai-systems-52b7e600a5d7?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Sun, 19 May 2024 15:19:55 GMT'
+* Categories: editors-pick, leadership, technology, machine-learning, artificial-intelligence
+
+
+
+== Article 4
+* Title: 'What are: Embeddings? Vector Databases? Vector Search? k-NN? ANN?'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/what-are-embeddings-vector-databases-vector-search-k-nn-ann-9eb35f715c94?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Fri, 02 Feb 2024 16:41:22 GMT'
+* Categories: editors-pick, vector-database, artificial-intelligence, data-science, technology
+
+
+
+== Article 5
+* Title: 'Here’s to a brilliant 2024!'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/heres-to-a-brilliant-2024-59f1ba90e34c?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Mon, 01 Jan 2024 19:23:19 GMT'
+* Categories: self-improvement, data-science, artificial-intelligence, public-speaking, technology
+
+A personal update for my readersHappy new year, dear friends! If you’ve never encountered me before, whoops, sorry — this blog post is probably not the place to start getting to know one another. This one’s for my friends and followers who have been wondering what I’ve gotten up to since my big career change last year. If you’re not here for the updates, may I recommend fleeing this page and heading to any other of my blog posts for your enjoyment? Choose your own adventure among these topics:New Years Resolutions, Artificial Intelligence, AI Leadership, Data Science, LLMs, Statistics, Decision-Making, Behavioral Economics, Decision Intelligence, Science, Bias, DataStill here? Time for the updates!Here are some of my moments from 2023 that I’m most proud to share with you:✌ Having the courage to spread my wings and leave my position as Google’s Chief Decision Scientist after almost 10 years there. (Here’s my blog post about how and why I took the leap: https://bit.ly/quaesita_quit1)💪 Managing to stay kind, balanced, cheerful, and there for my family as I navigate being CEO of not one but two startups (the advising/speaking one that I’ve been public about and the secret AI one that’s so stealth I’ve never mentioned it before).🤫 Finding a (stellar) co-founder. You will freak out when you find out who it is… all in good time.✨ Growing as a professional speaker as I strive to be the most approachable, sensible, inspiring, and funny voice on the topic of AI and human potential. I spoke in front of over 50,000 people (in person!) in places like New York, Oslo, Lisbon, Rio de Janeiro, London, Istanbul, Las Vegas, Belgrade, Copenhagen, Riyadh, San Francisco, Montreal, and Milan.People keep asking me what my secret is, so let me spill the beans. The reason I’m different from other AI speakers is my unique background:🤖 Decades of being a professional in AI, data, and decision science.🎭 A lifetime of being a theatre nerd. Why did I do so much theatre training in my spare time? To feed my soul and because it’s fun. Or maybe for the same reason people climb Everest.. just to see how strong they can get if they push themselves. Going pro was a totally unplanned happy accident. But that’s the secret of what’s different about me as a speaker:AI professional + lifelong theatre training = a damn good show.This year, I’m planning to do even more speaking — go big or go home! If you’re keen to help me go even bigger (or if you’re frustrated by the gender imbalance you’re seeing in speaker lineups), please share my booking form with everyone you know who might be looking for speakers in 2024:https://makecassietalk.com🌟 Creating a fun online course to help everyone improve their decision-making (free here if you have a LinkedIn account: https://bit.ly/decisioncourse )✍ Becoming a better writer and growing my Medium blog to 170k+ followers (whoa, that’s close to a one quarter of the size of the biggest *publication* on the platform). I also signed with an awesome book agent. (Let’s do this!) By the way, my last blog post was all about the science of motivation and self-control, which you might find handy as you start the new year: https://bit.ly/quaesita_resolutionsBut enough about me! What are your proudest achievements of 2023 and what are your goals for 2024? Let me know on social media — I’m excited to hear from you. 💖Thanks for reading!If you want to say thank you, I appreciate shares and retweets. If you’re keen to read more of my writing, most of the links in this article take you to my other musings.How about a course?If you had fun here and you’re looking for an unboring leadership-oriented course designed to delight AI beginners and experts alike, here’s a little something I made for you:Course link: https://bit.ly/funaicoursePrefer to hone your decision skills instead of building your AI muscles? You can learn decision intelligence from me via this link to my free course:The steering wheel for your life - Decision Intelligence Video Tutorial | LinkedIn Learning, formerly Lynda.comP.S. Have you ever tried hitting the clap button here on Medium more than once to see what happens? ❤️Liked the author? Connect with Cassie KozyrkovLet’s be friends! You can find me on Twitter, YouTube, Substack, and LinkedIn. Interested in having me speak at your event? Use this form to get in touch.Join Medium with my referral link - Cassie Kozyrkov
+
+== Article 6
+* Title: '✨The Advanced Manual of Self-Improvement✨'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://medium.com/swlh/how-to-design-resolutions-that-work-according-to-a-decision-scientist-extended-version-47c38bbb7198?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Sun, 31 Dec 2023 23:06:11 GMT'
+* Categories: self-improvement, psychology, life-lessons, technology, motivation
+
+
+
+== Article 7
+* Title: 'How NOT To Make New Year’s Resolutions'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/how-not-to-make-new-years-resolutions-877a30edce06?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Thu, 28 Dec 2023 16:42:31 GMT'
+* Categories: resolutions, motivation, wellness, psychology, self-improvement
+
+
+
+== Article 8
+* Title: 'Willpower Is Not The Solution'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://blog.goodaudience.com/willpower-is-not-the-solution-e9e5a0cb8444?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Tue, 26 Dec 2023 22:09:49 GMT'
+* Categories: motivation, health, wellness, decision-making, psychology
+
+
+
+== Article 9
+* Title: 'Why quitting your job might be the best decision you’ve ever made'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/why-quitting-your-job-might-be-the-best-decision-youve-ever-made-4949b62ad319?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Mon, 30 Oct 2023 16:46:45 GMT'
+* Categories: careers, personal-development, decision-making, leadership, life-lessons
+
+
+
+== Article 10
+* Title: 'What was the hardest thing about quitting my job at Google?'
+* Author: 'Cassie Kozyrkov'
+* URL: 'https://kozyrkov.medium.com/what-was-the-hardest-thing-about-quitting-my-job-at-google-6bc5a17ff83d?source=rss-2fccb851bb5e------2'
+* PublicationDate: 'Sun, 29 Oct 2023 21:42:35 GMT'
+* Categories: careers, personal-development, artificial-intelligence, motivation, technology
+
+

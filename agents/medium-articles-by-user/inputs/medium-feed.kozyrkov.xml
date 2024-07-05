@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:cc="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html">
+    <channel>
+        <title><![CDATA[Stories by Cassie Kozyrkov on Medium]]></title>
+        <description><![CDATA[Stories by Cassie Kozyrkov on Medium]]></description>
+        <link>https://medium.com/@kozyrkov?source=rss-2fccb851bb5e------2</link>
+        <image>
+            <url>https://cdn-images-1.medium.com/fit/c/150/150/1*XlVStdn200ll4k3u_VOvGg.png</url>
+            <title>Stories by Cassie Kozyrkov on Medium</title>
+            <link>https://medium.com/@kozyrkov?source=rss-2fccb851bb5e------2</link>
+        </image>
+        <generator>Medium</generator>
+        <lastBuildDate>Thu, 04 Jul 2024 15:18:16 GMT</lastBuildDate>
+        <atom:link href="https://medium.com/@kozyrkov/feed" rel="self" type="application/rss+xml"/>
+        <webMaster><![CDATA[yourfriends@medium.com]]></webMaster>
+        <atom:link href="http://medium.superfeedr.com" rel="hub"/>
+        <item>
+            <title><![CDATA[Do your leaders need this AI course?]]></title>
+            <link>https://kozyrkov.medium.com/do-your-leaders-need-this-ai-course-f298d1d978d9?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/f298d1d978d9</guid>
+            <category><![CDATA[productivity]]></category>
+            <category><![CDATA[security]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[leadership]]></category>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Fri, 21 Jun 2024 17:42:24 GMT</pubDate>
+            <atom:updated>2024-06-21T17:42:24.012Z</atom:updated>
+            <content:encoded><![CDATA[<h4>(Yes.)</h4><p>HBR estimates 80% of AI projects fail. Don’t let your projects meet this fate.</p><p>There are two ways to implement AI in your organization:</p><ol><li><strong>Create frameworks to build &amp; deploy enterprise automation systems at scale</strong></li><li><strong>Leverage the right AI tools to fuel productivity and efficiency</strong></li></ol><p>I’ve created a new course to help business leaders and aspiring leaders kick their bad AI habits. If you can think of someone who’ll benefit from some enterprise AI savvy, please share this enrollment link with them: 🌟<a href="https://bit.ly/cassiemaven1">https://bit.ly/cassiemaven1</a>🌟</p><p>In the course, I’ll break down everything you need to know about safely implementing AI in your enterprise and actually driving revenue. The course features lectures from my friends Dan Guido and Nick Sonnenberg (scroll down for bios), each a leading expert on one of these two polar approaches to enterprise AI.</p><p><strong>The first cohort starts 🌟<em>tomorrow</em>🌟 and covers:</strong></p><ul><li>How to evaluate AI use cases within your company</li><li>Frameworks for ideating, scoping, testing, and deploying AI systems</li><li>AI illusions to avoid and how to set AI expectations in your org</li><li>How GenAI systems differ from traditional machine learning</li><li>Leveraging AI tools for more efficient, productive orgs</li><li>Keeping your company’s data safe and secure</li><li>Evaluating vendors and working with external AI systems</li><li>Combining the right skillsets and roles to build the data team you need</li><li>… and much, much more</li></ul><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*ED0LdN572X5V_pP1PRrwXw.png" /></figure><p>Join us for live teaching sessions and live Q+As.</p><p>Enroll here: 🌟<a href="https://bit.ly/cassiemaven1">https://bit.ly/cassiemaven1</a>🌟</p><h3>About the lecturers</h3><h4>For those who haven’t met me yet</h4><p>Cassie Kozyrkov pioneered the field of Decision Intelligence and served as Google’s first Chief Decision Scientist, advised senior leadership on decision process, AI strategy, and building data-driven organizations. She combines an academic background in mathematical statistics, psychology, and cognitive neuroscience with a decade of executive experience at Google to help leaders optimize their biggest decisions and leverage data to drive better business outcomes. Known for her entertaining courses, Cassie personally trained over 20,000 Googlers in data-driven decision-making. One of her <a href="https://youtu.be/1vkb7BCMQd0?si=ddDu-LIaU-j-QAwA">most popular courses</a> has been viewed over 150,000 times on YouTube. Cassie also writes extensively on AI, data science, and decision making. Her writing has garnered an audience of over a million followers across her social channels and Medium blog. Cassie is a <a href="https://kozyr.com/speaking">sought after keynote speaker</a> for global tech conferences and Fortune 500 companies.</p><h4>Dan Guido</h4><p>Dan Guido is the CEO of Trail of Bits, a cybersecurity firm he founded in 2012 to address software security challenges with cutting-edge research. In his tenure leading Trail of Bits, Dan has grown the team to 80 engineers, led the team to compete in the DARPA Cyber Grand Challenge, built an industry-leading blockchain security practice, and refined open-source tools for the endpoint security market. In addition to his work at Trail of Bits, he’s active on the boards of four early-stage technology companies. Dan contributes to cybersecurity policy papers from RAND, CNAS, and Harvard. He runs Empire Hacking, a 1,500-member meetup group focused on NYC-area cybersecurity professionals. His latest hobby coding project — AlgoVPN — is the Internet’s most recommended self-hosted VPN. In prior roles, Dan taught a capstone course on software exploitation at NYU as a faculty member and the Hacker in Residence, consulted at iSEC Partners (now NCC Group), and worked as an incident responder for the Federal Reserve System.</p><h4>Nick Sonnenberg</h4><p>Nick Sonnenberg is the founder and CEO of Leverage, a business efficiency consultant, <em>Inc.</em> columnist and author of the book<em> Idea to Execution.</em> His book, <em>Come Up for Air, </em>is a WSJ bestseller.<em> </em>As a serial entrepreneur with a passion for productivity and a background in data science, Nick’s mission is to create companies that disrupt the way people work by leveraging the power of outsourcing, remote teams, common tools, and automation. Nick has worked with individuals and companies of all sizes, including Tony Robbins, Jay Abraham, Joe Polish, Ethereum and more.</p><h4>Bonus fun fact</h4><p>I’ve known Dan about an hour longer than Nick, since I met them at the same party in New York a few years ago. It hadn’t occurred to me until a moment ago that it’s a fun coincidence that I know my favorite efficiency expert and my favorite security expert thanks to one particular rooftop.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/1*ApyaDUXOouQN9l8m5rrJtw.png" /><figcaption>I met this guy there too, but he was busy this weekend and couldn’t join to give the guest lecture on A-meow.</figcaption></figure><p>Join us or share this link with someone who’ll benefit:</p><p>🌟<a href="https://bit.ly/cassiemaven1">https://bit.ly/cassiemaven1</a>🌟</p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=f298d1d978d9" width="1" height="1" alt="">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Why We Urgently Need AI Control Systems]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/600/0*lghf6AW_x8SynKHG" width="600"></a></p><p class="medium-feed-snippet">A perpendicular take to AGI fear-mongering</p><p class="medium-feed-link"><a href="https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2">Continue reading on The Startup »</a></p></div>]]></description>
+            <link>https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/3b9e23a80fbe</guid>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[leadership]]></category>
+            <category><![CDATA[technology]]></category>
+            <category><![CDATA[editors-pick]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Sun, 19 May 2024 16:12:17 GMT</pubDate>
+            <atom:updated>2024-06-21T01:13:02.993Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Glossary: Controlling AI Systems]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://kozyrkov.medium.com/glossary-controlling-ai-systems-52b7e600a5d7?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/600/0*LCScZPPtoRiJpeEU" width="600"></a></p><p class="medium-feed-snippet">Understanding the words used to describe various aspects of making AI do what you need it to</p><p class="medium-feed-link"><a href="https://kozyrkov.medium.com/glossary-controlling-ai-systems-52b7e600a5d7?source=rss-2fccb851bb5e------2">Continue reading on Medium »</a></p></div>]]></description>
+            <link>https://kozyrkov.medium.com/glossary-controlling-ai-systems-52b7e600a5d7?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/52b7e600a5d7</guid>
+            <category><![CDATA[editors-pick]]></category>
+            <category><![CDATA[leadership]]></category>
+            <category><![CDATA[technology]]></category>
+            <category><![CDATA[machine-learning]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Sun, 19 May 2024 15:19:55 GMT</pubDate>
+            <atom:updated>2024-06-21T01:12:37.209Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[What are: Embeddings? Vector Databases? Vector Search? k-NN? ANN?]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://kozyrkov.medium.com/what-are-embeddings-vector-databases-vector-search-k-nn-ann-9eb35f715c94?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/935/0*8Msf5RMIiag5ASSF.jpeg" width="935"></a></p><p class="medium-feed-snippet">A simple explainer to debuzz these AI buzzwords</p><p class="medium-feed-link"><a href="https://kozyrkov.medium.com/what-are-embeddings-vector-databases-vector-search-k-nn-ann-9eb35f715c94?source=rss-2fccb851bb5e------2">Continue reading on Medium »</a></p></div>]]></description>
+            <link>https://kozyrkov.medium.com/what-are-embeddings-vector-databases-vector-search-k-nn-ann-9eb35f715c94?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/9eb35f715c94</guid>
+            <category><![CDATA[editors-pick]]></category>
+            <category><![CDATA[vector-database]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Fri, 02 Feb 2024 16:41:22 GMT</pubDate>
+            <atom:updated>2024-06-21T01:32:40.023Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Here’s to a brilliant 2024!]]></title>
+            <link>https://kozyrkov.medium.com/heres-to-a-brilliant-2024-59f1ba90e34c?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/59f1ba90e34c</guid>
+            <category><![CDATA[self-improvement]]></category>
+            <category><![CDATA[data-science]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[public-speaking]]></category>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Mon, 01 Jan 2024 19:23:19 GMT</pubDate>
+            <atom:updated>2024-06-21T01:32:12.476Z</atom:updated>
+            <content:encoded><![CDATA[<h4>A personal update for my readers</h4><p>Happy new year, dear friends! If you’ve never encountered me before, whoops, sorry — this blog post is probably not the place to start getting to know one another. This one’s for my friends and followers who have been wondering what I’ve gotten up to since my big career change last year. If you’re not here for the updates, may I recommend fleeing this page and heading to any other of my blog posts for your enjoyment? Choose your own adventure among these topics:</p><ul><li><a href="https://bit.ly/quaesita_resolutions">New Years Resolutions</a>, <a href="https://bit.ly/quaesita_emperor">Artificial Intelligence</a>, <a href="https://bit.ly/quaesita_dmguide">AI Leadership</a>, <a href="https://bit.ly/quaesita_bubble">Data Science</a>, <a href="https://bit.ly/quaesita_uxrevolution">LLMs</a>, <a href="https://bit.ly/quaesita_statistics">Statistics</a>, <a href="https://bit.ly/quaesita_outcomebias">Decision-Making</a>, <a href="https://bit.ly/quaesita_ebp">Behavioral Economics</a>, <a href="https://bit.ly/quaesita_di">Decision Intelligence</a>, <a href="https://bit.ly/quaesita_scientists">Science</a>, <a href="https://bit.ly/quaesita_aibias">Bias</a>, <a href="https://bit.ly/quaesita_philadelphia">Data</a></li></ul><p>Still here? Time for the updates!</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/924/0*59BgYsE8Uz_lvRp_.png" /></figure><p>Here are some of my moments from 2023 that I’m most proud to share with you:</p><p>✌ Having the courage to spread my wings and leave my position as Google’s Chief Decision Scientist after almost 10 years there. (Here’s my blog post about how and why I took the leap: <a href="https://bit.ly/quaesita_quit1">https://bit.ly/quaesita_quit1</a>)</p><p>💪 Managing to stay kind, balanced, cheerful, and there for my family as I navigate being CEO of not one but two startups (the advising/speaking one that I’ve been public about and the secret AI one that’s so stealth I’ve never mentioned it before).</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*_BEttYFYjLjvWoQ6.png" /></figure><p>🤫 Finding a (stellar) co-founder. You will freak out when you find out who it is… all in good time.</p><p>✨ Growing as a professional speaker as I strive to be the most approachable, sensible, inspiring, and funny voice on the topic of AI and human potential. I spoke in front of over 50,000 people (in person!) in places like New York, Oslo, Lisbon, Rio de Janeiro, London, Istanbul, Las Vegas, Belgrade, Copenhagen, Riyadh, San Francisco, Montreal, and Milan.</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*rQBrX38p_KJLmXxo.png" /></figure><p>People keep asking me what my secret is, so let me spill the beans. The reason I’m different from other AI speakers is my unique background:</p><p>🤖 Decades of being a professional in AI, data, and decision science.</p><p>🎭 A lifetime of being a theatre nerd. Why did I do so much theatre training in my spare time? To feed my soul and because it’s fun. Or maybe for the same reason people climb Everest.. just to see how strong they can get if they push themselves. Going pro was a totally unplanned happy accident. But that’s the secret of what’s different about me as a speaker:</p><p>AI professional + lifelong theatre training = a damn good show.</p><p>This year, I’m planning to do even more speaking — go big or go home! If you’re keen to help me go even bigger (or if you’re frustrated by the gender imbalance you’re seeing in speaker lineups), please share my booking form with everyone you know who might be looking for speakers in 2024:</p><p><a href="https://kozyr.com/speaking">https://makecassietalk.com</a></p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*qnI2dTq-5tuIi0yV.png" /></figure><p>🌟 Creating a fun online course to help everyone improve their decision-making (free here if you have a LinkedIn account: <a href="https://bit.ly/decisioncourse">https://bit.ly/decisioncourse</a> )</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*U-PnOtEyhhL69fGf.jpeg" /></figure><p>✍ Becoming a better writer and growing my Medium blog to 170k+ followers (whoa, that’s close to a one quarter of the size of the biggest *publication* on the platform). I also signed with an awesome book agent. (Let’s do this!) By the way, my last blog post was all about the science of motivation and self-control, which you might find handy as you start the new year: <a href="https://bit.ly/quaesita_resolutions">https://bit.ly/quaesita_resolutions</a></p><figure><img alt="" src="https://cdn-images-1.medium.com/max/1024/0*rMgEupEUy0KXVx2c.png" /></figure><p>But enough about me! What are your proudest achievements of 2023 and what are your goals for 2024? Let me know on <a href="https://www.linkedin.com/posts/kozyrkov_what-are-your-proudest-achievements-of-2023-activity-7147661123171844096-9L1_/?utm_source=share&amp;utm_medium=member_desktop">social media</a> — I’m excited to hear from you. 💖</p><h3>Thanks for reading!</h3><p>If you want to say thank you, I appreciate shares and <a href="https://twitter.com/quaesita/status/1258809215038246912">retweets</a>. If you’re keen to read more of my writing, most of the links in this article take you to my other musings.</p><h3>How about a course?</h3><p>If you had fun here and you’re looking for an unboring leadership-oriented course designed to delight AI beginners and experts alike, <a href="https://bit.ly/funaicourse">here’s a little something</a> I made for you:</p><figure><img alt="" src="https://cdn-images-1.medium.com/max/770/1*zsmGWgKiMLHCLBsICrcTGg.png" /><figcaption>Course link: <a href="https://bit.ly/funaicourse">https://bit.ly/funaicourse</a></figcaption></figure><p>Prefer to hone your decision skills instead of building your AI muscles? You can learn decision intelligence from me via this <a href="https://bit.ly/decisioncourse">link to my free course:</a></p><p><a href="https://bit.ly/decisioncourse">The steering wheel for your life - Decision Intelligence Video Tutorial | LinkedIn Learning, formerly Lynda.com</a></p><p><em>P.S. Have you ever tried hitting the clap button here on Medium more than once to see what happens? </em>❤️</p><h3>Liked the author? Connect with Cassie Kozyrkov</h3><p>Let’s be friends! You can find me on <a href="https://twitter.com/quaesita">Twitter</a>, <a href="https://www.youtube.com/channel/UCbOX--VOebPe-MMRkatFRxw">YouTube</a>, <a href="http://decision.substack.com">Substack</a>, and <a href="https://www.linkedin.com/in/kozyrkov/">LinkedIn</a>. Interested in having me speak at your event? Use <a href="http://bit.ly/makecassietalk">this form</a> to get in touch.</p><p><a href="https://kozyrkov.medium.com/membership">Join Medium with my referral link - Cassie Kozyrkov</a></p><img src="https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=59f1ba90e34c" width="1" height="1" alt="">]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[✨The Advanced Manual of Self-Improvement✨]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://medium.com/swlh/how-to-design-resolutions-that-work-according-to-a-decision-scientist-extended-version-47c38bbb7198?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/600/0*XRF_YNrUyHeM8CQw" width="600"></a></p><p class="medium-feed-snippet">Decision science tips to help you stick to your New Year&#x2019;s resolutions</p><p class="medium-feed-link"><a href="https://medium.com/swlh/how-to-design-resolutions-that-work-according-to-a-decision-scientist-extended-version-47c38bbb7198?source=rss-2fccb851bb5e------2">Continue reading on The Startup »</a></p></div>]]></description>
+            <link>https://medium.com/swlh/how-to-design-resolutions-that-work-according-to-a-decision-scientist-extended-version-47c38bbb7198?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/47c38bbb7198</guid>
+            <category><![CDATA[self-improvement]]></category>
+            <category><![CDATA[psychology]]></category>
+            <category><![CDATA[life-lessons]]></category>
+            <category><![CDATA[technology]]></category>
+            <category><![CDATA[motivation]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Sun, 31 Dec 2023 23:06:11 GMT</pubDate>
+            <atom:updated>2024-06-20T23:53:25.028Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[How NOT To Make New Year’s Resolutions]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://kozyrkov.medium.com/how-not-to-make-new-years-resolutions-877a30edce06?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/1920/1*fyzywzKfTCQ2GoYXaqyLmg.png" width="1920"></a></p><p class="medium-feed-snippet">Most people&#x2019;s resolutions fail&#x2026; here&#x2019;s how you can do better</p><p class="medium-feed-link"><a href="https://kozyrkov.medium.com/how-not-to-make-new-years-resolutions-877a30edce06?source=rss-2fccb851bb5e------2">Continue reading on Medium »</a></p></div>]]></description>
+            <link>https://kozyrkov.medium.com/how-not-to-make-new-years-resolutions-877a30edce06?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/877a30edce06</guid>
+            <category><![CDATA[resolutions]]></category>
+            <category><![CDATA[motivation]]></category>
+            <category><![CDATA[wellness]]></category>
+            <category><![CDATA[psychology]]></category>
+            <category><![CDATA[self-improvement]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Thu, 28 Dec 2023 16:42:31 GMT</pubDate>
+            <atom:updated>2024-06-20T23:53:11.319Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Willpower Is Not The Solution]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://blog.goodaudience.com/willpower-is-not-the-solution-e9e5a0cb8444?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/1444/1*rDqcVFQ-694xx7aXCKynRw.png" width="1444"></a></p><p class="medium-feed-snippet">For this year&#x2019;s round of New Year&#x2019;s Resolutions, try brainpower instead of willpower</p><p class="medium-feed-link"><a href="https://blog.goodaudience.com/willpower-is-not-the-solution-e9e5a0cb8444?source=rss-2fccb851bb5e------2">Continue reading on Good Audience »</a></p></div>]]></description>
+            <link>https://blog.goodaudience.com/willpower-is-not-the-solution-e9e5a0cb8444?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/e9e5a0cb8444</guid>
+            <category><![CDATA[motivation]]></category>
+            <category><![CDATA[health]]></category>
+            <category><![CDATA[wellness]]></category>
+            <category><![CDATA[decision-making]]></category>
+            <category><![CDATA[psychology]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Tue, 26 Dec 2023 22:09:49 GMT</pubDate>
+            <atom:updated>2024-06-20T23:52:54.448Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[Why quitting your job might be the best decision you’ve ever made]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://kozyrkov.medium.com/why-quitting-your-job-might-be-the-best-decision-youve-ever-made-4949b62ad319?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/960/1*GiyhBU2wJYec-LU-taUA5w.png" width="960"></a></p><p class="medium-feed-snippet">Advice for those who are afraid of leaping into the unknown</p><p class="medium-feed-link"><a href="https://kozyrkov.medium.com/why-quitting-your-job-might-be-the-best-decision-youve-ever-made-4949b62ad319?source=rss-2fccb851bb5e------2">Continue reading on Medium »</a></p></div>]]></description>
+            <link>https://kozyrkov.medium.com/why-quitting-your-job-might-be-the-best-decision-youve-ever-made-4949b62ad319?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/4949b62ad319</guid>
+            <category><![CDATA[careers]]></category>
+            <category><![CDATA[personal-development]]></category>
+            <category><![CDATA[decision-making]]></category>
+            <category><![CDATA[leadership]]></category>
+            <category><![CDATA[life-lessons]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Mon, 30 Oct 2023 16:46:45 GMT</pubDate>
+            <atom:updated>2024-06-21T01:32:04.521Z</atom:updated>
+        </item>
+        <item>
+            <title><![CDATA[What was the hardest thing about quitting my job at Google?]]></title>
+            <description><![CDATA[<div class="medium-feed-item"><p class="medium-feed-image"><a href="https://kozyrkov.medium.com/what-was-the-hardest-thing-about-quitting-my-job-at-google-6bc5a17ff83d?source=rss-2fccb851bb5e------2"><img src="https://cdn-images-1.medium.com/max/1920/1*Xrmq2_N3MPUWyZJUC8XN7w.png" width="1920"></a></p><p class="medium-feed-snippet">Advice for those who are afraid of leaping into the unknown</p><p class="medium-feed-link"><a href="https://kozyrkov.medium.com/what-was-the-hardest-thing-about-quitting-my-job-at-google-6bc5a17ff83d?source=rss-2fccb851bb5e------2">Continue reading on Medium »</a></p></div>]]></description>
+            <link>https://kozyrkov.medium.com/what-was-the-hardest-thing-about-quitting-my-job-at-google-6bc5a17ff83d?source=rss-2fccb851bb5e------2</link>
+            <guid isPermaLink="false">https://medium.com/p/6bc5a17ff83d</guid>
+            <category><![CDATA[careers]]></category>
+            <category><![CDATA[personal-development]]></category>
+            <category><![CDATA[artificial-intelligence]]></category>
+            <category><![CDATA[motivation]]></category>
+            <category><![CDATA[technology]]></category>
+            <dc:creator><![CDATA[Cassie Kozyrkov]]></dc:creator>
+            <pubDate>Sun, 29 Oct 2023 21:42:35 GMT</pubDate>
+            <atom:updated>2024-06-21T01:31:58.979Z</atom:updated>
+        </item>
+    </channel>
+</rss>

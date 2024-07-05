@@ -4,32 +4,32 @@
     "llm_temperature": "0.9",
     "author_name": "Gianni Forlastro",
     "author_nationality": "Italian",
-    "author_style": "Enthusiastic, community-focused, informative",
+    "author_style": "Enthusiastic and informative, community-focused",
     "author_favorite_languages": "NULL",
-    "author_favorite_cloud": "Google Cloud Platform",
+    "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
-            "current": " …",
-            "correct": " ...",
+            "current": " ",
+            "correct": " ",
             "url": "https://medium.com/@gianni.forlastro/devfest-italy-cfp-concluded-successfully-e7122ede31c7?source=rss-ddd0de6bdeb8------2"
         },
         {
-            "current": " qui",
-            "correct": " qui",
-            "url": "https://medium.com/@gianni.forlastro/devfest-italy-cfp-concluded-successfully-e7122ede31c7?source=rss-ddd0de6bdeb8------2"
-        },
-        {
-            "current": " …",
-            "correct": " ...",
+            "current": " ",
+            "correct": " ",
             "url": "https://medium.com/@gianni.forlastro/devfest-italy-2020-a-worldwide-event-babac37716cb?source=rss-ddd0de6bdeb8------2"
+        },
+        {
+            "current": " ",
+            "correct": " ",
+            "url": "https://medium.com/@gianni.forlastro/gde-cloud-chat-21d25ab5ec65?source=rss-ddd0de6bdeb8------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "DevFest Italy: CFP concluded… successfully!",
-            "summary": "Gianni Forlastro discusses the successful conclusion of the Call For Papers for DevFest Italy 2020, highlighting the event's global reach and the impressive number of submissions. The article provides statistics on proposal submissions, including the areas of focus, geographic distribution, and novelty of the talks.  It emphasizes the international nature of the conference with a 30% English submission rate and previews the upcoming DevFest Italy event, part of a wider European initiative.",
+            "summary": "Gianni Forlastro shares statistics on the successful conclusion of the Call for Papers for DevFest Italy 2020. He highlights the high number of submissions, the diversity of topics, and the international reach of the event. The event aims to be a global online conference with a mix of Italian and English language talks. Most submissions are from the Italian community, with a focus on mobile, soft skills, cloud, frontend, and other transversal topics.",
             "url": "https://medium.com/@gianni.forlastro/devfest-italy-cfp-concluded-successfully-e7122ede31c7?source=rss-ddd0de6bdeb8------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2020-10-05",
             "is_gcp": true,
             "is_technical": false,
@@ -43,9 +43,9 @@
         },
         {
             "title": "DevFest Italy 2020, a WORLDWIDE event",
-            "summary": "Gianni Forlastro provides an overview of DevFest Italy 2020, emphasizing its global reach and highlighting the event's collaboration with other European GDG communities. He describes the DevFest format and the diverse range of topics covered, including Cloud Computing, Frontend, Machine Learning, Marketing, Mobile, Diversity & Inclusion, and Soft Skills. The article introduces the first confirmed speakers and features a short video by Michel Murabito explaining the importance of DevFest Italy.",
+            "summary": "Gianni Forlastro introduces DevFest Italy 2020, a global online conference organized by Italian Google Developer Groups. He explains the concept of DevFests and how they have adapted to a virtual format. The article highlights the international participation, with speakers from various countries, and the range of topics covered, including Cloud Computing, Frontend, Machine Learning, Marketing, Mobile, Diversity & Inclusion, and Soft Skills. Gianni also mentions the confirmed speakers and shares a video by Michel Murabito on why to follow DevFest Italia.",
             "url": "https://medium.com/@gianni.forlastro/devfest-italy-2020-a-worldwide-event-babac37716cb?source=rss-ddd0de6bdeb8------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2020-09-29",
             "is_gcp": true,
             "is_technical": false,
@@ -59,7 +59,7 @@
         },
         {
             "title": "GDE, cloud & chat",
-            "summary": "Gianni Forlastro interviews Antonella, a Google Developer Expert (GDE) in Cloud Computing, exploring her experiences, certifications, and insights on the field. Antonella discusses the value of Google Cloud certifications, highlighting their practical benefits and the skills they develop, including cloud services, scalable app creation, project organization, and less-code development. The article also covers Antonella's involvement in organizing a free online course for professional cloud developer certification and provides advice for individuals pursuing such certifications.",
+            "summary": "Gianni Forlastro interviews Antonella, a Cloud GDE (Google Developer Expert), about her experience with cloud computing and certifications. Antonella discusses the meaning of being a GDE, the importance of certifications, and the practical benefits of acquiring Google Cloud skills. She explains the topics covered in the 'Cloud Developer' certification and emphasizes the need for professionals to adapt to the changing landscape of technology. She also mentions a free online course for professional cloud developer certification, which is currently being tested with Italian and European Google Communities.",
             "url": "https://medium.com/@gianni.forlastro/gde-cloud-chat-21d25ab5ec65?source=rss-ddd0de6bdeb8------2",
             "accuracy": 9,
             "publication_date": "2020-05-22",
@@ -75,9 +75,9 @@
         },
         {
             "title": "GDG DevParty Together: when unity is strength",
-            "summary": "Gianni Forlastro describes the first virtual GDG DevParty Together, a two-day online conference organized by various GDG communities in Italy during the COVID-19 pandemic. He highlights the spirit of collaboration and unity that characterized the event, with over 35 sessions on topics like Cloud Computing, Frontend, Mobile, Machine Learning, Soft Skills, and Diversity & Inclusion. The article emphasizes the success of the conference, with over 1300 attendees and active participation through questions and interactions. It concludes with a call to action for other communities interested in organizing similar online events.",
+            "summary": "Gianni Forlastro describes the first online GDG DevParty Together, a conference organized by various Italian Google Developer Groups. He highlights the challenges of organizing a virtual event during the COVID-19 pandemic and the collaboration between the different GDGs. The article outlines the process of organizing the event, including the formation of working groups, the selection of topics, and the execution of the two-day conference. Gianni shares statistics on the event's reach, with over 1300 participants and a high level of engagement. He expresses pride in the success of the first GDG DevParty Together and mentions that a future article will detail the activities of each working group.",
             "url": "https://medium.com/@gianni.forlastro/gdg-devparty-together-when-unity-is-strength-8148134abf19?source=rss-ddd0de6bdeb8------2",
-            "accuracy": 8,
+            "accuracy": 9,
             "publication_date": "2020-05-20",
             "is_gcp": true,
             "is_technical": false,

@@ -1,16 +1,16 @@
 ```json
 {
-    "prompt_version": "1.13",
+    "prompt_version": "1.15",
     "llm_temperature": "0.9",
     "author_name": "Christoph Stanger",
-    "author_nationality": "German",
-    "author_style": "Technical and informative, with a focus on explaining complex concepts",
+    "author_nationality": "Austrian",
+    "author_style": "Informative and detailed, technical focus.",
     "author_favorite_languages": "Go, Java, Node.js, PHP, Python, Ruby, Swift, .Net",
     "author_favorite_cloud": "IBM Cloud",
     "typos": [
         {
             "current": "platformˋs",
-            "correct": "platform's",
+            "correct": "platform’s",
             "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2"
         },
         {
@@ -20,37 +20,57 @@
         },
         {
             "current": "naively",
-            "correct": "naïvely",
+            "correct": "naively",
             "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "An exploratory flight through your Serverless Architecture",
-            "summary": "This article explores the OpenWhisk-Visualizer (OWVIS), a tool for visualizing Serverless Architectures deployed on OpenWhisk. OWVIS uses a 3D map metaphor to represent functions, with height, base area, and color indicating different metrics. It aims to improve architecture discussions and decisions by providing real-time insights into deployed serverless architectures. The article discusses various use cases of OWVIS, such as visualizing an overall architecture, implementing RED monitoring scenarios, and identifying oversized functions. It also explores the concept of read-heavy reporting engines and how OWVIS can help identify potential for caching optimization. The article concludes by highlighting the importance of OWVIS in facilitating architecture improvements and cost savings.",
+            "summary": "This article explores the OpenWhisk-Visualizer (OWVIS), a tool designed to visualize serverless architectures deployed on OpenWhisk. It highlights the challenges of managing serverless applications with a large number of functions and their composition. The article emphasizes the importance of observability and architecture assessment for serverless systems. OWVIS uses a 3D map metaphor to visualize functions, their metrics, and dependencies. It provides various visualization templates (scenarios) to analyze different aspects of the architecture, such as function oversizing and caching suggestions. The article also outlines the system architecture of OWVIS, its modular design, and deployment options (Docker, Docker-Compose, Kubernetes). Finally, it discusses limitations, such as the need for manual data aggregation, and the impact of OpenWhisk API limitations on large-scale deployments. OWVIS is a valuable tool for improving FaaS development and observability, particularly for identifying potential cost improvements and architectural optimization opportunities.",
             "url": "https://medium.com/@ch.stanger/an-exploratory-flight-through-your-serverless-architecture-d2d7b7128f2e?source=rss-213298b72369------2",
             "accuracy": 9,
             "publication_date": "2020-08-30",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "serverless-architecture",
+                "software-architecture",
+                "openwhisk",
+                "observability",
+                "function-as-a-service"
+            ]
         },
         {
             "title": "An system introduction into Apache OpenWhisk",
-            "summary": "This article provides a system introduction into Apache OpenWhisk, an open-source serverless FaaS platform. It explains the platform's event-driven programming model, which includes triggers, rules, actions, namespaces, and packages. The author describes how OpenWhisk enables developers to focus on business logic and not infrastructure management. The article also details the technical architecture of OpenWhisk, outlining components like NginX, Controller, CouchDB, and Invoker. It discusses how these components interact and leverage cloud-native technologies like Docker, CouchDB, Kafka, and NginX to provide a scalable and flexible serverless environment.",
+            "summary": "This article provides a detailed introduction to Apache OpenWhisk, an open-source serverless FaaS platform. It delves into the platform’s event-driven programming model, outlining key entities like triggers, rules, actions, namespaces, and packages. The article explains how actions can be implemented in various programming languages (Go, Java, Node.js, PHP, Python, Ruby, Swift, .Net) and how Docker containers can be used to run actions with any language. It then explores the platform architecture, highlighting components like NginX, the Controller, CouchDB, the Invoker, and Kafka. The article emphasizes the importance of runtime data for observability and debugging. It describes the structure and content of activation records, which hold valuable information about function execution, including duration, status codes, logs, and performance metrics. The article also discusses limitations in the available runtime data and proposes function instrumentation as a solution to enrich it. It showcases an open-source framework, openwhisk-instrumentation, for instrumenting Node.js actions to collect additional metrics.",
             "url": "https://medium.com/@ch.stanger/an-system-introduction-into-apache-openwhisk-74a7e07bf3ee?source=rss-213298b72369------2",
-            "accuracy": 10,
+            "accuracy": 9,
             "publication_date": "2020-08-05",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "function-as-a-service",
+                "platform-design",
+                "openwhisk",
+                "function-instrumentation"
+            ]
         },
         {
             "title": "Serverless Architectures",
-            "summary": "This article explores the concept of serverless architectures and its impact on application design and technical architectures. It defines software architecture as the fundamental organization of a system, emphasizing its importance for future performance, quality, and maintainability. The article then dives into cloud-native software and its focus on open-source software stacks and microservice-based architectures. It discusses the benefits of microservices, including independent development and deployment, technology freedom, and autonomous scaling. The article also touches on the evolution towards nanoservices, highlighting the importance of breaking down services into smaller, more specialized units. This article provides an insightful introduction to serverless architectures and their key properties, serving as a valuable starting point for anyone interested in this emerging cloud computing paradigm.",
+            "summary": "This article provides a comprehensive overview of serverless architectures, focusing on their properties, benefits, and architectural patterns. It defines serverless architectures as those built primarily on functions hosted on FaaS platforms and supplemented by BaaS services. The article highlights key characteristics of serverless architectures, such as event-driven nature, stateless services, asynchronous function calls, and pay-per-use pricing model. It discusses the trade-offs between fine service granularity and cold start behavior. The article then explores various serverless architecture patterns, including function warmer, oversize functions, router, aggregator, function chain, fan-out and fan-in, externalized state, and read-heavy reporting engine. It explains the rationale behind each pattern, its advantages, and potential disadvantages. The article concludes by emphasizing the importance of observability and visualization tools, such as the OpenWhisk Visualizer (OWVIS), to manage the complexity of serverless architectures.",
             "url": "https://medium.com/@ch.stanger/serverless-architectures-ca5df80691c?source=rss-213298b72369------2",
             "accuracy": 9,
             "publication_date": "2020-08-04",
             "is_gcp": false,
-            "is_technical": true
+            "is_technical": true,
+            "Categories": [
+                "serverless-architecture",
+                "serverless-patterns",
+                "function-as-a-service",
+                "openwhisk",
+                "serverless"
+            ]
         }
     ]
 }

@@ -4,25 +4,30 @@
     "llm_temperature": "0.9",
     "author_name": "Laurent Picard",
     "author_nationality": "French",
-    "author_style": "Informative, concise, practical",
+    "author_style": "Technical and informative, with a focus on Google Cloud.",
     "author_favorite_languages": "Python",
     "author_favorite_cloud": "Google Cloud",
     "typos": [
         {
-            "current": "“The Lumières”",
-            "correct": "“The Lumières”",
+            "current": " ",
+            "correct": " ",
+            "url": "https://medium.com/google-cloud/counting-gemini-text-tokens-locally-with-the-vertex-ai-sdk-78979fea6244?source=rss-6be63961431c------2"
+        },
+        {
+            "current": " ",
+            "correct": " ",
             "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2"
         },
         {
-            "current": "“double” as “written in two parts”,",
-            "correct": "“double” as “written in two parts”,",
-            "url": "https://medium.com/google-cloud/from-pixels-to-information-with-document-ai-3476431c3010?source=rss-6be63961431c------2"
+            "current": " ",
+            "correct": " ",
+            "url": "https://medium.com/google-cloud/moderating-text-with-the-natural-language-api-5d379727da2c?source=rss-6be63961431c------2"
         }
     ],
     "articles_feedback": [
         {
             "title": "Counting Gemini text tokens locally",
-            "summary": "This article explains how to use the Vertex AI SDK for Python to count the number of tokens in text input before sending it to Gemini. The author covers the tokenization process, setting up the Vertex AI SDK, and counting tokens locally using the count_tokens() method. The article also discusses the benefits of knowing token counts, including determining model compatibility, estimating costs, and predicting processing times.",
+            "summary": "This article explains how to count text tokens locally using the Vertex AI SDK for Python. It covers tokenization, setting up the SDK, counting tokens locally, and handling multimodal inputs. The author highlights the benefits of knowing token counts for tasks like determining input processing feasibility and cost estimation.",
             "url": "https://medium.com/google-cloud/counting-gemini-text-tokens-locally-with-the-vertex-ai-sdk-78979fea6244?source=rss-6be63961431c------2",
             "accuracy": 9,
             "publication_date": "2024-07-04",
@@ -38,7 +43,7 @@
         },
         {
             "title": "Making AI more Open and Accessible to Cloud Developers with Gemma on Vertex AI",
-            "summary": "This article introduces Gemma, a family of open, lightweight, and easy-to-use models developed by Google Deepmind. The author highlights its benefits and use cases for cloud developers, comparing it to Gemini. He provides a step-by-step guide on fine-tuning Gemma using KerasNLP and deploying it to Vertex AI. The article also covers responsible AI practices and popular serving frameworks like vLLM, TGI, Saxml, and TensorRT-LLM.",
+            "summary": "The author introduces Gemma, a family of open and lightweight LLMs developed by Google Deepmind, built on the same technology as Gemini. He explores the different Gemma models, their sizes, and use cases. The article covers Gemma's interoperability with ML platforms and frameworks, finetuning using Keras, and deploying it to Vertex AI. It emphasizes the importance of responsible AI development and provides resources for building safer applications.",
             "url": "https://medium.com/google-cloud/making-ai-more-open-and-accessible-to-cloud-developers-with-gemma-on-vertex-ai-4b0fc2a14851?source=rss-6be63961431c------2",
             "accuracy": 9,
             "publication_date": "2024-02-21",
@@ -54,9 +59,9 @@
         },
         {
             "title": "Moderating text with the Natural Language API",
-            "summary": "This article explains how to use the Google Cloud Natural Language API to detect sensitive or harmful content in text. The author covers the 16 moderation categories supported by the API, including toxicity, insults, profanity, violence, and sexual content. He provides a Python code example using the moderate_text method to analyze text and retrieve confidence scores for each category. The article also discusses the importance of calibrating solutions based on confidence thresholds and leveraging the API for real-time moderation.",
+            "summary": "This article explains how to use the Google Cloud Natural Language API for text moderation. It covers the available moderation categories, demonstrating how to analyze text for sensitive content using the Python client library. The author explains how to interpret confidence scores and provides resources for further exploration.",
             "url": "https://medium.com/google-cloud/moderating-text-with-the-natural-language-api-5d379727da2c?source=rss-6be63961431c------2",
-            "accuracy": 9,
+            "accuracy": 8,
             "publication_date": "2023-06-16",
             "is_gcp": true,
             "is_technical": true,
@@ -70,7 +75,7 @@
         },
         {
             "title": "A Better Way to Use Google Cloud from Colab",
-            "summary": "This article presents a simplified way to use Google Cloud services from Colab notebooks without the need for service accounts. The author contrasts the previous method using service accounts with the new, service-account-less approach. The new method involves using the authenticate_user() method from the google.colab module, which authenticates users for gcloud CLI commands and Google Cloud Python Client Libraries.",
+            "summary": "The author addresses the challenge of authenticating with Google Cloud from Colab notebooks, highlighting the complexity of traditional service account methods. He introduces a new simplified approach that eliminates the need for service accounts, allowing developers to authenticate directly using their Google Cloud project. The article provides a concise before-after comparison and links to further resources.",
             "url": "https://medium.com/google-colab/a-better-way-to-use-google-cloud-from-colab-bb93f88b5021?source=rss-6be63961431c------2",
             "accuracy": 9,
             "publication_date": "2023-06-13",
@@ -86,7 +91,7 @@
         },
         {
             "title": "Using Google Cloud from Colab",
-            "summary": "This article guides users on how to utilize Google Cloud services within Google Colab notebooks. The author outlines the steps involved, starting with installing dependencies, authenticating with Google Cloud, enabling required APIs, and accessing services through Python client libraries. He also highlights the benefits of Colab's advanced features, such as data visualization and processing, and provides links to example notebooks.",
+            "summary": "This article provides a guide on how to use Google Cloud services from within Colab notebooks. It explains how to install dependencies, authenticate with Google Cloud, enable required APIs, and access services using Python client libraries. The author highlights the benefits of using Google Cloud from Colab, such as leveraging its high-performance network and accessing powerful cloud workloads.",
             "url": "https://medium.com/google-cloud/using-google-cloud-from-colab-75691f4a731?source=rss-6be63961431c------2",
             "accuracy": 9,
             "publication_date": "2023-06-13",
@@ -102,7 +107,7 @@
         },
         {
             "title": "From pixels to information with Document AI",
-            "summary": "This article explores Google Cloud's Document AI service, demonstrating how it extracts information from documents, including text, structure, semantic entities, normalized values, and qualitative signals. The author covers various aspects of Document AI, including processor types, locations, versions, interfaces, and request methods. The article also includes practical examples illustrating OCR, handwriting detection, form field extraction, checkbox analysis, table detection, and specialized processors for domains like procurement, lending, and identity.",
+            "summary": "This comprehensive article explores Google Cloud's Document AI service, demonstrating how it transforms images into structured information. It delves into processor types, locations, and versions. The author explains the process of extracting information from pixels, including text detection at various levels and language support. He showcases Document AI's ability to handle handwriting, noise, and distorted documents, showcasing its robustness. The article further explores the capabilities of specialized processors like Form Parser, Expense Parser, and Identity processors, highlighting their ability to extract entities and provide normalized values for enhanced accuracy and ease of use.",
             "url": "https://medium.com/google-cloud/from-pixels-to-information-with-document-ai-3476431c3010?source=rss-6be63961431c------2",
             "accuracy": 9,
             "publication_date": "2023-03-15",
@@ -118,9 +123,9 @@
         },
         {
             "title": "Automate identity document processing with Document AI",
-            "summary": "This article explores the capabilities of Google Cloud Document AI for automating the processing of identity documents. The author covers use cases for financial accounts, transportation networks, identity gates, and hotels, demonstrating how Document AI can streamline processes and improve user experiences. He discusses the types of identity processors available, including those for US and French identity documents. The article also explains the process of creating and using processors, outlining both online and batch processing methods. ",
+            "summary": "The article introduces Google Cloud's Document AI identity processors, which can automatically extract information from identity documents such as driver licenses, national IDs, and passports. The author highlights real-world use cases for identity processing, including financial accounts, transportation networks, identity gates, hotels, and customer benefits. He explains the availability of identity processors, their creation, and processing methods (online and batch requests). The article then delves into the structure of responses, demonstrating how to extract identity fields and provides code examples for using the API and client libraries.",
             "url": "https://medium.com/google-cloud/automate-identity-document-processing-with-document-ai-912e1011e164?source=rss-6be63961431c------2",
-            "accuracy": 9,
+            "accuracy": 8,
             "publication_date": "2022-06-02",
             "is_gcp": true,
             "is_technical": true,

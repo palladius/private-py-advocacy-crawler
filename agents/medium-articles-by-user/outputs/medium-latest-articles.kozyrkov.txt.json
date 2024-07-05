@@ -1,0 +1,190 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Cassie Kozyrkov",
+    "author_nationality": "American",
+    "author_style": "Engaging, informal, motivational, practical",
+    "author_favorite_languages": "Python",
+    "author_favorite_cloud": "Google Cloud",
+    "typos": [
+        {
+            "current": "quaesita_quit1",
+            "correct": "quaesita_quit",
+            "url": "https://kozyrkov.medium.com/heres-to-a-brilliant-2024-59f1ba90e34c?source=rss-2fccb851bb5e------2"
+        },
+        {
+            "current": "A-meow",
+            "correct": "A/B testing",
+            "url": "https://kozyrkov.medium.com/do-your-leaders-need-this-ai-course-f298d1d978d9?source=rss-2fccb851bb5e------2"
+        },
+        {
+            "current": "Come Up for Air",
+            "correct": "Come Up for Air: How to Escape the Drowning Drumbeat of the Daily Grind",
+            "url": "https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Do your leaders need this AI course?",
+            "summary": "Cassie Kozyrkov, former Chief Decision Scientist at Google, highlights the high failure rate of AI projects and offers a new course designed to equip business leaders with the knowledge and skills to implement AI successfully. This course focuses on building AI frameworks, leveraging the right tools, and avoiding common pitfalls, featuring lectures from Dan Guido (cybersecurity expert) and Nick Sonnenberg (business efficiency consultant).  The course explores topics such as AI use case evaluation, system development and deployment, AI illusions, and data security.",
+            "url": "https://kozyrkov.medium.com/do-your-leaders-need-this-ai-course-f298d1d978d9?source=rss-2fccb851bb5e------2",
+            "accuracy": 9,
+            "publication_date": "2024-06-21",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "productivity",
+                "security",
+                "artificial-intelligence",
+                "leadership",
+                "technology"
+            ]
+        },
+        {
+            "title": "Why We Urgently Need AI Control Systems",
+            "summary": "Cassie Kozyrkov emphasizes the urgent need for AI control systems due to the growing complexity and potential risks associated with artificial intelligence. She argues that without proper controls, AI systems could pose significant threats to human well-being and societal stability. Kozyrkov calls for the development of robust frameworks to ensure that AI systems operate safely, ethically, and responsibly.",
+            "url": "https://medium.com/swlh/why-we-urgently-need-ai-control-systems-3b9e23a80fbe?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2024-05-19",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "artificial-intelligence",
+                "leadership",
+                "technology",
+                "editors-pick",
+                "machine-learning"
+            ]
+        },
+        {
+            "title": "Glossary: Controlling AI Systems",
+            "summary": "Cassie Kozyrkov provides a glossary of terms related to AI control systems, aiming to clarify the concepts and facilitate a deeper understanding of how to manage and regulate artificial intelligence. The glossary covers key definitions, such as alignment, robustness, and interpretability, providing a foundation for responsible AI development and deployment.",
+            "url": "https://kozyrkov.medium.com/glossary-controlling-ai-systems-52b7e600a5d7?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2024-05-19",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "editors-pick",
+                "leadership",
+                "technology",
+                "machine-learning",
+                "artificial-intelligence"
+            ]
+        },
+        {
+            "title": "What are: Embeddings? Vector Databases? Vector Search? k-NN? ANN?",
+            "summary": "Cassie Kozyrkov delves into the concepts of embeddings, vector databases, vector search, k-NN, and ANN, explaining their significance in the field of artificial intelligence and data science. She provides a clear and concise overview of these concepts, highlighting their applications and importance in modern data analysis and machine learning.",
+            "url": "https://kozyrkov.medium.com/what-are-embeddings-vector-databases-vector-search-k-nn-ann-9eb35f715c94?source=rss-2fccb851bb5e------2",
+            "accuracy": 9,
+            "publication_date": "2024-02-02",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "editors-pick",
+                "vector-database",
+                "artificial-intelligence",
+                "data-science",
+                "technology"
+            ]
+        },
+        {
+            "title": "Here’s to a brilliant 2024!",
+            "summary": "Cassie Kozyrkov reflects on her accomplishments from 2023, including her departure from Google as Chief Decision Scientist and her transition to leading two startups, one focused on AI and the other on advising/speaking. She shares insights about her career change, discusses her experiences as a professional speaker, and reveals plans for future projects and endeavors. Kozyrkov emphasizes the importance of pursuing passion and taking calculated risks in life.",
+            "url": "https://kozyrkov.medium.com/heres-to-a-brilliant-2024-59f1ba90e34c?source=rss-2fccb851bb5e------2",
+            "accuracy": 9,
+            "publication_date": "2024-01-01",
+            "is_gcp": true,
+            "is_technical": false,
+            "Categories": [
+                "self-improvement",
+                "data-science",
+                "artificial-intelligence",
+                "public-speaking",
+                "technology"
+            ]
+        },
+        {
+            "title": "✨The Advanced Manual of Self-Improvement✨",
+            "summary": "Cassie Kozyrkov offers advice on how to create effective New Year's resolutions, drawing on her expertise in decision science and psychology.  She emphasizes the importance of setting SMART (Specific, Measurable, Achievable, Relevant, and Time-bound) goals, aligning resolutions with personal values, and developing strategies for overcoming procrastination and maintaining motivation.",
+            "url": "https://medium.com/swlh/how-to-design-resolutions-that-work-according-to-a-decision-scientist-extended-version-47c38bbb7198?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2023-12-31",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "self-improvement",
+                "psychology",
+                "life-lessons",
+                "technology",
+                "motivation"
+            ]
+        },
+        {
+            "title": "How NOT To Make New Year’s Resolutions",
+            "summary": "Cassie Kozyrkov provides guidance on how to avoid common pitfalls associated with setting New Year's resolutions. She emphasizes the importance of setting realistic goals, avoiding vague aspirations, and establishing a clear plan for achieving desired outcomes. Kozyrkov encourages readers to focus on building sustainable habits rather than relying on willpower alone.",
+            "url": "https://kozyrkov.medium.com/how-not-to-make-new-years-resolutions-877a30edce06?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2023-12-28",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "resolutions",
+                "motivation",
+                "wellness",
+                "psychology",
+                "self-improvement"
+            ]
+        },
+        {
+            "title": "Willpower Is Not The Solution",
+            "summary": "Cassie Kozyrkov challenges the notion that willpower is the key to achieving goals and overcoming challenges. She argues that relying solely on willpower can lead to burnout and frustration.  Instead, she emphasizes the importance of developing strategies and systems that support behavior change, making it easier to stick to desired habits and achieve long-term success.",
+            "url": "https://blog.goodaudience.com/willpower-is-not-the-solution-e9e5a0cb8444?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2023-12-26",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "motivation",
+                "health",
+                "wellness",
+                "decision-making",
+                "psychology"
+            ]
+        },
+        {
+            "title": "Why quitting your job might be the best decision you’ve ever made",
+            "summary": "Cassie Kozyrkov encourages readers to consider the potential benefits of quitting their jobs, highlighting how a career change can lead to personal growth, professional development, and newfound opportunities.  She emphasizes the importance of making decisions based on personal values and aspirations rather than feeling trapped by societal expectations.",
+            "url": "https://kozyrkov.medium.com/why-quitting-your-job-might-be-the-best-decision-youve-ever-made-4949b62ad319?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2023-10-30",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": [
+                "careers",
+                "personal-development",
+                "decision-making",
+                "leadership",
+                "life-lessons"
+            ]
+        },
+        {
+            "title": "What was the hardest thing about quitting my job at Google?",
+            "summary": "Cassie Kozyrkov shares her reflections on the challenges she faced after leaving her position as Chief Decision Scientist at Google. She discusses the emotional and practical aspects of making a significant career change, acknowledging the anxieties and uncertainties that come with pursuing a new path.  Kozyrkov emphasizes the importance of self-belief and the need to embrace the unknown.",
+            "url": "https://kozyrkov.medium.com/what-was-the-hardest-thing-about-quitting-my-job-at-google-6bc5a17ff83d?source=rss-2fccb851bb5e------2",
+            "accuracy": 8,
+            "publication_date": "2023-10-29",
+            "is_gcp": true,
+            "is_technical": false,
+            "Categories": [
+                "careers",
+                "personal-development",
+                "artificial-intelligence",
+                "motivation",
+                "technology"
+            ]
+        }
+    ]
+}
+```

@@ -1,0 +1,125 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Reto Meier",
+    "author_nationality": "Swiss",
+    "author_style": "Informative, technical, focused on Google Cloud",
+    "author_favorite_languages": "Java, Kotlin",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "mainly*",
+            "correct": "mainly",
+            "url": "https://medium.com/@retomeier/professional-android-4th-edition-c4013f1795f2?source=rss-d2cb9c480c2------2"
+        },
+        {
+            "current": "APISupport",
+            "correct": "API Support",
+            "url": "https://medium.com/@retomeier/professional-android-4th-edition-c4013f1795f2?source=rss-d2cb9c480c2------2"
+        },
+        {
+            "current": "propped out",
+            "correct": "rolled out",
+            "url": "https://medium.com/google-developers/building-a-virtual-world-worthy-of-sci-fi-3d48e2fd05e3?source=rss-d2cb9c480c2------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "Professional Android 4th Edition",
+            "summary": "This article announces the release of the 4th edition of \"Professional Android\" book, highlighting its new content, co-author, and the use of Android Studio 3.1 and Kotlin. The article emphasizes the book's coverage of fundamentals and advanced features of Android development, including Android Architecture Components, material design, Google Play services, and Firebase APIs. It also mentions the availability of code snippets and projects on Wrox.com and GitHub. The article concludes with information on purchasing the book in various formats and links to online retailers.",
+            "url": "https://medium.com/@retomeier/professional-android-4th-edition-c4013f1795f2?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2018-09-25",
+            "is_gcp": false,
+            "is_technical": true,
+            "Categories": [
+                "android-development",
+                "android",
+                "developer",
+                "androiddev",
+                "android-app-development"
+            ]
+        },
+        {
+            "title": "Building a Virtual World Worthy of Sci-Fi",
+            "summary": "This article presents two approaches to building a global metaverse, developed by Reto Meier and Colt McAnlis. Reto's solution focuses on creating a virtual replica of the real world using real-time sensor data from drones, while Colt's solution leverages video game development experience to create a separate virtual world. The article then delves into the technical details of building such a metaverse, including utilizing Google Cloud Platform services like Google Maps, Google Cloud Storage, Cloud Pub/Sub, and pre-emptive VMs for generating 3D environments and storing data. It also discusses the use of App Engine Flex and Cloud Spanner for managing user interactions and data persistence. Finally, the article explores the integration of Google VR and Unity for creating an immersive VR experience. It emphasizes the importance of scalability, data distribution, and real-time synchronization in building a virtual world.",
+            "url": "https://medium.com/google-developers/building-a-virtual-world-worthy-of-sci-fi-3d48e2fd05e3?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2018-01-19",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "mmorpg",
+                "google-cloud-platform",
+                "android",
+                "virtual-reality"
+            ]
+        },
+        {
+            "title": "Building a Garden that Cares for Itself",
+            "summary": "This article presents two architectures for a smart garden, aiming to optimize plant care using sensors, weather forecasts, and machine learning. Colt's solution employs a modified CNC machine for small-scale home farming, while Reto's solution uses distributed autonomous devices for individual plant care. The article then delves into the technical details of implementing such a system, including utilizing Google Cloud Platform services like Cloud Pub/Sub, Cloud Dataflow, Cloud Storage, Cloud Tasks API, Firebase Real-time Database, Datastore, and TensorFlow for data collection, analysis, and control of the garden. It also discusses the use of Android Things for building the garden hub and the development of web and mobile clients for user interaction. The article concludes with a comparison of the two solutions and recommendations for further exploration.",
+            "url": "https://medium.com/google-developers/building-a-garden-that-cares-for-itself-9918a3d3be72?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2017-11-01",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "machine-learning",
+                "android",
+                "build-out",
+                "google-cloud-platform",
+                "gardening"
+            ]
+        },
+        {
+            "title": "Crime Hotspots and How to Find Them",
+            "summary": "This article demonstrates how to use BigQuery to analyze crime data in San Francisco using the SFPD Incidents public dataset. It shows how to calculate crime concentration using standard deviation of latitude and longitude, highlighting hotspots for specific crimes like drug-related offenses and prostitution. It also explores the distribution of crimes with the highest location standard deviation, such as burglary and theft, illustrating their spread across the city. The article encourages readers to explore other public datasets in BigQuery and share their findings, highlighting the power of BigQuery for analyzing real-world data.",
+            "url": "https://medium.com/google-cloud/places-to-avoid-in-san-francisco-76b0261dec6?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2017-07-13",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "san-francisco",
+                "big-data",
+                "crime",
+                "bigquery",
+                "public-data"
+            ]
+        },
+        {
+            "title": "Investigating Global Temperature Trends with BigQuery and Tableau",
+            "summary": "This article uses BigQuery and Tableau to analyze global temperature trends from the NOAA GHCN and GSOD public datasets. The author acknowledges that while interesting, this analysis is insufficient to draw conclusions about climate change. The article focuses on using SQL queries to process and summarize the data, highlighting the use of aggregate functions, conditional statements, and latitude banding. It then describes the visualization of the results using Tableau dashboards, showcasing map views, bar charts, and line charts. The analysis reveals a gradual increase in global average temperature since the 1970s, particularly in the Arctic Circle and Northern Temperate Zone. However, it also highlights the complexity of climate science and the importance of considering various factors that can influence the results.",
+            "url": "https://medium.com/google-cloud/investigating-global-temperature-trends-with-bigquery-and-tableau-46c6ddd036ba?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2017-04-17",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "environment",
+                "climate-change",
+                "weather",
+                "big-data",
+                "bigquery"
+            ]
+        },
+        {
+            "title": "Exploring San Francisco’s Public Data with BigQuery",
+            "summary": "This article explores the use of BigQuery for analyzing public data in San Francisco. It mentions the availability of various datasets on topics like transportation, crime, and public health. It highlights the ability to query and analyze this data using SQL and visualize the results using tools like Tableau. The article encourages readers to explore these datasets and gain insights into the city's demographics, infrastructure, and social trends. It emphasizes the importance of open data and its potential for public benefit.",
+            "url": "https://medium.com/google-cloud/exploring-san-franciscos-public-data-ccf21cb2bfc3?source=rss-d2cb9c480c2------2",
+            "accuracy": 9,
+            "publication_date": "2017-03-07",
+            "is_gcp": true,
+            "is_technical": true,
+            "Categories": [
+                "bigquery",
+                "transportation",
+                "open-data",
+                "crime",
+                "san-francisco"
+            ]
+        }
+    ]
+}
+```

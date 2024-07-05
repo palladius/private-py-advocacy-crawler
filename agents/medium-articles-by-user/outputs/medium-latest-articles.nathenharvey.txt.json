@@ -1,0 +1,52 @@
+```json
+{
+    "prompt_version": "1.15",
+    "llm_temperature": "0.9",
+    "author_name": "Nathen Harvey",
+    "author_nationality": "American",
+    "author_style": "Personal, reflective, and positive",
+    "author_favorite_languages": "NULL",
+    "author_favorite_cloud": "Google Cloud Platform",
+    "typos": [
+        {
+            "current": "GCP ",
+            "correct": "GCP ",
+            "url": "https://medium.com/@nathenharvey/ok-google-95fa8617293f?source=rss-43eb4dfd0000------2"
+        },
+        {
+            "current": "DevOps ",
+            "correct": "DevOps ",
+            "url": "https://medium.com/@nathenharvey/ok-google-95fa8617293f?source=rss-43eb4dfd0000------2"
+        },
+        {
+            "current": "you.Are",
+            "correct": "you. Are",
+            "url": "https://medium.com/@nathenharvey/ok-google-95fa8617293f?source=rss-43eb4dfd0000------2"
+        }
+    ],
+    "articles_feedback": [
+        {
+            "title": "OK, Google",
+            "summary": "Nathen Harvey announces his new role as a Developer Advocate at Google Cloud Platform (GCP), emphasizing his passion for learning, collaboration, and building humane workplaces. He reflects on his decade-long journey in the DevOps community, particularly his experience with Chef-style DevOps, and expresses his excitement to contribute to GCP's growth.",
+            "url": "https://medium.com/@nathenharvey/ok-google-95fa8617293f?source=rss-43eb4dfd0000------2",
+            "accuracy": 8,
+            "publication_date": "2018-09-18",
+            "is_gcp": true,
+            "is_technical": false,
+            "Categories": [
+                "cloud-computing"
+            ]
+        },
+        {
+            "title": "Leaving Chef",
+            "summary": "Nathen Harvey bids farewell to Chef after six years, expressing immense gratitude for the company's impact on his career and his personal growth. He acknowledges the strong community fostered by Chef and emphasizes the importance of automation and collaboration.  Harvey looks forward to continuing his journey in the DevOps community and supporting Chef's success.",
+            "url": "https://medium.com/@nathenharvey/leaving-chef-7cfb441917f3?source=rss-43eb4dfd0000------2",
+            "accuracy": 8,
+            "publication_date": "2018-09-10",
+            "is_gcp": false,
+            "is_technical": false,
+            "Categories": []
+        }
+    ]
+}
+```
