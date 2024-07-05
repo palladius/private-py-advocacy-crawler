@@ -25,3 +25,4 @@ $ gcloud auth login --update-adc
 ```
 
 Trix populator: `trix-populator@ose-volta-dev.iam.gserviceaccount.com`
+* Key checked in (can only write on one Trix)

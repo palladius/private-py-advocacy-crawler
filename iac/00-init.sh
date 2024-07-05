@@ -16,13 +16,15 @@ gcloud config configurations activate $GCLOUD_CONFIG ||
 gcloud config set account $ACCOUNT
 gcloud config set project $PROJECT_ID
 PROJECT_ID=$(gcloud config get-value project)
-
+echo "PROJECT_ID=$PROJECT_ID"
     # Enable APIs...
 gcloud services enable \
     artifactregistry.googleapis.com \
     cloudbuild.googleapis.com \
     bigquery.googleapis.com \
     compute.googleapis.com \
+    drive.googleapis.com \
+    sheets.googleapis.com \
     container.googleapis.com \
     logging.googleapis.com \
     run.googleapis.com
