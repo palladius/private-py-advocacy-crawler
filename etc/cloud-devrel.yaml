@@ -13,7 +13,14 @@ google.com:
       - https://ricc.rocks/en/index.xml
       da_url: https://cloud.google.com/developers/advocates/riccardo-carlesso
       da: riccardo-carlesso # equivalent to the above
-
+    kaslin:
+      medium: kaslinfields # not used
+      blogs:
+      - https://kaslin.rocks/
+      rss:
+      - https://kaslin.rocks/rss # => https://kaslin.rocks/feed/
+      da: kaslin-fields
+      twitter: kaslinfields
     pvergadia:
       medium: pvergadia
     romin:
@@ -79,6 +86,7 @@ google.com:
       medium: kweinmeister
       da_url: https://cloud.google.com/developers/advocates/karl-weinmeister
       da: karl-weinmeister # equivalent to the above
+
 
   friends-of-devrel:
     # My other Google friends who might blog about

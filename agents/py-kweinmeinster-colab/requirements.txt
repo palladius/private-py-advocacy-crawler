@@ -1,0 +1,4 @@
+google-cloud-aiplatform
+beautifulsoup4
+pandas
+plotly

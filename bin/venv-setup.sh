@@ -6,8 +6,8 @@ echo "Note2. to avoid proliferation of .venv dirs, I suggest "
 
 echo 'cd $(git rev-parse --show-toplevel)'
 echo "=> cd $(git rev-parse --show-toplevel)"
-echo 'python3 -m venv .venv'
-echo 'source .venv/bin/activate'
+echo python3 -m venv .venv
+echo source .venv/bin/activate
 
 cd $(git rev-parse --show-toplevel)
 python3 -m venv .venv
