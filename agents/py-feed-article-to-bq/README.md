@@ -1,4 +1,9 @@
 
-# BUGS
 
-Note the python scripts doesn't run as person aythenticated as `gcloud auth login` but rather with ADC.
+
+## Auth
+
+You need:
+
+* `gcloud auth login` to run the `bq` command like from `make bq-query-how-many-articles`.
+* `gcloud auth application-default login` for the python script to work.

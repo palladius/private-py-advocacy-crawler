@@ -11,8 +11,8 @@ import hashlib  # For generating the hash
 timezone_utc = zoneinfo.ZoneInfo('UTC')
 
 
-#DEBUG = False
-DEBUG = True
+DEBUG = False
+#DEBUG = True
 #ProjectId = 'ose-volta-dev' # ()
 #Dataset = 'ose_volta_insights'
 #ProjectId = 'ose-volta-prod'
@@ -35,42 +35,27 @@ schema = [
     bigquery.SchemaField("publication_date", "DATE", mode="NULLABLE"),
 ]
 
+def write_lines_to_file(filename, lines):
+    with open(filename, 'w') as file:
+        for line in lines:
+            file.write(line)  # Add newline for formatting
+#            file.write(line + '\n')  # Add newline for formatting
+
 
 def deb(str):
     if DEBUG:
         print(str)
 
-# def load_json_from_file_old(file_path):
-#     """Loads JSON data from a file, handling potential extra lines and returns a dictionary."""
-#     try:
-#         with open(file_path, 'r') as json_file:
-#             lines = json_file.readlines()
-
-#         print(f"First line: {lines[0]}\n")
-
-#         # Check and remove potential extra lines at the beginning and end
-#         if lines and lines[0].strip() == '{':
-#             print(f"First line error: {lines[0].strip()}")
-#             lines = lines[1:]  # Remove first line
-#         if lines and lines[-1].strip() == '}':
-#             lines = lines[:-1]  # Remove last line
-
-#         data = json.loads("".join(lines))  # Load JSON from combined lines
-#         return data
-#     except FileNotFoundError:
-#         print(f"File not found: {file_path}")
-#         return None
-#     except json.JSONDecodeError:
-#         print(f"Error decoding JSON in file: {file_path}")
-#         return None # expand_more
 
 def load_json_from_file(file_path):
     """Loads JSON data from a file, handling potential extra lines, and returns a dictionary."""
     try:
+        deb(f"1. load_json_from_file('{file_path}')")
         with open(file_path, 'r') as json_file:
             lines = json_file.readlines()
 
         # Check and remove first line if it matches "```json"
+        deb('2 file opened correctly')
         if lines and lines[0].strip() == "```json":
             deb(f"First line error: {lines[0].strip()}. REMOVING")
             lines = lines[1:]
@@ -79,14 +64,22 @@ def load_json_from_file(file_path):
         if lines and lines[-1].strip() == "```":
             deb(f"Last line error: {lines[-1].strip()}. REMOVING")
             lines = lines[:-1]
+        deb(f"3A DEB lines[1..3]: { lines[1:4] }")
+        deb(f"3B DEB lines[-1..-3]: { lines[-3:-1] }")
 
+        deb('4 pre JSON.loads')
         data = json.loads("".join(lines))  # Load JSON from combined lines
+        deb('5 post JSON loads: all good')
         return data
     except FileNotFoundError:
-        print(f"File not found: {file_path}")
+        print(f"ERR01 File not found: {file_path}")
+        exit(42)
         return None
     except json.JSONDecodeError:
-        print(f"Error decoding JSON in file: {file_path}")
+        print(f"ERR02 Error decoding JSON in existing file: {file_path}. Try to do:")
+        write_lines_to_file(file_path + ".cleaned.json", lines)
+        print(f"       cat {file_path}.cleaned.json | jq ")
+        exit(43)
         return None
 
 def load_article_data_into_bq(metadata_dict, articles_dict):
@@ -95,6 +88,8 @@ def load_article_data_into_bq(metadata_dict, articles_dict):
     dataset = 'ose_volta_insights'
     table_basename = 'medium_articles_data'
     table_ver = '1_2' # TODO . into _
+
+    print(f"load_article_data_into_bq(metadata_dict: {metadata_dict})")
 
     table_name = f"{table_basename}{table_ver}"
 
@@ -151,7 +146,7 @@ def load_article_data_into_bq(metadata_dict, articles_dict):
         populated_at_utc = populated_at.astimezone(timezone_utc)
         row['calculated_at']  = populated_at_utc.strftime("%Y-%m-%d %H:%M:%S.%f")
 
-        print(f"calculated_at from ruby metadata file: ")
+        #print(f"calculated_at from ruby metadata file: ")
         row['custom_hash'] = custom_hash  # Convert to string
         # Constant for this program
         row['asset_type'] = 'medium-article'
@@ -198,10 +193,10 @@ def main():
         load_article_data_into_bq(metadata_dict, articles_dict)
     else:
         print("Error loading JSON data. Please check the file paths and contents.")
+        exit(41)
 
 
 if __name__ == "__main__":
-    print("ciao da python")
     main()
 
 
