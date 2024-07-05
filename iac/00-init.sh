@@ -58,4 +58,5 @@ gcloud config list | lolcat
 # gcloud auth login --update-adc
 #
 
+echo 'Now you can try: gcloud auth login --update-adc'
 touch ".$APPNAME.appname"

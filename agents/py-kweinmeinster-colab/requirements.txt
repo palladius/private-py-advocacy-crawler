@@ -2,3 +2,7 @@ google-cloud-aiplatform
 beautifulsoup4
 pandas
 plotly
+# required by vscode
+ipykernel
+# to write on Trixes
+gspread

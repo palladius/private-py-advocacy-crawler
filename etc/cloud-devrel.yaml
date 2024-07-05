@@ -2,6 +2,7 @@
 # 1.https://docs.google.com/spreadsheets/d/1SVDE6hEywHbe5wgA0RfTKXLl5j_rhOuS2Nt6KHKh3yI/edit?gid=1414538327#gid=1414538327
 # 2. influencers: https://docs.google.com/spreadsheets/d/1HqBhSdNSC29pr1qE15em6ajXV85CgR-ZQUB3vUiN7dQ/edit?gid=0#gid=0
 # 3. https://docs.google.com/spreadsheets/d/189Qt9OkC8tH1ZUnzLcNI_XjeiKF2l6_88uanF-hrYBg/edit?gid=162695964#gid=162695964
+# 4. Carlessian go/ricc-advocacy-ideas
 google.com:
   main-team:
       # My advocacy team
@@ -9,6 +10,7 @@ google.com:
       medium: palladiusbonton
       blogs:
       - https://ricc.rocks/en/
+      yt: RiccardoCarlesso
       rss:
       - https://ricc.rocks/en/index.xml
       da_url: https://cloud.google.com/developers/advocates/riccardo-carlesso
@@ -58,6 +60,8 @@ google.com:
     # Aja
     ajahammerly:
       medium: thagomizer
+      blogs:
+      - https://thagomizer.com/blog.html
     polong:
       medium: polong
     meteatamel:
@@ -82,10 +86,12 @@ google.com:
       medium: duhroach
     nathenharvey:
       medium: nathenharvey
-    kweinmeister:
+    kweinmeister: # Karl Weinmeister
       medium: kweinmeister
       da_url: https://cloud.google.com/developers/advocates/karl-weinmeister
       da: karl-weinmeister # equivalent to the above
+      yt: KarlWeinmeister
+      twitter: kweinmeister
 
 
   friends-of-devrel:

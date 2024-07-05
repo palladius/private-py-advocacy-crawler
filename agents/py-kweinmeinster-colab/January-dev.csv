@@ -1,0 +1,30 @@
+Date,Content Type,Title,AI Content,Flywheel Stage,URL
+2024-01,Blog Cloud,Figuring out microservices running on your GKE cluster with help from Duet AI,0,Activate,https://cloud.google.com/blog/products/ai-machine-learning/get-ai-help-in-creating-microservices-and-kubernetes
+2024-01,Blog Cloud,Ten new generative AI trainings to upskill in 2024 with Duet AI,1,Activate,https://cloud.google.com/blog/topics/training-certifications/ten-new-generative-ai-trainings-to-upskill-in-2024-with-duet-ai
+2024-01,Video,Duet AI for SREs,1,Activate,https://www.youtube.com/watch?v=RBZ9esu9zBA&list=PLIivdWyY5sqLvB8tU1VYl-uZ0Yt2jy1UK&index=9&t=11s
+2024-01,Short,Gamify your learning with The Arcade,0,Advocate,https://www.youtube.com/shorts/ad-J6O7JuNE
+2024-01,Short,Create a Custom Document Extractor with Doc AI,1,Activate,https://www.youtube.com/shorts/qx30yROABZA
+2024-01,Short,Gemini 1.0 is here,1,Evaluate,https://www.youtube.com/shorts/MrSsedG5bSI
+2024-01,Lab/Tutorial,Build an end-to-end weather app with Duet AI,1,Activate,https://developers.devsite.corp.google.com/codelabs/build-a-weather-app-with-duet#0
+2024-01,Blog External,"Gemini, the stylist…",1,Activate,https://medium.com/google-cloud/gemini-the-stylist-5bf20c808493
+2024-01,Blog External,"Google Cloud Platform Technology Nuggets — Jan 1–15, 2024 Edition",1,Adopt,https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-jan-1-15-2024-edition-a6e54bb4f8c1
+2024-01,Blog External,Navigate through Google Cloud resources with Duet AI Chat,1,Activate,https://medium.com/google-cloud/navigate-through-google-cloud-resources-with-duet-ai-chat-98b12a3fae00
+2024-01,Blog External,Create and deploy a new web app to Cloud Run with Duet AI,1,Adopt,https://medium.com/google-cloud/create-and-deploy-a-new-web-app-to-cloud-run-with-duet-ai-ad02ad69a6fc
+2024-01,Blog External,Pixel guessing : using Gemini Pro Vision with Go,1,Activate,https://medium.com/google-cloud/pixel-guessing-using-gemini-pro-vision-with-go-26f1beac3cf2
+2024-01,Blog External,Test and change an existing web app with Duet AI,1,Expand,https://medium.com/google-cloud/test-and-change-an-existing-web-app-with-duet-ai-863380c9a9d6
+2024-01,Blog External,How Duet AI for Developers works,1,Evaluate,https://medium.com/google-cloud/how-duet-ai-for-developers-works-2e1f8e9436a6
+2024-01,Blog External,"Google Cloud Platform Technology Nuggets — January 16–31, 2024 Edition",1,Adopt,https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-january-16-31-2024-edition-0e01e2054dfe
+2024-01,Blog External,Image generation with Imagen and LangChain4j,1,Adopt,https://medium.com/google-cloud/image-generation-with-imagen-and-langchain4j-61ca08ae6aac
+2024-01,Sample / Code,Sample+Tutorial: Call VertexAI Gemini Pro Vision from Workflows to describe an image,1,Expand,https://github.com/GoogleCloudPlatform/workflows-demos/tree/master/vertexai/describe-image
+2024-01,Sample / Code,Sample + Tutorial: Call VertexAI PaLM 2 for Text (text-bison) from Workflows in parallel,1,Expand,https://github.com/GoogleCloudPlatform/workflows-demos/tree/master/vertexai/country-histories/text-bison
+2024-01,Sample / Code,Sample+Tutorial: Call VertexAI Gemini Pro from Workflows in parallel,1,Expand,https://github.com/GoogleCloudPlatform/workflows-demos/tree/master/vertexai/country-histories/gemini-pro
+2024-01,Blog Cloud,Announcing Workflows execution steps history,0,Expand,https://cloud.google.com/blog/products/application-development/announcing-workflows-execution-steps-history
+2024-01,Lab/Tutorial,Tutorial: Duet AI: Create and deploy a new ASP.NET web app to Cloud Run,1,Adopt,https://github.com/meteatamel/duetai-aspnet-cloudrun
+2024-01,Lab/Tutorial,Tutorial: Duet AI: Test and change an existing ASP.NET web app,1,Adopt,https://github.com/meteatamel/duetai-aspnet-webapi
+2024-01,Sample / Code,Playing card counter,1,Adopt,https://github.com/glaforge/card-counter
+2024-01,Blog External,Functional builder approach in Java,0,Activate,https://glaforge.dev/posts/2024/01/16/java-functional-builder-approach/
+2024-01,Blog External,URL slug or how to remove accents from strings in Java,0,Adopt,https://glaforge.dev/posts/2024/01/08/url-slug-or-how-to-remove-accents-in-java/
+2024-01,Podcast,Kubernetes Podcast 216,0,Evaluate,https://kubernetespodcast.com/episode/216-nais/
+2024-01,Podcast,Kubernetes Podcast 217,0,Evaluate,https://kubernetespodcast.com/episode/217-cilium-ebpf/
+2024-01,Blog Cloud,Get your services back online quickly with Duet AI,1,Expand,https://cloud.google.com/blog/products/ai-machine-learning/ai-assisted-cloud-reliability-engineering
+,Lab/Tutorial,JSS Neos Tutorial - Cloud deployment on GCE,,Evaluate,JSS Neos Tutorial - Cloud Deployment on GCE (Zero Downtime)

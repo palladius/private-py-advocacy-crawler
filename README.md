@@ -14,3 +14,12 @@ An avocado crawler  🥑🕷️ on GCP
 ```
 $ . .venv/bin/activate
 ```
+
+## Authewntication
+
+```
+$ cd iac/
+$ direnv allow # parses the ENV vars
+$ ./00-init.sh # sets gcloud for success..
+$ gcloud auth login --update-adc
+```
