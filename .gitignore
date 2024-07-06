@@ -1,2 +1,4 @@
 __pycache__/
 .echodo_history
+.venv/
+.ondir.was.here.touch
