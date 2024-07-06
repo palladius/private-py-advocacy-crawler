@@ -85,27 +85,28 @@ def write_onto_spreadsheet(df):
 
     sh = gc.open('[ose-volta-dev] Karl results')
 #    sht2 = gc.open_by_url('https://docs.google.com/spreadsheet/ccc?key=0Bm...FE&hl')
+    #worksheet = sh.sheet1
+    worksheet = sh.worksheet("test")
+    worksheet_list = sh.worksheets()
+    print(f"List of worksheets: {worksheet_list}")
+    # TODO get worksheet by name
 
     # https://docs.gspread.org/en/latest/user-guide.html#opening-a-spreadsheet
     sh.share('alexismp@google.com', perm_type='user', role='writer')
 
+    # 1. Read Test
     print('Spreadsheet READ test: lets output the value of A1:')
     print(sh.sheet1.get('A1'))
 
-    array = np.array([[1, 2, 3], [4, 5, 6]])
+    # 2. Write Test
+    test_array = np.test_array([[1, 2, 3], [4, 5, 6]])
+    worksheet.update(range_name='A2', values=test_array.tolist())
 
-    # TODO
-    worksheet = sh.sheet1
-
-    # obsolete
-    #worksheet.update('A2', array.tolist())
-    worksheet.update(range_name='A2', values=array.tolist())
-
+    # 3. write da_bon
     print("BUG: gspread.exceptions.APIError: APIError: [400]: Your input contains more than the maximum of 50000 characters in a single cell.")
     print("fix: cut to 50k chars: https://stackoverflow.com/questions/45156880/google-script-your-input-contains-more-than-the-maximum-of-50000-characters-in")
-    #worksheet.update(df)
-    # Update Dtaframe
-    dataframe = df.fillna('')
+    # Update Dataframe
+    dataframe = df.fillna('') # fixes the bug of NaN
     worksheet.update([dataframe.columns.values.tolist()] + dataframe.values.tolist())
 
 
