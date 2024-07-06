@@ -1,0 +1,103 @@
+google.com:
+  ajahammerly:
+    full_name: Aja Hammerly
+    github: thagomizer
+    blogs: https://thagomizer.com/blog.html
+  alexismp:
+    full_name: Alexis Moussine-Pouchkine
+    github: alexismp
+  colton:
+    medium: duhroach
+  deleplace:
+    full_name: Valentin Deleplace
+    github: deleplace
+    medium: val_deleplace
+  glaforge:
+    full_name: Guillaume Laforge
+    github: glaforge
+    medium: glaforge
+    blogs: 'http://feeds.feedburner.com/glaforge
+
+      '
+  glasnt:
+    medium: glasnt
+    blogs: https://glasnt.com/blog/
+  google-cloud:
+    full_name: Generic Google Cloud Blog
+    medium: google-cloud
+    description: Virtual user, with big presence in Medium. Should be parsed twice
+      a day probbly
+    obscure_json: '{ parse_medium: "42 */6 * * *"}'
+  ianlewis:
+    github: ianlewis
+    medium: IanMLewis
+  kaslin:
+    full_name: Kaslin Fields
+    github: kaslin
+    blogs: https://kaslin.rocks/
+    rss: https://kaslin.rocks/rss
+  kazsato:
+    medium: kazunori279
+  kelseyhightower:
+    medium: kelseyhightower
+  kotwal:
+    full_name: Ankur Kotwal
+    medium: ankurkotwal
+  kweinmeister:
+    full_name: Karl Weinmeister
+    github: kweinmeister
+    medium: kweinmeister
+    twitter: kweinmeister
+    youtube: KarlWeinmeister
+    da-url: karl-weinmeister
+  laupic:
+    medium: PicardParis
+  leeboonstra:
+    blogs: 'https://medium.com/@ladysign
+
+      https://www.leeboonstra.dev/index.html'
+  marccohen:
+    full_name: Marc Cohen
+    medium: mco-blog
+    blogs: https://mco.dev/
+  meteatamel:
+    medium: meteatamel
+    blogs: https://atamel.dev/
+  mokeefe:
+    medium: askmeegs
+  nathenharvey:
+    medium: nathenharvey
+  polong:
+    medium: polong
+  removeme:
+    full_name: Fake From Trix
+    description: fake
+  retomeier:
+    medium: retomeier
+  ricc:
+    full_name: Riccardo Carlesso
+    github: palladius
+    medium: palladiusbonton
+    twitter: palladius
+    youtube: RiccardoCarlesso
+    blogs: https://ricc.rocks/en/
+    da-url: riccardo-carlesso
+    rss: https://ricc.rocks/en/index.xml
+  romin:
+    full_name: Romin Irani
+    github: rominirani
+    medium: iromin
+  rsamborski:
+    medium: rsamborski
+  thockin:
+    medium: thockin_25842
+    blogs: http://hockin.org/
+  yoshifumi:
+    medium: ymotongpoo
+    blogs: https://dev.to/ymotongpoo
+  zackakil:
+    full_name: Zack Akil
+    medium: zackakil
+    blogs: 'https://towardsdatascience.com/@zackakil
+
+      https://www.zackakil.com/'

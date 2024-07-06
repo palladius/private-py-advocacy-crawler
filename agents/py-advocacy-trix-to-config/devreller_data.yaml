@@ -1,0 +1,80 @@
+ldap:
+  full_name: full_name
+  github: github
+  medium: medium
+  Official Parsable Blog: Official Parsable Blog
+  twitter: twitter
+  youtube: youtube
+  blogs: blogs
+  da-url: da-url
+  rss: rss
+  description: description
+ajahammerly:
+  full_name: Aja Hammerly
+  github: thagomizer
+  Official Parsable Blog: https://thagomizer.com/
+alexismp:
+  full_name: Alexis Moussine-Pouchkine
+colton: {}
+deleplace:
+  full_name: Valentin Deleplace
+  github: deleplace
+glaforge:
+  full_name: Guillaume Laforge
+  github: glaforge
+  medium: glaforge
+glasnt:
+  medium: glasnt
+google-cloud:
+  full_name: Generic Google Cloud Blog
+  medium: google-cloud
+  description: Virtual user, with big presence in Medium. Should be parsed twice a
+    day probbly
+ianlewis: {}
+kaslin:
+  full_name: Kaslin Fields
+  github: kaslin
+  Official Parsable Blog: https://kaslin.rocks/
+  blogs: https://kaslin.rocks/
+kazsato: {}
+kelseyhightower: {}
+kotwal: {}
+kweinmeister:
+  full_name: Karl Weinmeister
+  github: kweinmeister
+  medium: kweinmeister
+  twitter: kweinmeister
+  youtube: '@KarlWeinmeister'
+laupic: {}
+leeboonstra: {}
+marccohen:
+  full_name: Marc Cohen
+  medium: mco-blog
+meteatamel:
+  medium: meteatamel
+mokeefe: {}
+nathenharvey: {}
+polong: {}
+removeme:
+  full_name: Fake From Trix
+retomeier: {}
+ricc:
+  full_name: Riccardo Carlesso
+  github: palladius
+  medium: palladiusbonton
+  Official Parsable Blog: https://ricc.rocks
+  twitter: palladius
+  youtube: '@RiccardoCarlesso'
+  blogs: https://ricc.rocks/en/
+  da-url: riccardo-carlesso
+romin:
+  full_name: Romin Irani
+  github: rominirani
+rsamborski: {}
+thockin:
+  medium: thockin_25842
+yoshifumi:
+  medium: ymotongpoo
+zackakil:
+  full_name: Zack Akil
+  medium: zackakil
