@@ -16,7 +16,7 @@ def read_from_spreadsheet(trix_title):
     # move to CSV...
     gc = gspread.service_account()
     sh = gc.open(trix_title)
-    devrellers_range = 'A1:K50'  # see https://docs.google.com/spreadsheets/d/1wTxnAZrJNcPTwFDoURUxGWPqsIHqytFyNfW63KNtGVU/edit?gid=0#gid=0
+    devrellers_range = 'A1:L'  # see https://docs.google.com/spreadsheets/d/1wTxnAZrJNcPTwFDoURUxGWPqsIHqytFyNfW63KNtGVU/edit?gid=0#gid=0
     #sh = gc.open('go/ricc-advocacy-ideas')
     #sh = gc.open_by_key('1wTxnAZrJNcPTwFDoURUxGWPqsIHqytFyNfW63KNtGVU')
 
@@ -64,11 +64,18 @@ def read_from_spreadsheet(trix_title):
 
 #     except (IOError, yaml.YAMLError) as e:
 #         print(f"Error creating YAML file: {e}")
+
+
+## Given a string containing
+def extract_into_array(multiline_string):
+    lines = multiline_string.splitlines()
+    return lines
 def dump_on_yaml(data, yaml_filename="../../etc/devreller_data_from_trix.yaml"):
     # Creating the yaml dictionary
     yaml_dict = {}
 
     data_without_headers = data[1:]
+    headers = data[0]
     #key = data[0]
 
     for row in data_without_headers:
@@ -83,12 +90,16 @@ def dump_on_yaml(data, yaml_filename="../../etc/devreller_data_from_trix.yaml"):
             # if key == 'kotwal' or key == 'ianlewis':
             #     print(f"DEB Row X {i} column {i} ({data[0][i]}): {row[i]}")
             if row[i]:
-                fields[data[0][i]] = row[i]
+                #if headers[i] == 'blogs' or headers[i] == 'rss':
+                if headers[i] in ['blogs', 'rss']:
+                    fields[headers[i]] = extract_into_array(row[i])
+                else:
+                    fields[headers[i]] = row[i]
             # else:
             #     if key == 'kotwal' or key == 'ianlewis':
             #         print(f"DEB no value for row[{i}]: {row[i]}")
-
-        yaml_dict[key] = fields
+        if fields.get("active", True) != "FALSE":
+            yaml_dict[key] = fields
 
 
     # Writing to YAML
