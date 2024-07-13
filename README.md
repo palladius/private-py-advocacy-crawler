@@ -1,5 +1,7 @@
 # private-py-advocacy-crawler
 
+Self: https://github.com/palladius/private-py-advocacy-crawler
+
 An avocado crawler  🥑🕷️ on GCP
 
 
